@@ -1,0 +1,852 @@
+order_id,server,order_date,coffee_type,has_impurities,grind_size,temperature
+5,Andi,2024-05-01 11:31:00,Filter,False,785,200
+6,Andi,2024-05-01 05:11:00,Cold Brew,False,1140,196
+7,Damien,2024-05-01 10:46:00,Espresso,False,10,201
+8,Clarissa,2024-05-01 06:48:00,Cold Brew,False,1324,202
+9,Joshua,2024-05-01 20:59:00,Cold Brew,False,996,203
+10,Clarissa,2024-05-01 03:29:00,Espresso,False,13,205
+11,Damien,2024-05-01 04:03:00,Espresso,False,11,201
+12,Damien,2024-05-01 04:07:00,Filter,False,375,196
+13,Joshua,2024-05-01 02:23:00,Filter,False,483,203
+14,Joshua,2024-05-01 16:14:00,Filter,False,730,195
+15,Damien,2024-05-02 00:47:00,Espresso,False,9,195
+16,Andi,2024-05-01 01:05:00,Espresso,False,14,196
+17,Andi,2024-05-01 02:10:00,Cold Brew,False,1087,195
+18,Clarissa,2024-05-01 21:56:00,Espresso,False,15,198
+19,Andi,2024-05-01 08:02:00,Filter,False,600,199
+20,Clarissa,2024-05-01 22:46:00,Filter,False,551,200
+21,Clarissa,2024-05-01 20:21:00,Espresso,False,12,204
+22,Andi,2024-05-01 03:35:00,Espresso,False,20,198
+23,Clarissa,2024-05-01 11:15:00,Espresso,False,5,201
+24,Andi,2024-05-01 05:29:00,Espresso,False,11,205
+25,Andi,2024-05-01 05:45:00,Cold Brew,False,911,202
+26,Joshua,2024-05-01 17:22:00,Cold Brew,False,1334,202
+27,Clarissa,2024-05-02 20:11:00,Filter,False,798,201
+28,Andi,2024-05-02 22:21:00,Filter,False,783,203
+29,Andi,2024-05-02 11:01:00,Espresso,False,10,201
+30,Clarissa,2024-05-02 10:18:00,Cold Brew,False,1188,200
+31,Joshua,2024-05-02 05:55:00,Cold Brew,False,1279,205
+32,Joshua,2024-05-02 17:19:00,Cold Brew,False,1394,198
+33,Clarissa,2024-05-02 05:05:00,Cold Brew,False,942,202
+34,Damien,2024-05-02 09:40:00,Cold Brew,False,849,197
+35,Andi,2024-05-02 17:56:00,Espresso,False,13,201
+36,Joshua,2024-05-02 16:22:00,Cold Brew,False,1298,195
+37,Joshua,2024-05-02 18:28:00,Filter,False,445,204
+38,Joshua,2024-05-02 17:15:00,Cold Brew,False,841,199
+39,Clarissa,2024-05-02 12:19:00,Espresso,False,6,197
+40,Andi,2024-05-02 16:38:00,Espresso,False,15,204
+41,Joshua,2024-05-02 06:49:00,Cold Brew,False,907,198
+42,Damien,2024-05-02 06:00:00,Cold Brew,False,975,199
+43,Clarissa,2024-05-02 14:40:00,Espresso,False,19,205
+44,Joshua,2024-05-02 20:23:00,Espresso,False,14,200
+45,Clarissa,2024-05-02 22:30:00,Filter,False,775,205
+46,Damien,2024-05-03 20:05:00,Espresso,False,23,197
+47,Joshua,2024-05-03 01:58:00,Cold Brew,False,1385,198
+48,Andi,2024-05-03 21:02:00,Espresso,False,22,200
+49,Clarissa,2024-05-03 09:49:00,Cold Brew,False,1149,195
+50,Clarissa,2024-05-03 20:22:00,Filter,False,625,199
+51,Damien,2024-05-03 15:28:00,Espresso,False,16,201
+52,Damien,2024-05-03 14:23:00,Cold Brew,False,1207,199
+53,Clarissa,2024-05-03 19:03:00,Cold Brew,False,968,197
+54,Joshua,2024-05-03 19:09:00,Cold Brew,False,809,197
+55,Andi,2024-05-03 09:57:00,Filter,False,502,197
+56,Damien,2024-05-03 23:36:00,Filter,False,637,203
+57,Andi,2024-05-03 04:00:00,Espresso,False,14,205
+58,Andi,2024-05-03 19:17:00,Cold Brew,False,1347,195
+59,Clarissa,2024-05-03 18:07:00,Espresso,False,17,198
+60,Joshua,2024-05-03 12:16:00,Cold Brew,False,1375,198
+61,Clarissa,2024-05-03 04:31:00,Espresso,False,8,202
+62,Joshua,2024-05-03 20:40:00,Espresso,False,10,200
+63,Andi,2024-05-03 10:00:00,Filter,False,758,198
+64,Damien,2024-05-04 23:58:00,Espresso,False,25,196
+65,Damien,2024-05-04 14:28:00,Espresso,False,21,198
+66,Joshua,2024-05-04 20:52:00,Filter,False,525,198
+67,Joshua,2024-05-05 00:31:00,Espresso,False,5,205
+68,Joshua,2024-05-04 06:43:00,Filter,False,766,202
+69,Damien,2024-05-04 09:32:00,Cold Brew,False,1203,203
+70,Damien,2024-05-04 06:36:00,Espresso,False,6,201
+71,Clarissa,2024-05-04 14:45:00,Espresso,False,9,204
+72,Clarissa,2024-05-04 23:03:00,Cold Brew,False,1323,204
+73,Damien,2024-05-04 20:47:00,Espresso,False,16,202
+74,Clarissa,2024-05-04 22:55:00,Filter,False,833,205
+75,Andi,2024-05-04 02:19:00,Espresso,False,5,198
+76,Andi,2024-05-04 06:32:00,Filter,False,701,202
+77,Andi,2024-05-04 20:54:00,Cold Brew,False,947,202
+78,Clarissa,2024-05-04 03:36:00,Cold Brew,False,1239,200
+79,Clarissa,2024-05-04 19:33:00,Espresso,False,10,195
+80,Joshua,2024-05-04 17:03:00,Cold Brew,False,1088,203
+81,Joshua,2024-05-04 11:01:00,Cold Brew,False,1012,199
+82,Damien,2024-05-04 21:15:00,Cold Brew,False,1059,198
+83,Clarissa,2024-05-04 10:19:00,Espresso,False,18,205
+84,Joshua,2024-05-05 11:40:00,Espresso,False,25,195
+85,Joshua,2024-05-05 04:57:00,Espresso,False,13,197
+86,Joshua,2024-05-05 13:21:00,Cold Brew,False,1130,198
+87,Joshua,2024-05-05 23:48:00,Espresso,False,22,200
+88,Joshua,2024-05-05 14:06:00,Espresso,False,18,196
+89,Joshua,2024-05-05 09:35:00,Cold Brew,False,1311,196
+90,Clarissa,2024-05-05 01:43:00,Cold Brew,False,1257,197
+91,Clarissa,2024-05-05 16:56:00,Filter,False,332,202
+92,Damien,2024-05-05 07:35:00,Filter,False,382,199
+93,Clarissa,2024-05-05 14:26:00,Cold Brew,False,1102,196
+94,Joshua,2024-05-05 05:21:00,Cold Brew,False,941,196
+95,Joshua,2024-05-05 04:53:00,Cold Brew,False,1355,196
+96,Joshua,2024-05-05 02:25:00,Cold Brew,False,1007,196
+97,Damien,2024-05-05 19:56:00,Espresso,False,24,204
+98,Andi,2024-05-05 02:33:00,Cold Brew,False,808,205
+99,Joshua,2024-05-05 12:06:00,Filter,False,731,203
+100,Joshua,2024-05-05 10:59:00,Espresso,False,23,197
+101,Clarissa,2024-05-05 17:22:00,Filter,False,306,198
+102,Andi,2024-05-05 17:49:00,Cold Brew,False,958,201
+103,Damien,2024-05-05 15:49:00,Espresso,False,19,205
+104,Clarissa,2024-05-05 13:28:00,Filter,False,832,198
+105,Joshua,2024-05-06 11:57:00,Filter,False,521,195
+106,Joshua,2024-05-07 00:05:00,Espresso,False,25,199
+107,Joshua,2024-05-06 05:23:00,Espresso,False,10,201
+108,Andi,2024-05-06 21:36:00,Espresso,False,7,197
+109,Joshua,2024-05-06 08:20:00,Filter,False,732,199
+110,Joshua,2024-05-06 09:34:00,Espresso,False,11,198
+111,Damien,2024-05-06 21:43:00,Espresso,False,8,198
+112,Damien,2024-05-06 15:15:00,Filter,False,513,195
+113,Joshua,2024-05-06 08:56:00,Filter,False,820,205
+114,Clarissa,2024-05-06 09:51:00,Cold Brew,False,1005,204
+115,Damien,2024-05-06 02:22:00,Espresso,False,8,196
+116,Andi,2024-05-06 06:09:00,Cold Brew,False,1315,205
+117,Andi,2024-05-06 14:57:00,Espresso,False,5,201
+118,Damien,2024-05-06 06:25:00,Cold Brew,False,1203,205
+119,Joshua,2024-05-06 15:01:00,Espresso,False,8,195
+120,Clarissa,2024-05-06 18:30:00,Cold Brew,False,1087,200
+121,Joshua,2024-05-06 02:25:00,Cold Brew,False,1190,204
+122,Damien,2024-05-06 08:57:00,Filter,False,409,201
+123,Damien,2024-05-06 21:23:00,Cold Brew,False,1090,202
+124,Andi,2024-05-06 18:00:00,Cold Brew,False,1091,201
+125,Clarissa,2024-05-06 22:50:00,Cold Brew,False,1113,195
+126,Damien,2024-05-06 02:32:00,Filter,False,400,204
+127,Andi,2024-05-07 20:46:00,Filter,False,714,204
+128,Damien,2024-05-07 01:48:00,Filter,False,453,203
+129,Clarissa,2024-05-07 22:12:00,Espresso,False,18,204
+130,Joshua,2024-05-07 02:27:00,Espresso,False,21,201
+131,Damien,2024-05-07 06:16:00,Espresso,False,21,200
+132,Joshua,2024-05-07 03:33:00,Cold Brew,False,1067,203
+133,Joshua,2024-05-07 07:59:00,Filter,False,499,197
+134,Andi,2024-05-07 22:38:00,Espresso,False,18,203
+135,Clarissa,2024-05-07 12:53:00,Cold Brew,False,854,205
+136,Joshua,2024-05-07 06:43:00,Espresso,False,19,197
+137,Andi,2024-05-07 07:53:00,Espresso,False,17,199
+138,Andi,2024-05-07 20:10:00,Espresso,False,5,200
+139,Andi,2024-05-07 18:09:00,Cold Brew,False,836,205
+140,Damien,2024-05-07 05:17:00,Espresso,False,17,205
+141,Andi,2024-05-07 23:40:00,Cold Brew,False,826,201
+142,Joshua,2024-05-08 00:04:00,Filter,False,416,201
+143,Joshua,2024-05-07 11:38:00,Filter,False,679,196
+144,Joshua,2024-05-07 06:01:00,Cold Brew,False,804,198
+145,Clarissa,2024-05-07 17:43:00,Espresso,False,19,195
+146,Damien,2024-05-07 13:38:00,Espresso,False,19,199
+147,Damien,2024-05-08 10:05:00,Espresso,False,20,205
+148,Clarissa,2024-05-08 04:43:00,Filter,False,795,197
+149,Joshua,2024-05-08 01:00:00,Espresso,False,25,200
+150,Andi,2024-05-08 22:35:00,Espresso,False,24,199
+151,Damien,2024-05-08 08:14:00,Filter,False,618,195
+152,Damien,2024-05-08 12:54:00,Filter,False,637,203
+153,Andi,2024-05-08 20:25:00,Filter,False,287,201
+154,Joshua,2024-05-08 04:49:00,Cold Brew,False,949,202
+155,Andi,2024-05-08 21:23:00,Cold Brew,False,1265,195
+156,Andi,2024-05-08 20:10:00,Cold Brew,False,1224,199
+157,Damien,2024-05-08 12:27:00,Filter,False,762,202
+158,Damien,2024-05-08 09:02:00,Espresso,False,21,199
+159,Damien,2024-05-08 04:04:00,Filter,False,391,195
+160,Damien,2024-05-08 23:32:00,Cold Brew,False,1295,203
+161,Clarissa,2024-05-08 02:17:00,Cold Brew,False,1235,203
+162,Clarissa,2024-05-08 10:06:00,Cold Brew,False,895,203
+163,Andi,2024-05-08 04:52:00,Espresso,False,15,204
+164,Joshua,2024-05-08 12:52:00,Cold Brew,False,1252,196
+165,Clarissa,2024-05-08 23:50:00,Cold Brew,False,989,197
+166,Andi,2024-05-08 19:02:00,Espresso,False,20,202
+167,Damien,2024-05-09 11:21:00,Filter,False,545,198
+168,Joshua,2024-05-09 23:07:00,Filter,False,825,196
+169,Clarissa,2024-05-09 10:59:00,Cold Brew,False,1268,197
+170,Damien,2024-05-09 07:42:00,Filter,False,490,197
+171,Clarissa,2024-05-09 23:39:00,Filter,False,840,201
+172,Joshua,2024-05-09 01:45:00,Filter,False,581,204
+173,Joshua,2024-05-09 03:24:00,Filter,False,463,200
+174,Andi,2024-05-09 19:04:00,Filter,False,399,204
+175,Damien,2024-05-09 10:52:00,Espresso,False,17,205
+176,Joshua,2024-05-09 09:10:00,Cold Brew,False,979,199
+177,Clarissa,2024-05-09 17:51:00,Filter,False,559,197
+178,Andi,2024-05-09 11:32:00,Filter,False,288,195
+179,Clarissa,2024-05-09 01:04:00,Espresso,False,18,203
+180,Andi,2024-05-09 17:33:00,Filter,False,479,199
+181,Clarissa,2024-05-09 20:32:00,Filter,False,750,199
+182,Joshua,2024-05-09 17:30:00,Espresso,False,15,200
+183,Clarissa,2024-05-09 18:07:00,Espresso,False,23,205
+184,Damien,2024-05-09 12:23:00,Filter,False,503,195
+185,Joshua,2024-05-09 02:18:00,Filter,False,424,204
+186,Andi,2024-05-10 00:44:00,Filter,False,501,200
+187,Joshua,2024-05-09 14:11:00,Filter,False,574,200
+188,Andi,2024-05-09 09:28:00,Cold Brew,False,1033,205
+189,Andi,2024-05-10 14:18:00,Filter,False,553,205
+190,Joshua,2024-05-10 21:36:00,Espresso,False,11,204
+191,Damien,2024-05-10 17:18:00,Espresso,False,24,196
+192,Andi,2024-05-10 14:38:00,Cold Brew,False,875,204
+193,Joshua,2024-05-10 13:35:00,Cold Brew,False,1184,199
+194,Joshua,2024-05-10 07:57:00,Cold Brew,False,1174,205
+195,Joshua,2024-05-10 04:15:00,Cold Brew,False,1370,196
+196,Clarissa,2024-05-10 07:24:00,Cold Brew,False,1029,197
+197,Joshua,2024-05-10 19:13:00,Cold Brew,False,1204,198
+198,Clarissa,2024-05-10 16:42:00,Filter,False,487,199
+199,Clarissa,2024-05-10 02:56:00,Espresso,False,6,200
+200,Andi,2024-05-10 03:07:00,Cold Brew,False,1317,204
+201,Damien,2024-05-10 01:26:00,Cold Brew,False,1325,205
+202,Damien,2024-05-10 13:12:00,Espresso,False,16,203
+203,Andi,2024-05-10 12:28:00,Cold Brew,False,1239,196
+204,Andi,2024-05-10 16:27:00,Espresso,False,25,199
+205,Clarissa,2024-05-10 18:36:00,Espresso,False,5,195
+206,Damien,2024-05-10 10:43:00,Cold Brew,False,878,203
+207,Andi,2024-05-10 09:56:00,Cold Brew,False,1338,197
+208,Joshua,2024-05-10 13:33:00,Espresso,False,22,195
+209,Andi,2024-05-10 13:49:00,Espresso,False,6,200
+210,Clarissa,2024-05-11 16:14:00,Filter,False,415,200
+211,Joshua,2024-05-11 05:20:00,Cold Brew,False,1209,204
+212,Damien,2024-05-11 20:29:00,Cold Brew,False,899,196
+213,Joshua,2024-05-11 22:32:00,Espresso,False,14,198
+214,Damien,2024-05-11 07:48:00,Filter,False,326,202
+215,Damien,2024-05-11 12:16:00,Filter,False,278,205
+216,Damien,2024-05-11 20:50:00,Filter,False,301,201
+217,Clarissa,2024-05-11 13:00:00,Filter,False,840,198
+218,Damien,2024-05-11 02:28:00,Filter,False,711,196
+219,Damien,2024-05-12 00:51:00,Espresso,False,12,205
+220,Joshua,2024-05-11 03:31:00,Cold Brew,False,1304,205
+221,Joshua,2024-05-11 06:00:00,Espresso,False,17,201
+222,Damien,2024-05-11 04:29:00,Filter,False,671,197
+223,Joshua,2024-05-11 16:39:00,Cold Brew,False,1008,205
+224,Clarissa,2024-05-11 17:53:00,Espresso,False,17,197
+225,Joshua,2024-05-11 01:12:00,Cold Brew,False,1083,205
+226,Clarissa,2024-05-11 10:01:00,Cold Brew,False,1246,201
+227,Joshua,2024-05-11 14:47:00,Cold Brew,False,1359,195
+228,Joshua,2024-05-11 11:25:00,Filter,False,458,196
+229,Damien,2024-05-11 08:00:00,Cold Brew,False,1051,199
+230,Damien,2024-05-12 01:20:00,Cold Brew,False,1024,197
+231,Damien,2024-05-12 05:14:00,Cold Brew,False,1105,205
+232,Clarissa,2024-05-12 10:45:00,Espresso,False,13,197
+233,Joshua,2024-05-12 10:12:00,Cold Brew,False,1327,204
+234,Joshua,2024-05-12 03:23:00,Filter,False,670,198
+235,Joshua,2024-05-12 02:05:00,Filter,False,370,201
+236,Joshua,2024-05-12 11:35:00,Espresso,False,17,201
+237,Damien,2024-05-12 18:32:00,Cold Brew,False,1400,200
+238,Damien,2024-05-12 07:57:00,Filter,False,292,195
+239,Joshua,2024-05-12 05:55:00,Cold Brew,False,897,198
+240,Andi,2024-05-12 23:52:00,Espresso,False,5,205
+241,Joshua,2024-05-12 06:27:00,Cold Brew,False,857,199
+242,Joshua,2024-05-12 18:04:00,Filter,False,290,199
+243,Joshua,2024-05-12 21:01:00,Espresso,False,21,195
+244,Damien,2024-05-12 14:59:00,Cold Brew,False,1231,203
+245,Clarissa,2024-05-12 10:10:00,Cold Brew,False,894,204
+246,Joshua,2024-05-12 07:23:00,Cold Brew,False,1379,201
+247,Clarissa,2024-05-12 03:55:00,Cold Brew,False,1274,201
+248,Joshua,2024-05-12 08:51:00,Cold Brew,False,1013,201
+249,Andi,2024-05-12 23:29:00,Espresso,False,17,197
+250,Joshua,2024-05-13 07:23:00,Filter,False,753,202
+251,Damien,2024-05-13 23:22:00,Cold Brew,False,1260,196
+252,Andi,2024-05-13 04:08:00,Filter,False,640,203
+253,Andi,2024-05-13 12:37:00,Filter,False,355,205
+254,Clarissa,2024-05-13 21:17:00,Cold Brew,False,1321,200
+255,Andi,2024-05-13 10:55:00,Filter,False,726,201
+256,Clarissa,2024-05-13 23:55:00,Cold Brew,False,1128,202
+257,Joshua,2024-05-13 20:06:00,Espresso,False,15,205
+258,Joshua,2024-05-13 21:08:00,Espresso,False,23,205
+259,Clarissa,2024-05-13 02:39:00,Espresso,False,24,200
+260,Andi,2024-05-13 23:33:00,Espresso,False,18,203
+261,Joshua,2024-05-13 14:46:00,Filter,False,437,201
+262,Clarissa,2024-05-13 07:05:00,Cold Brew,False,1051,205
+263,Andi,2024-05-13 12:45:00,Espresso,False,16,203
+264,Damien,2024-05-13 20:38:00,Cold Brew,False,1090,203
+265,Joshua,2024-05-13 03:02:00,Filter,False,717,195
+266,Clarissa,2024-05-13 10:01:00,Filter,False,597,195
+267,Andi,2024-05-13 14:39:00,Cold Brew,False,1165,198
+268,Clarissa,2024-05-14 07:47:00,Filter,False,303,199
+269,Joshua,2024-05-14 13:57:00,Filter,False,493,195
+270,Damien,2024-05-14 21:29:00,Cold Brew,False,964,202
+271,Andi,2024-05-14 09:39:00,Espresso,False,14,203
+272,Andi,2024-05-14 14:11:00,Cold Brew,False,1279,203
+273,Joshua,2024-05-14 01:52:00,Cold Brew,False,1210,201
+274,Clarissa,2024-05-14 07:14:00,Espresso,False,7,196
+275,Damien,2024-05-14 21:41:00,Cold Brew,False,1398,203
+276,Andi,2024-05-14 03:18:00,Filter,False,408,202
+277,Joshua,2024-05-14 05:54:00,Espresso,False,22,198
+278,Joshua,2024-05-14 03:20:00,Filter,False,558,199
+279,Joshua,2024-05-14 22:36:00,Cold Brew,False,1028,197
+280,Clarissa,2024-05-14 05:16:00,Espresso,False,23,205
+281,Damien,2024-05-14 01:05:00,Cold Brew,False,914,196
+282,Andi,2024-05-14 07:34:00,Filter,False,350,201
+283,Clarissa,2024-05-14 06:04:00,Espresso,False,6,202
+284,Andi,2024-05-14 04:46:00,Espresso,False,22,196
+285,Clarissa,2024-05-14 17:02:00,Cold Brew,False,1253,200
+286,Clarissa,2024-05-14 17:28:00,Cold Brew,False,879,195
+287,Damien,2024-05-14 02:52:00,Cold Brew,False,1120,199
+288,Clarissa,2024-05-14 09:58:00,Filter,False,387,205
+289,Damien,2024-05-14 09:08:00,Espresso,False,19,197
+290,Damien,2024-05-15 22:38:00,Cold Brew,False,1119,205
+291,Damien,2024-05-15 01:04:00,Filter,False,602,202
+292,Andi,2024-05-15 11:43:00,Espresso,False,6,201
+293,Damien,2024-05-15 15:22:00,Espresso,False,13,204
+294,Damien,2024-05-15 06:54:00,Cold Brew,False,975,204
+295,Andi,2024-05-15 13:35:00,Filter,False,844,205
+296,Joshua,2024-05-15 05:00:00,Espresso,False,25,203
+297,Clarissa,2024-05-15 10:13:00,Cold Brew,False,1354,199
+298,Andi,2024-05-15 19:12:00,Espresso,False,6,199
+299,Clarissa,2024-05-15 23:34:00,Cold Brew,False,1019,205
+300,Damien,2024-05-15 15:27:00,Filter,False,753,197
+301,Joshua,2024-05-15 08:05:00,Cold Brew,False,1251,199
+302,Andi,2024-05-15 02:44:00,Cold Brew,False,1223,202
+303,Damien,2024-05-15 06:35:00,Espresso,False,22,196
+304,Clarissa,2024-05-15 06:29:00,Filter,False,807,205
+305,Clarissa,2024-05-15 14:20:00,Cold Brew,False,859,201
+306,Joshua,2024-05-15 15:20:00,Espresso,False,24,197
+307,Andi,2024-05-15 13:39:00,Filter,False,521,200
+308,Damien,2024-05-15 14:21:00,Filter,False,656,203
+309,Joshua,2024-05-16 01:19:00,Espresso,False,22,200
+310,Andi,2024-05-16 05:18:00,Filter,False,731,203
+311,Damien,2024-05-16 08:06:00,Espresso,False,9,201
+312,Joshua,2024-05-16 11:22:00,Filter,False,749,204
+313,Andi,2024-05-16 17:50:00,Cold Brew,False,1253,199
+314,Andi,2024-05-16 20:02:00,Filter,False,480,205
+315,Joshua,2024-05-17 00:27:00,Cold Brew,False,992,195
+316,Clarissa,2024-05-16 15:03:00,Espresso,False,18,204
+317,Clarissa,2024-05-16 03:24:00,Filter,False,779,204
+318,Andi,2024-05-16 22:16:00,Espresso,False,19,200
+319,Damien,2024-05-16 18:01:00,Espresso,False,25,201
+320,Joshua,2024-05-16 16:06:00,Cold Brew,False,1126,203
+321,Joshua,2024-05-16 02:24:00,Espresso,False,16,203
+322,Joshua,2024-05-16 16:43:00,Filter,False,369,197
+323,Joshua,2024-05-16 03:32:00,Espresso,False,20,205
+324,Clarissa,2024-05-16 14:22:00,Espresso,False,9,202
+325,Andi,2024-05-17 00:23:00,Espresso,False,24,201
+326,Clarissa,2024-05-16 06:31:00,Espresso,False,22,203
+327,Andi,2024-05-16 20:27:00,Cold Brew,False,1172,204
+328,Joshua,2024-05-16 21:27:00,Filter,False,594,197
+329,Andi,2024-05-16 08:16:00,Filter,False,604,205
+330,Clarissa,2024-05-17 23:15:00,Cold Brew,False,1214,203
+331,Andi,2024-05-17 23:42:00,Espresso,False,5,199
+332,Andi,2024-05-17 16:56:00,Cold Brew,False,1095,204
+333,Joshua,2024-05-17 04:51:00,Espresso,False,12,202
+334,Andi,2024-05-17 18:53:00,Filter,False,456,203
+335,Joshua,2024-05-17 16:53:00,Espresso,False,18,199
+336,Clarissa,2024-05-17 07:23:00,Filter,False,496,196
+337,Andi,2024-05-17 13:47:00,Espresso,False,12,205
+338,Joshua,2024-05-17 10:51:00,Espresso,False,11,195
+339,Joshua,2024-05-17 16:41:00,Espresso,False,18,205
+340,Clarissa,2024-05-17 18:20:00,Filter,False,436,203
+341,Clarissa,2024-05-17 14:07:00,Espresso,False,24,196
+342,Damien,2024-05-17 12:07:00,Filter,False,451,200
+343,Andi,2024-05-17 12:45:00,Cold Brew,False,1311,205
+344,Clarissa,2024-05-17 13:20:00,Espresso,False,10,201
+345,Damien,2024-05-17 08:28:00,Cold Brew,False,1171,204
+346,Clarissa,2024-05-17 02:50:00,Filter,False,481,203
+347,Andi,2024-05-17 17:16:00,Espresso,False,12,197
+348,Andi,2024-05-17 17:32:00,Filter,False,341,201
+349,Andi,2024-05-17 07:36:00,Filter,False,495,197
+350,Clarissa,2024-05-18 17:30:00,Filter,False,607,197
+351,Damien,2024-05-18 22:06:00,Filter,False,278,203
+352,Joshua,2024-05-18 11:21:00,Filter,False,613,202
+353,Clarissa,2024-05-18 05:39:00,Espresso,False,13,203
+354,Clarissa,2024-05-19 00:46:00,Cold Brew,False,1252,195
+355,Damien,2024-05-18 21:55:00,Filter,False,295,201
+356,Joshua,2024-05-18 05:02:00,Espresso,False,22,205
+357,Andi,2024-05-18 03:57:00,Filter,False,474,195
+358,Andi,2024-05-18 09:42:00,Filter,False,711,199
+359,Damien,2024-05-18 04:33:00,Cold Brew,False,1326,195
+360,Damien,2024-05-18 01:33:00,Cold Brew,False,1360,202
+361,Clarissa,2024-05-18 06:49:00,Espresso,False,12,199
+362,Damien,2024-05-18 01:44:00,Filter,False,305,205
+363,Joshua,2024-05-18 02:41:00,Filter,False,418,197
+364,Damien,2024-05-18 07:48:00,Cold Brew,False,1111,203
+365,Clarissa,2024-05-18 14:27:00,Cold Brew,False,1087,199
+366,Damien,2024-05-18 11:42:00,Filter,False,461,196
+367,Clarissa,2024-05-18 14:52:00,Espresso,False,24,200
+368,Damien,2024-05-18 22:10:00,Filter,False,750,197
+369,Damien,2024-05-18 09:12:00,Cold Brew,False,980,202
+370,Andi,2024-05-19 09:32:00,Cold Brew,False,1028,201
+371,Joshua,2024-05-19 20:28:00,Filter,False,308,200
+372,Andi,2024-05-19 15:59:00,Espresso,False,16,196
+373,Damien,2024-05-19 08:18:00,Cold Brew,False,1329,195
+374,Andi,2024-05-19 21:43:00,Cold Brew,False,933,203
+375,Clarissa,2024-05-19 06:44:00,Cold Brew,False,1075,200
+376,Clarissa,2024-05-19 14:08:00,Filter,False,333,202
+377,Andi,2024-05-19 05:01:00,Espresso,False,19,204
+378,Joshua,2024-05-19 01:33:00,Cold Brew,False,1326,201
+379,Joshua,2024-05-19 11:13:00,Espresso,False,24,195
+380,Joshua,2024-05-19 02:15:00,Filter,False,673,199
+381,Damien,2024-05-19 15:37:00,Filter,False,449,199
+382,Joshua,2024-05-19 12:15:00,Filter,False,452,202
+383,Andi,2024-05-19 13:01:00,Espresso,False,6,200
+384,Joshua,2024-05-20 00:31:00,Filter,False,682,201
+385,Andi,2024-05-19 18:26:00,Cold Brew,False,970,197
+386,Andi,2024-05-19 03:06:00,Espresso,False,19,195
+387,Clarissa,2024-05-19 22:27:00,Filter,False,716,203
+388,Andi,2024-05-20 00:42:00,Cold Brew,False,835,203
+389,Joshua,2024-05-19 12:17:00,Espresso,False,7,205
+390,Damien,2024-05-20 11:50:00,Cold Brew,False,942,200
+391,Clarissa,2024-05-20 13:58:00,Espresso,False,7,205
+392,Clarissa,2024-05-20 01:14:00,Cold Brew,False,1141,203
+393,Damien,2024-05-20 12:03:00,Cold Brew,False,1118,200
+394,Joshua,2024-05-20 06:51:00,Filter,False,703,202
+395,Damien,2024-05-20 01:35:00,Filter,False,296,199
+396,Damien,2024-05-20 09:02:00,Espresso,False,19,196
+397,Joshua,2024-05-21 00:21:00,Espresso,False,19,197
+398,Andi,2024-05-20 17:53:00,Filter,False,666,197
+399,Damien,2024-05-20 12:48:00,Espresso,False,10,195
+400,Joshua,2024-05-20 21:59:00,Espresso,False,21,198
+401,Clarissa,2024-05-20 03:40:00,Cold Brew,False,1224,202
+402,Joshua,2024-05-20 11:53:00,Espresso,False,8,201
+403,Damien,2024-05-20 16:03:00,Filter,False,408,201
+404,Clarissa,2024-05-20 20:35:00,Cold Brew,False,1167,195
+405,Andi,2024-05-20 05:29:00,Cold Brew,False,812,200
+406,Joshua,2024-05-20 23:26:00,Espresso,False,20,202
+407,Andi,2024-05-20 01:49:00,Filter,False,370,202
+408,Damien,2024-05-20 14:30:00,Cold Brew,False,1031,197
+409,Joshua,2024-05-20 11:05:00,Cold Brew,False,836,195
+410,Andi,2024-05-20 12:06:00,Cold Brew,False,912,205
+411,Joshua,2024-05-21 07:19:00,Cold Brew,False,865,195
+412,Andi,2024-05-21 01:35:00,Filter,False,812,199
+413,Andi,2024-05-21 13:02:00,Cold Brew,False,861,196
+414,Clarissa,2024-05-21 20:21:00,Cold Brew,False,936,202
+415,Joshua,2024-05-21 18:22:00,Espresso,False,10,199
+416,Joshua,2024-05-21 21:52:00,Espresso,False,7,198
+417,Clarissa,2024-05-21 06:04:00,Espresso,False,24,198
+418,Damien,2024-05-21 02:55:00,Filter,False,402,195
+419,Clarissa,2024-05-21 17:58:00,Filter,False,316,199
+420,Joshua,2024-05-21 04:23:00,Filter,False,503,197
+421,Joshua,2024-05-21 01:06:00,Cold Brew,False,1085,197
+422,Joshua,2024-05-21 16:58:00,Espresso,False,9,195
+423,Damien,2024-05-21 19:55:00,Espresso,False,12,204
+424,Andi,2024-05-21 20:55:00,Filter,False,315,197
+425,Joshua,2024-05-21 19:51:00,Filter,False,646,200
+426,Clarissa,2024-05-21 04:47:00,Cold Brew,False,838,197
+427,Damien,2024-05-21 20:58:00,Espresso,False,6,197
+428,Clarissa,2024-05-21 17:52:00,Cold Brew,False,1005,195
+429,Andi,2024-05-21 06:06:00,Cold Brew,False,887,201
+430,Clarissa,2024-05-22 03:13:00,Cold Brew,False,1158,195
+431,Damien,2024-05-23 00:00:00,Cold Brew,False,802,199
+432,Andi,2024-05-22 03:40:00,Espresso,False,12,198
+433,Clarissa,2024-05-22 02:41:00,Cold Brew,False,1362,200
+434,Andi,2024-05-22 03:35:00,Cold Brew,False,1218,198
+435,Joshua,2024-05-22 23:42:00,Espresso,False,11,196
+436,Clarissa,2024-05-22 22:51:00,Cold Brew,False,950,205
+437,Andi,2024-05-22 02:32:00,Cold Brew,False,857,197
+438,Clarissa,2024-05-22 13:15:00,Espresso,False,13,199
+439,Damien,2024-05-22 15:06:00,Cold Brew,False,1101,196
+440,Andi,2024-05-22 09:10:00,Filter,False,550,198
+441,Clarissa,2024-05-22 08:17:00,Filter,False,499,205
+442,Andi,2024-05-22 05:49:00,Espresso,False,21,201
+443,Andi,2024-05-22 01:04:00,Filter,False,752,195
+444,Andi,2024-05-22 19:00:00,Espresso,False,20,203
+445,Damien,2024-05-22 08:10:00,Filter,False,504,199
+446,Joshua,2024-05-22 10:14:00,Filter,False,706,204
+447,Joshua,2024-05-22 12:07:00,Cold Brew,False,1330,203
+448,Clarissa,2024-05-23 00:48:00,Cold Brew,False,981,202
+449,Clarissa,2024-05-24 00:36:00,Espresso,False,5,204
+450,Clarissa,2024-05-23 05:00:00,Cold Brew,False,1308,201
+451,Clarissa,2024-05-23 05:29:00,Cold Brew,False,961,201
+452,Clarissa,2024-05-23 16:21:00,Espresso,False,14,195
+453,Damien,2024-05-23 20:29:00,Filter,False,848,200
+454,Damien,2024-05-24 00:54:00,Filter,False,789,198
+455,Andi,2024-05-23 19:00:00,Cold Brew,False,1312,196
+456,Joshua,2024-05-23 06:05:00,Espresso,False,13,197
+457,Joshua,2024-05-24 00:32:00,Filter,False,481,196
+458,Clarissa,2024-05-23 18:31:00,Cold Brew,False,849,197
+459,Clarissa,2024-05-23 20:51:00,Filter,False,380,196
+460,Joshua,2024-05-23 06:58:00,Espresso,False,11,199
+461,Damien,2024-05-23 06:22:00,Espresso,False,7,204
+462,Joshua,2024-05-23 17:20:00,Cold Brew,False,989,202
+463,Clarissa,2024-05-23 10:16:00,Cold Brew,False,818,196
+464,Clarissa,2024-05-23 12:07:00,Espresso,False,25,205
+465,Clarissa,2024-05-23 14:29:00,Espresso,False,25,198
+466,Damien,2024-05-23 05:03:00,Espresso,False,18,196
+467,Clarissa,2024-05-23 07:33:00,Filter,False,393,204
+468,Joshua,2024-05-24 12:04:00,Espresso,False,15,204
+469,Damien,2024-05-24 14:47:00,Cold Brew,False,1217,203
+470,Joshua,2024-05-24 07:52:00,Espresso,False,6,203
+471,Andi,2024-05-24 21:51:00,Espresso,False,11,203
+472,Clarissa,2024-05-24 12:39:00,Espresso,False,12,196
+473,Clarissa,2024-05-24 01:39:00,Cold Brew,False,1155,195
+474,Damien,2024-05-24 06:43:00,Filter,False,512,200
+475,Clarissa,2024-05-24 23:04:00,Cold Brew,False,1050,203
+476,Joshua,2024-05-24 07:28:00,Espresso,False,9,198
+477,Andi,2024-05-25 00:30:00,Espresso,False,11,196
+478,Andi,2024-05-24 12:37:00,Cold Brew,False,930,200
+479,Damien,2024-05-24 01:03:00,Cold Brew,False,898,204
+480,Joshua,2024-05-24 10:54:00,Espresso,False,13,203
+481,Damien,2024-05-24 15:30:00,Filter,False,599,196
+482,Damien,2024-05-25 00:56:00,Cold Brew,False,820,196
+483,Clarissa,2024-05-24 16:42:00,Espresso,False,13,196
+484,Joshua,2024-05-24 01:33:00,Cold Brew,False,1354,205
+485,Damien,2024-05-24 05:09:00,Filter,False,755,200
+486,Joshua,2024-05-24 16:12:00,Cold Brew,False,953,197
+487,Damien,2024-05-24 14:06:00,Filter,False,703,204
+488,Damien,2024-05-24 03:47:00,Cold Brew,False,1118,204
+489,Joshua,2024-05-25 06:27:00,Cold Brew,False,1229,205
+490,Clarissa,2024-05-25 20:46:00,Espresso,False,24,201
+491,Andi,2024-05-25 03:03:00,Cold Brew,False,1069,202
+492,Joshua,2024-05-25 16:21:00,Filter,False,692,196
+493,Damien,2024-05-25 08:42:00,Filter,False,774,205
+494,Damien,2024-05-25 21:23:00,Cold Brew,False,1357,202
+495,Damien,2024-05-25 11:23:00,Espresso,False,18,195
+496,Andi,2024-05-25 22:48:00,Espresso,False,7,197
+497,Clarissa,2024-05-25 10:30:00,Filter,False,686,196
+498,Andi,2024-05-25 11:20:00,Filter,False,532,196
+499,Andi,2024-05-25 01:55:00,Cold Brew,False,1114,197
+500,Clarissa,2024-05-25 09:37:00,Espresso,False,13,199
+501,Joshua,2024-05-25 15:24:00,Cold Brew,False,1317,195
+502,Damien,2024-05-25 22:51:00,Filter,False,594,196
+503,Clarissa,2024-05-25 09:59:00,Espresso,False,20,205
+504,Joshua,2024-05-25 20:49:00,Cold Brew,False,1035,202
+505,Clarissa,2024-05-25 02:47:00,Cold Brew,False,848,196
+506,Joshua,2024-05-25 03:43:00,Filter,False,464,204
+507,Clarissa,2024-05-25 19:24:00,Cold Brew,False,917,198
+508,Clarissa,2024-05-25 18:58:00,Cold Brew,False,967,202
+509,Damien,2024-05-26 12:37:00,Filter,False,479,199
+510,Damien,2024-05-26 13:00:00,Filter,False,773,198
+511,Joshua,2024-05-26 13:27:00,Filter,False,536,199
+512,Clarissa,2024-05-26 08:19:00,Cold Brew,False,1162,203
+513,Andi,2024-05-26 15:25:00,Cold Brew,False,1141,198
+514,Clarissa,2024-05-26 12:59:00,Filter,False,683,196
+515,Clarissa,2024-05-26 17:07:00,Espresso,False,23,198
+516,Clarissa,2024-05-26 20:50:00,Filter,False,439,198
+517,Damien,2024-05-26 05:35:00,Cold Brew,False,1393,198
+518,Andi,2024-05-26 01:57:00,Cold Brew,False,960,205
+519,Clarissa,2024-05-26 04:50:00,Cold Brew,False,1208,198
+520,Andi,2024-05-26 04:52:00,Filter,False,650,199
+521,Andi,2024-05-26 01:16:00,Cold Brew,False,849,201
+522,Damien,2024-05-26 22:22:00,Filter,False,383,203
+523,Andi,2024-05-26 19:48:00,Espresso,False,20,199
+524,Damien,2024-05-26 14:40:00,Cold Brew,False,1055,198
+525,Andi,2024-05-26 07:11:00,Filter,False,797,202
+526,Andi,2024-05-26 07:10:00,Cold Brew,False,1113,198
+527,Damien,2024-05-26 23:18:00,Espresso,False,15,201
+528,Damien,2024-05-26 13:20:00,Espresso,False,20,203
+529,Clarissa,2024-05-26 13:35:00,Espresso,False,22,204
+530,Andi,2024-05-27 15:22:00,Espresso,False,16,203
+531,Andi,2024-05-27 11:06:00,Espresso,False,19,198
+532,Andi,2024-05-27 23:03:00,Filter,False,325,204
+533,Andi,2024-05-27 03:57:00,Filter,False,787,197
+534,Damien,2024-05-27 01:25:00,Cold Brew,False,1038,197
+535,Joshua,2024-05-27 14:01:00,Filter,False,749,202
+536,Andi,2024-05-27 15:43:00,Filter,False,317,201
+537,Clarissa,2024-05-27 17:52:00,Espresso,False,15,201
+538,Clarissa,2024-05-27 15:19:00,Cold Brew,False,1006,198
+539,Damien,2024-05-27 17:33:00,Cold Brew,False,1192,204
+540,Clarissa,2024-05-27 14:50:00,Espresso,False,12,195
+541,Damien,2024-05-27 07:07:00,Espresso,False,7,203
+542,Damien,2024-05-27 23:45:00,Espresso,False,22,204
+543,Clarissa,2024-05-27 02:49:00,Espresso,False,14,203
+544,Andi,2024-05-27 14:13:00,Espresso,False,10,205
+545,Damien,2024-05-27 05:54:00,Filter,False,326,199
+546,Joshua,2024-05-27 15:38:00,Cold Brew,False,1120,204
+547,Clarissa,2024-05-28 00:30:00,Cold Brew,False,933,202
+548,Joshua,2024-05-27 07:49:00,Cold Brew,False,915,196
+549,Joshua,2024-05-27 15:30:00,Filter,False,317,205
+550,Andi,2024-05-27 08:16:00,Filter,False,464,204
+551,Damien,2024-05-27 07:25:00,Espresso,False,19,205
+552,Joshua,2024-05-28 16:11:00,Filter,False,815,205
+553,Andi,2024-05-28 02:16:00,Filter,False,275,197
+554,Damien,2024-05-28 00:57:00,Espresso,False,24,201
+555,Joshua,2024-05-28 22:54:00,Cold Brew,False,1312,201
+556,Joshua,2024-05-28 17:28:00,Filter,False,423,200
+557,Clarissa,2024-05-28 05:33:00,Filter,False,336,197
+558,Damien,2024-05-28 16:13:00,Espresso,False,24,195
+559,Joshua,2024-05-28 21:12:00,Espresso,False,13,204
+560,Joshua,2024-05-28 08:27:00,Cold Brew,False,1037,200
+561,Damien,2024-05-28 13:42:00,Cold Brew,False,1316,195
+562,Joshua,2024-05-28 23:38:00,Espresso,False,24,197
+563,Damien,2024-05-28 17:08:00,Cold Brew,False,1374,196
+564,Clarissa,2024-05-28 21:20:00,Espresso,False,7,205
+565,Andi,2024-05-28 14:24:00,Filter,False,713,201
+566,Damien,2024-05-28 17:07:00,Filter,False,325,196
+567,Damien,2024-05-28 21:18:00,Filter,False,254,203
+568,Clarissa,2024-05-29 00:37:00,Espresso,False,9,197
+569,Damien,2024-05-28 16:14:00,Filter,False,325,204
+570,Andi,2024-05-28 21:49:00,Cold Brew,False,929,205
+571,Joshua,2024-05-28 16:37:00,Cold Brew,False,980,198
+572,Andi,2024-05-28 04:11:00,Cold Brew,False,894,201
+573,Andi,2024-05-29 06:54:00,Espresso,False,17,199
+574,Andi,2024-05-29 15:55:00,Espresso,False,17,195
+575,Andi,2024-05-29 04:16:00,Cold Brew,False,1246,204
+576,Clarissa,2024-05-29 20:39:00,Espresso,False,22,204
+577,Joshua,2024-05-29 08:32:00,Espresso,False,15,205
+578,Damien,2024-05-29 10:00:00,Filter,False,824,195
+579,Clarissa,2024-05-29 11:27:00,Espresso,False,5,201
+580,Joshua,2024-05-29 12:01:00,Cold Brew,False,1375,199
+581,Damien,2024-05-29 20:42:00,Cold Brew,False,1372,204
+582,Clarissa,2024-05-29 06:01:00,Espresso,False,18,199
+583,Joshua,2024-05-29 14:24:00,Cold Brew,False,1193,200
+584,Joshua,2024-05-29 08:39:00,Espresso,False,8,202
+585,Clarissa,2024-05-29 01:41:00,Filter,False,644,198
+586,Joshua,2024-05-29 09:38:00,Espresso,False,18,200
+587,Joshua,2024-05-29 09:05:00,Cold Brew,False,1004,201
+588,Clarissa,2024-05-29 14:16:00,Espresso,False,11,196
+589,Andi,2024-05-29 07:38:00,Filter,False,469,196
+590,Joshua,2024-05-29 12:34:00,Filter,False,353,202
+591,Clarissa,2024-05-29 19:50:00,Espresso,False,12,203
+592,Clarissa,2024-05-30 04:21:00,Filter,False,315,196
+593,Joshua,2024-05-30 04:02:00,Espresso,False,19,202
+594,Joshua,2024-05-30 20:10:00,Espresso,False,22,200
+595,Clarissa,2024-05-30 09:46:00,Filter,False,601,200
+596,Joshua,2024-05-30 04:36:00,Espresso,False,22,197
+597,Clarissa,2024-05-30 12:59:00,Espresso,False,17,201
+598,Joshua,2024-05-30 20:09:00,Espresso,False,8,204
+599,Clarissa,2024-05-30 09:44:00,Espresso,False,6,201
+600,Damien,2024-05-30 06:05:00,Filter,False,318,205
+601,Andi,2024-05-30 05:31:00,Cold Brew,False,1242,205
+602,Clarissa,2024-05-30 04:48:00,Espresso,False,9,199
+603,Damien,2024-05-30 22:52:00,Filter,False,692,205
+604,Damien,2024-05-30 02:20:00,Espresso,False,11,197
+605,Joshua,2024-05-30 14:36:00,Cold Brew,False,1190,204
+606,Andi,2024-05-30 06:55:00,Espresso,False,16,199
+607,Joshua,2024-05-30 23:52:00,Filter,False,811,198
+608,Andi,2024-05-30 01:06:00,Cold Brew,False,1328,202
+609,Andi,2024-05-30 14:52:00,Cold Brew,False,1176,200
+610,Clarissa,2024-05-30 15:22:00,Cold Brew,False,1286,197
+611,Andi,2024-05-30 21:28:00,Cold Brew,False,1031,197
+612,Clarissa,2024-05-30 04:01:00,Filter,False,716,200
+613,Clarissa,2024-05-30 01:27:00,Cold Brew,False,1027,200
+614,Damien,2024-05-31 10:14:00,Filter,False,605,196
+615,Damien,2024-05-31 14:53:00,Cold Brew,False,1189,205
+616,Damien,2024-05-31 16:48:00,Cold Brew,False,1025,195
+617,Andi,2024-05-31 14:01:00,Cold Brew,False,1294,198
+618,Andi,2024-05-31 11:46:00,Filter,False,366,203
+619,Damien,2024-05-31 15:29:00,Cold Brew,False,950,203
+620,Clarissa,2024-05-31 23:06:00,Cold Brew,False,1084,205
+621,Damien,2024-05-31 14:27:00,Filter,False,714,197
+622,Damien,2024-05-31 04:50:00,Espresso,False,25,200
+623,Joshua,2024-05-31 14:50:00,Filter,False,780,202
+624,Andi,2024-05-31 06:45:00,Espresso,False,11,204
+625,Clarissa,2024-05-31 12:33:00,Filter,False,569,203
+626,Joshua,2024-05-31 05:07:00,Espresso,False,7,200
+627,Damien,2024-05-31 11:50:00,Filter,False,842,203
+628,Joshua,2024-05-31 02:07:00,Cold Brew,False,853,197
+629,Clarissa,2024-05-31 18:58:00,Cold Brew,False,1334,197
+630,Joshua,2024-05-31 19:27:00,Cold Brew,False,1173,199
+631,Joshua,2024-06-01 00:42:00,Cold Brew,False,858,202
+632,Joshua,2024-05-31 21:26:00,Filter,False,456,205
+633,Joshua,2024-06-01 19:58:00,Filter,False,796,201
+634,Andi,2024-06-01 10:19:00,Filter,False,533,201
+635,Damien,2024-06-01 20:34:00,Espresso,False,15,201
+636,Clarissa,2024-06-01 12:32:00,Cold Brew,False,996,199
+637,Joshua,2024-06-01 17:25:00,Espresso,False,25,203
+638,Damien,2024-06-01 09:06:00,Cold Brew,False,951,203
+639,Damien,2024-06-01 18:52:00,Cold Brew,False,1098,202
+640,Joshua,2024-06-01 01:35:00,Espresso,False,14,196
+641,Damien,2024-06-01 08:03:00,Espresso,False,14,196
+642,Damien,2024-06-01 10:52:00,Filter,False,273,200
+643,Andi,2024-06-01 03:21:00,Espresso,False,14,195
+644,Clarissa,2024-06-01 12:12:00,Espresso,False,25,195
+645,Joshua,2024-06-01 02:26:00,Espresso,False,14,203
+646,Andi,2024-06-01 06:58:00,Filter,False,531,202
+647,Damien,2024-06-01 18:31:00,Espresso,False,11,196
+648,Clarissa,2024-06-01 05:33:00,Filter,False,702,196
+649,Andi,2024-06-01 16:41:00,Filter,False,294,202
+650,Joshua,2024-06-01 01:43:00,Cold Brew,False,1178,197
+651,Andi,2024-06-01 14:43:00,Filter,False,839,201
+652,Damien,2024-06-01 03:39:00,Filter,False,326,199
+653,Andi,2024-06-01 06:40:00,Filter,False,727,203
+654,Damien,2024-06-02 21:26:00,Filter,False,653,195
+655,Joshua,2024-06-02 22:11:00,Espresso,False,16,198
+656,Damien,2024-06-02 07:46:00,Espresso,False,14,196
+657,Joshua,2024-06-02 04:18:00,Espresso,False,19,199
+658,Damien,2024-06-03 00:33:00,Filter,False,629,196
+659,Damien,2024-06-02 22:22:00,Cold Brew,False,1378,205
+660,Joshua,2024-06-02 17:17:00,Espresso,False,20,196
+661,Clarissa,2024-06-02 14:13:00,Cold Brew,False,1356,201
+662,Damien,2024-06-02 12:43:00,Cold Brew,False,874,203
+663,Damien,2024-06-02 06:42:00,Filter,False,613,197
+664,Clarissa,2024-06-02 02:53:00,Filter,False,350,204
+665,Damien,2024-06-02 18:52:00,Cold Brew,False,1296,197
+666,Andi,2024-06-02 14:46:00,Espresso,False,16,200
+667,Clarissa,2024-06-03 00:03:00,Cold Brew,False,1038,195
+668,Joshua,2024-06-02 22:55:00,Filter,False,542,203
+669,Joshua,2024-06-02 18:18:00,Espresso,False,25,202
+670,Damien,2024-06-03 00:32:00,Cold Brew,False,936,198
+671,Clarissa,2024-06-02 04:55:00,Filter,False,609,197
+672,Clarissa,2024-06-02 16:12:00,Cold Brew,False,1132,205
+673,Damien,2024-06-02 06:29:00,Espresso,False,19,196
+674,Damien,2024-06-02 14:53:00,Cold Brew,False,1356,200
+675,Clarissa,2024-06-02 04:32:00,Cold Brew,False,807,199
+676,Damien,2024-06-03 02:17:00,Espresso,False,24,198
+677,Damien,2024-06-03 11:22:00,Espresso,False,24,205
+678,Andi,2024-06-03 13:05:00,Espresso,False,14,203
+679,Damien,2024-06-03 23:15:00,Cold Brew,False,916,199
+680,Joshua,2024-06-03 23:07:00,Cold Brew,False,1112,201
+681,Joshua,2024-06-03 18:20:00,Filter,False,382,203
+682,Clarissa,2024-06-03 12:22:00,Espresso,False,16,202
+683,Damien,2024-06-03 11:49:00,Cold Brew,False,1221,201
+684,Damien,2024-06-03 12:33:00,Cold Brew,False,967,204
+685,Clarissa,2024-06-04 00:47:00,Filter,False,306,197
+686,Clarissa,2024-06-03 20:09:00,Filter,False,448,195
+687,Damien,2024-06-03 21:10:00,Espresso,False,8,195
+688,Joshua,2024-06-03 13:20:00,Filter,False,800,202
+689,Clarissa,2024-06-03 20:20:00,Filter,False,304,204
+690,Clarissa,2024-06-03 13:32:00,Filter,False,598,199
+691,Andi,2024-06-03 02:06:00,Filter,False,569,197
+692,Andi,2024-06-03 18:55:00,Espresso,False,12,203
+693,Clarissa,2024-06-04 00:31:00,Cold Brew,False,1364,200
+694,Clarissa,2024-06-03 22:35:00,Espresso,False,11,199
+695,Joshua,2024-06-04 01:10:00,Filter,False,511,197
+696,Joshua,2024-06-04 12:42:00,Espresso,False,25,195
+697,Andi,2024-06-04 02:59:00,Filter,False,464,196
+698,Joshua,2024-06-04 11:44:00,Filter,False,725,203
+699,Andi,2024-06-04 21:30:00,Cold Brew,False,943,199
+700,Damien,2024-06-04 08:24:00,Espresso,False,21,203
+701,Joshua,2024-06-04 10:24:00,Espresso,False,24,197
+702,Clarissa,2024-06-04 11:20:00,Espresso,False,22,198
+703,Damien,2024-06-04 08:46:00,Filter,False,453,197
+704,Andi,2024-06-04 04:21:00,Cold Brew,False,926,196
+705,Clarissa,2024-06-04 08:54:00,Filter,False,524,197
+706,Andi,2024-06-04 21:31:00,Espresso,False,7,205
+707,Clarissa,2024-06-04 19:33:00,Filter,False,372,201
+708,Clarissa,2024-06-04 01:36:00,Espresso,False,17,196
+709,Clarissa,2024-06-04 23:33:00,Filter,False,739,201
+710,Andi,2024-06-04 09:44:00,Cold Brew,False,1029,197
+711,Joshua,2024-06-04 23:52:00,Cold Brew,False,1379,197
+712,Joshua,2024-06-04 13:57:00,Espresso,False,20,205
+713,Damien,2024-06-04 09:56:00,Filter,False,771,201
+714,Damien,2024-06-04 04:21:00,Cold Brew,False,1252,200
+715,Damien,2024-06-05 11:49:00,Espresso,False,13,199
+716,Andi,2024-06-05 18:02:00,Espresso,False,14,200
+717,Clarissa,2024-06-05 07:36:00,Filter,False,262,200
+718,Andi,2024-06-05 18:01:00,Filter,False,773,201
+719,Clarissa,2024-06-05 01:25:00,Espresso,False,21,204
+720,Andi,2024-06-05 16:57:00,Cold Brew,False,1284,199
+721,Damien,2024-06-06 00:49:00,Cold Brew,False,997,202
+722,Clarissa,2024-06-05 08:42:00,Filter,False,657,199
+723,Clarissa,2024-06-05 05:51:00,Cold Brew,False,1117,195
+724,Clarissa,2024-06-05 15:49:00,Filter,False,569,204
+725,Joshua,2024-06-05 17:55:00,Filter,False,849,202
+726,Damien,2024-06-05 06:43:00,Espresso,False,15,199
+727,Joshua,2024-06-05 14:48:00,Filter,False,781,201
+728,Joshua,2024-06-05 06:16:00,Espresso,False,17,198
+729,Andi,2024-06-05 10:04:00,Espresso,True,7,125
+730,Andi,2024-06-05 08:40:00,Espresso,True,4,129
+731,Damien,2024-06-05 09:02:00,Espresso,True,1,144
+732,Clarissa,2024-06-05 16:03:00,Espresso,True,4,132
+733,Damien,2024-06-05 19:24:00,Espresso,True,1,135
+734,Joshua,2024-05-15 16:29:00,Espresso,True,3,139
+735,Andi,2024-05-15 16:09:00,Cold Brew,True,10,137
+736,Damien,2024-05-16 07:20:00,Cold Brew,True,7,143
+737,Andi,2024-05-15 12:54:00,Espresso,True,9,148
+738,Joshua,2024-05-15 20:26:00,Cold Brew,True,8,123
+739,Andi,2024-05-15 18:18:00,Cold Brew,True,9,127
+740,Damien,2024-05-16 05:33:00,Filter,True,5,149
+741,Joshua,2024-05-15 10:52:00,Filter,True,4,127
+742,Damien,2024-05-16 01:20:00,Espresso,True,6,148
+743,Andi,2024-05-15 15:12:00,Cold Brew,True,5,140
+744,Joshua,2024-05-15 21:40:00,Espresso,True,5,127
+745,Joshua,2024-05-15 22:01:00,Espresso,True,7,132
+746,Joshua,2024-05-16 03:51:00,Cold Brew,True,6,146
+747,Clarissa,2024-05-16 02:39:00,Espresso,True,2,146
+748,Joshua,2024-05-15 17:12:00,Cold Brew,True,6,139
+749,Joshua,2024-05-16 02:44:00,Espresso,True,4,122
+750,Joshua,2024-05-15 11:27:00,Espresso,True,3,150
+751,Andi,2024-05-15 17:06:00,Filter,True,1,148
+752,Andi,2024-05-15 12:22:00,Filter,True,9,148
+753,Andi,2024-05-15 19:43:00,Cold Brew,True,9,129
+754,Clarissa,2024-05-15 16:13:00,Cold Brew,True,5,142
+755,Clarissa,2024-05-15 20:06:00,Filter,True,8,146
+756,Damien,2024-05-15 23:44:00,Filter,True,1,130
+757,Damien,2024-05-15 18:09:00,Espresso,True,6,148
+758,Clarissa,2024-05-15 22:29:00,Espresso,True,6,133
+759,Joshua,2024-05-16 03:49:00,Cold Brew,True,1,126
+760,Joshua,2024-05-15 18:19:00,Cold Brew,True,1,123
+761,Damien,2024-05-15 11:18:00,Espresso,True,6,144
+762,Clarissa,2024-05-16 04:36:00,Espresso,True,10,137
+763,Joshua,2024-05-15 21:03:00,Cold Brew,True,10,135
+764,Andi,2024-05-15 21:54:00,Cold Brew,True,8,134
+765,Joshua,2024-05-16 08:25:00,Filter,True,6,126
+766,Joshua,2024-05-16 01:48:00,Filter,True,9,143
+767,Andi,2024-05-15 13:18:00,Cold Brew,True,4,124
+768,Joshua,2024-05-15 15:39:00,Cold Brew,True,8,141
+769,Damien,2024-05-16 01:15:00,Filter,True,3,128
+770,Joshua,2024-05-16 07:44:00,Espresso,True,6,149
+771,Clarissa,2024-05-16 02:27:00,Cold Brew,True,6,141
+772,Clarissa,2024-05-15 21:26:00,Cold Brew,True,1,122
+773,Clarissa,2024-05-16 01:02:00,Cold Brew,True,2,147
+774,Damien,2024-05-17 04:03:00,Espresso,True,3,123
+775,Clarissa,2024-05-17 02:09:00,Cold Brew,True,10,126
+776,Clarissa,2024-05-16 10:18:00,Cold Brew,True,2,124
+777,Joshua,2024-05-17 08:44:00,Filter,True,2,130
+778,Andi,2024-05-16 19:23:00,Cold Brew,True,3,124
+779,Andi,2024-05-16 15:17:00,Cold Brew,True,8,140
+780,Andi,2024-05-16 14:01:00,Cold Brew,True,3,122
+781,Damien,2024-05-16 15:09:00,Filter,True,5,139
+782,Joshua,2024-05-17 07:15:00,Cold Brew,True,3,144
+783,Clarissa,2024-05-17 01:33:00,Filter,True,3,141
+784,Andi,2024-05-16 18:19:00,Cold Brew,True,8,144
+785,Joshua,2024-05-16 10:44:00,Espresso,True,3,136
+786,Joshua,2024-05-16 20:22:00,Espresso,True,9,142
+787,Clarissa,2024-05-17 02:22:00,Espresso,True,1,139
+788,Clarissa,2024-05-17 09:36:00,Cold Brew,True,6,149
+789,Clarissa,2024-05-16 19:12:00,Espresso,True,9,127
+790,Andi,2024-05-16 15:17:00,Espresso,True,6,138
+791,Damien,2024-05-16 14:04:00,Espresso,True,6,136
+792,Joshua,2024-05-17 00:14:00,Cold Brew,True,3,141
+793,Damien,2024-05-17 08:51:00,Espresso,True,1,144
+794,Joshua,2024-05-17 04:02:00,Filter,True,1,134
+795,Clarissa,2024-05-17 05:38:00,Cold Brew,True,3,122
+796,Joshua,2024-05-17 00:26:00,Filter,True,3,147
+797,Joshua,2024-05-17 08:22:00,Filter,True,8,130
+798,Joshua,2024-05-17 08:34:00,Cold Brew,True,3,148
+799,Joshua,2024-05-16 23:38:00,Filter,True,9,132
+800,Damien,2024-05-17 03:42:00,Filter,True,10,146
+801,Andi,2024-05-16 22:15:00,Filter,True,6,149
+802,Andi,2024-05-17 02:55:00,Cold Brew,True,3,133
+803,Clarissa,2024-05-16 11:42:00,Espresso,True,6,132
+804,Joshua,2024-05-17 01:54:00,Espresso,True,1,127
+805,Damien,2024-05-16 19:32:00,Cold Brew,True,4,145
+806,Andi,2024-05-16 20:06:00,Espresso,True,4,128
+807,Damien,2024-05-16 21:09:00,Espresso,True,4,138
+808,Clarissa,2024-05-17 03:42:00,Cold Brew,True,6,139
+809,Andi,2024-05-16 10:39:00,Cold Brew,True,4,132
+810,Joshua,2024-05-17 01:18:00,Espresso,True,9,144
+811,Clarissa,2024-05-17 03:06:00,Filter,True,4,123
+812,Andi,2024-05-16 15:11:00,Filter,True,2,147
+813,Joshua,2024-05-16 15:11:00,Cold Brew,True,1,135
+814,Andi,2024-05-17 00:26:00,Espresso,True,7,141
+815,Joshua,2024-05-17 08:32:00,Cold Brew,True,9,136
+816,Andi,2024-05-16 11:05:00,Espresso,True,3,123
+817,Damien,2024-05-17 01:02:00,Cold Brew,True,8,147
+818,Joshua,2024-05-18 08:49:00,Espresso,True,3,140
+819,Joshua,2024-05-17 21:13:00,Cold Brew,True,6,121
+820,Joshua,2024-05-18 06:19:00,Espresso,True,10,139
+821,Clarissa,2024-05-17 10:15:00,Cold Brew,True,3,125
+822,Andi,2024-05-18 04:55:00,Espresso,True,10,126
+823,Clarissa,2024-05-17 11:19:00,Espresso,True,8,133
+824,Andi,2024-05-18 01:30:00,Cold Brew,True,2,146
+825,Clarissa,2024-05-17 15:55:00,Filter,True,7,146
+826,Joshua,2024-05-17 11:51:00,Filter,True,10,135
+827,Andi,2024-05-18 03:58:00,Cold Brew,True,5,142
+828,Clarissa,2024-05-18 09:38:00,Filter,True,8,142
+829,Andi,2024-05-17 21:20:00,Filter,True,2,134
+830,Damien,2024-05-17 12:03:00,Cold Brew,True,5,129
+831,Clarissa,2024-05-17 17:31:00,Filter,True,3,129
+832,Joshua,2024-05-18 00:48:00,Filter,True,5,146
+833,Damien,2024-05-18 03:33:00,Cold Brew,True,8,123
+834,Damien,2024-05-17 20:43:00,Filter,True,5,124
+835,Andi,2024-05-17 12:49:00,Filter,True,4,127
+836,Andi,2024-05-17 13:15:00,Cold Brew,True,2,127
+837,Andi,2024-05-18 09:53:00,Filter,True,10,133
+838,Clarissa,2024-05-17 12:34:00,Filter,True,3,127
+839,Clarissa,2024-05-17 20:37:00,Cold Brew,True,6,135
+840,Clarissa,2024-05-17 20:42:00,Espresso,True,8,140
+841,Clarissa,2024-05-17 13:54:00,Filter,True,5,131
+842,Damien,2024-05-17 22:55:00,Filter,True,8,139
+843,Joshua,2024-05-18 02:17:00,Filter,True,9,142
+844,Joshua,2024-05-17 17:59:00,Filter,True,6,129
+845,Clarissa,2024-05-17 15:42:00,Filter,True,10,142
+846,Andi,2024-05-17 14:38:00,Cold Brew,True,3,141
+847,Clarissa,2024-05-18 06:15:00,Filter,True,8,146
+848,Damien,2024-05-18 01:52:00,Cold Brew,True,5,135
+849,Damien,2024-05-17 22:55:00,Filter,True,9,144
+850,Andi,2024-05-17 20:41:00,Espresso,True,7,148
+851,Clarissa,2024-05-17 15:06:00,Espresso,True,2,136
+852,Clarissa,2024-05-18 09:33:00,Cold Brew,True,8,146
+853,Damien,2024-05-17 22:06:00,Filter,True,5,142
+854,Joshua,2024-05-17 10:40:00,Filter,True,8,140
+855,Damien,2024-05-17 20:22:00,Cold Brew,True,8,134

@@ -1,0 +1,852 @@
+order_id,claim_type,claim_detail,claim_date
+5,Other,The restroom was dirty or out of order.,2024-05-01 11:35:00
+6,Other,The coffee shop did not offer enough variety on the menu.,2024-05-01 05:19:00
+7,Taste (Food),The food was not fresh.,2024-05-01 10:55:00
+8,Taste (Food),The salad dressing was overwhelming.,2024-05-01 06:50:00
+9,Service,The staff did not address concerns or complaints effectively.,2024-05-01 21:00:00
+10,Atmosphere,The decor was outdated or unappealing.,2024-05-01 03:33:00
+11,Atmosphere,The temperature was too hot or too cold.,2024-05-01 04:06:00
+12,Other,Overall I would not recommend this coffee shop to others.,2024-05-01 04:09:00
+13,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-01 02:29:00
+14,Taste (Food),The ingredients did not taste fresh.,2024-05-01 16:21:00
+15,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-02 00:49:00
+16,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-01 01:12:00
+17,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-01 02:11:00
+18,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-01 22:00:00
+19,Atmosphere,There were no available power outlets for charging devices.,2024-05-01 08:07:00
+20,Atmosphere,The temperature was too hot or too cold.,2024-05-01 22:56:00
+21,Taste (Food),The cake was dry and flavorless.,2024-05-01 20:28:00
+22,Atmosphere,The coffee shop was dirty or untidy.,2024-05-01 03:42:00
+23,Atmosphere,The lighting was too dim or too bright.,2024-05-01 11:16:00
+24,Taste (Food),The food was bland and unappetizing.,2024-05-01 05:33:00
+25,Atmosphere,The music was too loud or not to my taste.,2024-05-01 05:47:00
+26,Atmosphere,There were no available power outlets for charging devices.,2024-05-01 17:26:00
+27,Service,The order was incorrect.,2024-05-02 20:17:00
+28,Atmosphere,The decor was outdated or unappealing.,2024-05-02 22:31:00
+29,Service,There was a long wait time for the order.,2024-05-02 11:09:00
+30,Atmosphere,The seating was uncomfortable.,2024-05-02 10:23:00
+31,Other,The coffee shop did not offer enough variety on the menu.,2024-05-02 06:00:00
+32,Atmosphere,The coffee shop was too noisy and loud.,2024-05-02 17:29:00
+33,Taste (Coffee),The coffee was burnt and bitter.,2024-05-02 05:06:00
+34,Atmosphere,The temperature was too hot or too cold.,2024-05-02 09:45:00
+35,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-02 17:58:00
+36,Taste (Coffee),The coffee was weak and watery.,2024-05-02 16:26:00
+37,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-02 18:29:00
+38,Service,There was a long wait time for the order.,2024-05-02 17:22:00
+39,Other,The restroom was dirty or out of order.,2024-05-02 12:25:00
+40,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-02 16:41:00
+41,Service,There was a long wait time for the order.,2024-05-02 06:50:00
+42,Service,The staff did not address concerns or complaints effectively.,2024-05-02 06:09:00
+43,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-02 14:43:00
+44,Service,The order was incorrect.,2024-05-02 20:24:00
+45,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-02 22:40:00
+46,Other,Overall I would not recommend this coffee shop to others.,2024-05-03 20:07:00
+47,Taste (Food),The food was not fresh.,2024-05-03 02:03:00
+48,Taste (Food),The ingredients did not taste fresh.,2024-05-03 21:08:00
+49,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-03 09:57:00
+50,Taste (Food),The ingredients did not taste fresh.,2024-05-03 20:32:00
+51,Taste (Food),The salad dressing was overwhelming.,2024-05-03 15:33:00
+52,Other,The restroom was dirty or out of order.,2024-05-03 14:31:00
+53,Service,The barista made the drink incorrectly.,2024-05-03 19:06:00
+54,Taste (Food),The cake was dry and flavorless.,2024-05-03 19:15:00
+55,Taste (Coffee),The coffee was burnt and bitter.,2024-05-03 10:00:00
+56,Other,The restroom was dirty or out of order.,2024-05-03 23:43:00
+57,Service,The staff were rude and unhelpful.,2024-05-03 04:01:00
+58,Taste (Food),The sandwich was soggy.,2024-05-03 19:26:00
+59,Atmosphere,The music was too loud or not to my taste.,2024-05-03 18:15:00
+60,Other,The coffee shop did not offer enough variety on the menu.,2024-05-03 12:22:00
+61,Taste (Food),The cake was dry and flavorless.,2024-05-03 04:37:00
+62,Service,The staff did not address concerns or complaints effectively.,2024-05-03 20:47:00
+63,Service,The staff did not address concerns or complaints effectively.,2024-05-03 10:09:00
+64,Atmosphere,There were no available power outlets for charging devices.,2024-05-05 00:05:00
+65,Service,The service was slow and inefficient.,2024-05-04 14:30:00
+66,Atmosphere,There were no available power outlets for charging devices.,2024-05-04 20:53:00
+67,Other,The coffee shop was not accessible to people with disabilities.,2024-05-05 00:40:00
+68,Other,Overall I would not recommend this coffee shop to others.,2024-05-04 06:46:00
+69,Taste (Food),The food was bland and unappetizing.,2024-05-04 09:33:00
+70,Taste (Food),The sandwich was soggy.,2024-05-04 06:46:00
+71,Taste (Food),The ingredients did not taste fresh.,2024-05-04 14:51:00
+72,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-04 23:08:00
+73,Taste (Coffee),The coffee was burnt and bitter.,2024-05-04 20:53:00
+74,Other,The coffee shop did not offer enough variety on the menu.,2024-05-04 23:00:00
+75,Service,The order was incorrect.,2024-05-04 02:28:00
+76,Other,The coffee shop was not accessible to people with disabilities.,2024-05-04 06:33:00
+77,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-04 20:58:00
+78,Other,The prices were too high for the quality offered.,2024-05-04 03:40:00
+79,Service,The service was slow and inefficient.,2024-05-04 19:37:00
+80,Atmosphere,The temperature was too hot or too cold.,2024-05-04 17:10:00
+81,Taste (Coffee),The coffee was weak and watery.,2024-05-04 11:06:00
+82,Taste (Coffee),The coffee was burnt and bitter.,2024-05-04 21:19:00
+83,Other,The coffee shop was not accessible to people with disabilities.,2024-05-04 10:27:00
+84,Other,The coffee shop did not offer enough variety on the menu.,2024-05-05 11:41:00
+85,Service,The staff seemed uninterested and disengaged.,2024-05-05 05:00:00
+86,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-05 13:29:00
+87,Service,The staff did not address concerns or complaints effectively.,2024-05-05 23:57:00
+88,Atmosphere,The temperature was too hot or too cold.,2024-05-05 14:10:00
+89,Other,Overall I would not recommend this coffee shop to others.,2024-05-05 09:45:00
+90,Other,The restroom was dirty or out of order.,2024-05-05 01:45:00
+91,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-05 16:59:00
+92,Taste (Food),The food was not fresh.,2024-05-05 07:45:00
+93,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-05 14:32:00
+94,Other,The coffee shop did not offer enough variety on the menu.,2024-05-05 05:30:00
+95,Taste (Coffee),The coffee was weak and watery.,2024-05-05 05:03:00
+96,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-05 02:27:00
+97,Service,There was a long wait time for the order.,2024-05-05 20:05:00
+98,Other,Overall I would not recommend this coffee shop to others.,2024-05-05 02:37:00
+99,Atmosphere,The decor was outdated or unappealing.,2024-05-05 12:11:00
+100,Taste (Food),The food was bland and unappetizing.,2024-05-05 11:01:00
+101,Other,The coffee shop was not accessible to people with disabilities.,2024-05-05 17:27:00
+102,Atmosphere,The coffee shop was too noisy and loud.,2024-05-05 17:50:00
+103,Service,The service was slow and inefficient.,2024-05-05 15:54:00
+104,Service,The staff were rude and unhelpful.,2024-05-05 13:30:00
+105,Other,The coffee shop did not offer enough variety on the menu.,2024-05-06 12:07:00
+106,Atmosphere,The seating was uncomfortable.,2024-05-07 00:12:00
+107,Taste (Food),The food was bland and unappetizing.,2024-05-06 05:29:00
+108,Taste (Coffee),The coffee was burnt and bitter.,2024-05-06 21:43:00
+109,Taste (Coffee),The coffee was weak and watery.,2024-05-06 08:27:00
+110,Other,The prices were too high for the quality offered.,2024-05-06 09:36:00
+111,Other,Overall I would not recommend this coffee shop to others.,2024-05-06 21:44:00
+112,Atmosphere,The seating was uncomfortable.,2024-05-06 15:17:00
+113,Other,The restroom was dirty or out of order.,2024-05-06 09:06:00
+114,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-06 09:52:00
+115,Atmosphere,The lighting was too dim or too bright.,2024-05-06 02:27:00
+116,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-06 06:15:00
+117,Other,There were limited options for non-coffee drinkers.,2024-05-06 15:02:00
+118,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-06 06:30:00
+119,Taste (Food),The salad dressing was overwhelming.,2024-05-06 15:08:00
+120,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-06 18:35:00
+121,Taste (Food),The food was not fresh.,2024-05-06 02:33:00
+122,Atmosphere,The decor was outdated or unappealing.,2024-05-06 09:03:00
+123,Atmosphere,There were no available power outlets for charging devices.,2024-05-06 21:25:00
+124,Other,The prices were too high for the quality offered.,2024-05-06 18:08:00
+125,Other,The restroom was dirty or out of order.,2024-05-06 22:52:00
+126,Other,There were limited options for non-coffee drinkers.,2024-05-06 02:34:00
+127,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-07 20:56:00
+128,Atmosphere,The music was too loud or not to my taste.,2024-05-07 01:51:00
+129,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-07 22:15:00
+130,Service,The staff were rude and unhelpful.,2024-05-07 02:28:00
+131,Service,The staff seemed uninterested and disengaged.,2024-05-07 06:25:00
+132,Service,There was a long wait time for the order.,2024-05-07 03:43:00
+133,Atmosphere,The seating was uncomfortable.,2024-05-07 08:05:00
+134,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-07 22:42:00
+135,Atmosphere,The lighting was too dim or too bright.,2024-05-07 12:55:00
+136,Atmosphere,The decor was outdated or unappealing.,2024-05-07 06:46:00
+137,Atmosphere,The coffee shop was dirty or untidy.,2024-05-07 07:57:00
+138,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-07 20:18:00
+139,Other,The prices were too high for the quality offered.,2024-05-07 18:18:00
+140,Other,The Wi-Fi was not working or slow.,2024-05-07 05:24:00
+141,Other,The coffee shop was not accessible to people with disabilities.,2024-05-07 23:42:00
+142,Taste (Food),The sandwich was soggy.,2024-05-08 00:14:00
+143,Taste (Food),The food was bland and unappetizing.,2024-05-07 11:44:00
+144,Atmosphere,The temperature was too hot or too cold.,2024-05-07 06:10:00
+145,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-07 17:50:00
+146,Service,There was a long wait time for the order.,2024-05-07 13:39:00
+147,Other,The Wi-Fi was not working or slow.,2024-05-08 10:13:00
+148,Service,The overall experience was unsatisfactory due to poor service.,2024-05-08 04:53:00
+149,Service,The barista made the drink incorrectly.,2024-05-08 01:08:00
+150,Atmosphere,The coffee shop was dirty or untidy.,2024-05-08 22:36:00
+151,Taste (Pastries),The pastry was stale and dry.,2024-05-08 08:20:00
+152,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-08 13:02:00
+153,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-08 20:33:00
+154,Taste (Coffee),The coffee was weak and watery.,2024-05-08 04:54:00
+155,Atmosphere,The seating was uncomfortable.,2024-05-08 21:28:00
+156,Other,The restroom was dirty or out of order.,2024-05-08 20:16:00
+157,Other,There were limited options for non-coffee drinkers.,2024-05-08 12:34:00
+158,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-08 09:12:00
+159,Other,The prices were too high for the quality offered.,2024-05-08 04:05:00
+160,Service,The order was incorrect.,2024-05-08 23:39:00
+161,Other,The prices were too high for the quality offered.,2024-05-08 02:25:00
+162,Atmosphere,The lighting was too dim or too bright.,2024-05-08 10:07:00
+163,Taste (Food),The ingredients did not taste fresh.,2024-05-08 05:02:00
+164,Service,The barista made the drink incorrectly.,2024-05-08 13:00:00
+165,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-08 23:54:00
+166,Other,The coffee shop did not offer enough variety on the menu.,2024-05-08 19:06:00
+167,Other,Overall I would not recommend this coffee shop to others.,2024-05-09 11:25:00
+168,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-09 23:10:00
+169,Atmosphere,The decor was outdated or unappealing.,2024-05-09 11:04:00
+170,Other,The prices were too high for the quality offered.,2024-05-09 07:51:00
+171,Service,The order was incorrect.,2024-05-09 23:43:00
+172,Taste (Food),The ingredients did not taste fresh.,2024-05-09 01:55:00
+173,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-09 03:26:00
+174,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-09 19:12:00
+175,Service,The staff seemed uninterested and disengaged.,2024-05-09 11:02:00
+176,Atmosphere,The coffee shop was too noisy and loud.,2024-05-09 09:13:00
+177,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-09 17:52:00
+178,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-09 11:38:00
+179,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-09 01:09:00
+180,Taste (Food),The food was bland and unappetizing.,2024-05-09 17:39:00
+181,Service,The service was slow and inefficient.,2024-05-09 20:41:00
+182,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-09 17:36:00
+183,Other,The prices were too high for the quality offered.,2024-05-09 18:09:00
+184,Taste (Food),The cake was dry and flavorless.,2024-05-09 12:33:00
+185,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-09 02:25:00
+186,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-10 00:50:00
+187,Taste (Food),The food was not fresh.,2024-05-09 14:18:00
+188,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-09 09:36:00
+189,Other,The Wi-Fi was not working or slow.,2024-05-10 14:19:00
+190,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-10 21:38:00
+191,Taste (Food),The food was not fresh.,2024-05-10 17:26:00
+192,Taste (Food),The sandwich was soggy.,2024-05-10 14:44:00
+193,Other,The coffee shop did not offer enough variety on the menu.,2024-05-10 13:44:00
+194,Atmosphere,The temperature was too hot or too cold.,2024-05-10 07:58:00
+195,Taste (Food),The salad dressing was overwhelming.,2024-05-10 04:24:00
+196,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-10 07:34:00
+197,Other,The coffee shop did not offer enough variety on the menu.,2024-05-10 19:17:00
+198,Atmosphere,The lighting was too dim or too bright.,2024-05-10 16:43:00
+199,Taste (Coffee),The coffee was burnt and bitter.,2024-05-10 02:58:00
+200,Service,The barista made the drink incorrectly.,2024-05-10 03:09:00
+201,Atmosphere,The coffee shop was dirty or untidy.,2024-05-10 01:33:00
+202,Service,The staff were rude and unhelpful.,2024-05-10 13:18:00
+203,Service,The staff were rude and unhelpful.,2024-05-10 12:32:00
+204,Other,The coffee shop did not offer enough variety on the menu.,2024-05-10 16:33:00
+205,Taste (Food),The ingredients did not taste fresh.,2024-05-10 18:41:00
+206,Atmosphere,The temperature was too hot or too cold.,2024-05-10 10:50:00
+207,Atmosphere,The coffee shop was dirty or untidy.,2024-05-10 09:59:00
+208,Other,The coffee shop was not accessible to people with disabilities.,2024-05-10 13:36:00
+209,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-10 13:51:00
+210,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-11 16:15:00
+211,Other,The restroom was dirty or out of order.,2024-05-11 05:25:00
+212,Taste (Pastries),The pastry was stale and dry.,2024-05-11 20:30:00
+213,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-11 22:34:00
+214,Other,There were limited options for non-coffee drinkers.,2024-05-11 07:54:00
+215,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-11 12:19:00
+216,Other,Overall I would not recommend this coffee shop to others.,2024-05-11 20:54:00
+217,Taste (Food),The salad dressing was overwhelming.,2024-05-11 13:01:00
+218,Service,The staff seemed uninterested and disengaged.,2024-05-11 02:31:00
+219,Atmosphere,The lighting was too dim or too bright.,2024-05-12 00:58:00
+220,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-11 03:35:00
+221,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-11 06:06:00
+222,Service,The barista made the drink incorrectly.,2024-05-11 04:36:00
+223,Service,The service was slow and inefficient.,2024-05-11 16:44:00
+224,Other,The Wi-Fi was not working or slow.,2024-05-11 17:56:00
+225,Atmosphere,The music was too loud or not to my taste.,2024-05-11 01:18:00
+226,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-11 10:09:00
+227,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-11 14:52:00
+228,Service,The overall experience was unsatisfactory due to poor service.,2024-05-11 11:26:00
+229,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-11 08:06:00
+230,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-12 01:23:00
+231,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-12 05:23:00
+232,Service,The staff did not address concerns or complaints effectively.,2024-05-12 10:52:00
+233,Other,The coffee shop was not accessible to people with disabilities.,2024-05-12 10:22:00
+234,Taste (Food),The salad dressing was overwhelming.,2024-05-12 03:24:00
+235,Service,The staff were rude and unhelpful.,2024-05-12 02:11:00
+236,Atmosphere,There were no available power outlets for charging devices.,2024-05-12 11:44:00
+237,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-12 18:42:00
+238,Other,Overall I would not recommend this coffee shop to others.,2024-05-12 08:06:00
+239,Atmosphere,The seating was uncomfortable.,2024-05-12 05:56:00
+240,Other,The restroom was dirty or out of order.,2024-05-12 23:55:00
+241,Atmosphere,The seating was uncomfortable.,2024-05-12 06:36:00
+242,Other,There were limited options for non-coffee drinkers.,2024-05-12 18:11:00
+243,Service,There was a long wait time for the order.,2024-05-12 21:04:00
+244,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-12 15:08:00
+245,Service,The barista made the drink incorrectly.,2024-05-12 10:18:00
+246,Atmosphere,There were no available power outlets for charging devices.,2024-05-12 07:24:00
+247,Other,Overall I would not recommend this coffee shop to others.,2024-05-12 03:57:00
+248,Other,The restroom was dirty or out of order.,2024-05-12 08:56:00
+249,Service,The barista made the drink incorrectly.,2024-05-12 23:38:00
+250,Service,The staff were rude and unhelpful.,2024-05-13 07:31:00
+251,Atmosphere,The coffee shop was dirty or untidy.,2024-05-13 23:27:00
+252,Other,Overall I would not recommend this coffee shop to others.,2024-05-13 04:13:00
+253,Atmosphere,The music was too loud or not to my taste.,2024-05-13 12:40:00
+254,Other,The restroom was dirty or out of order.,2024-05-13 21:21:00
+255,Taste (Pastries),The pastry was stale and dry.,2024-05-13 11:05:00
+256,Atmosphere,The lighting was too dim or too bright.,2024-05-14 00:00:00
+257,Atmosphere,The decor was outdated or unappealing.,2024-05-13 20:15:00
+258,Service,The service was slow and inefficient.,2024-05-13 21:09:00
+259,Taste (Food),The salad dressing was overwhelming.,2024-05-13 02:41:00
+260,Atmosphere,The seating was uncomfortable.,2024-05-13 23:37:00
+261,Other,The restroom was dirty or out of order.,2024-05-13 14:52:00
+262,Taste (Food),The salad dressing was overwhelming.,2024-05-13 07:14:00
+263,Other,The coffee shop did not offer enough variety on the menu.,2024-05-13 12:53:00
+264,Service,The service was slow and inefficient.,2024-05-13 20:42:00
+265,Taste (Food),The food was not fresh.,2024-05-13 03:06:00
+266,Atmosphere,The seating was uncomfortable.,2024-05-13 10:07:00
+267,Taste (Pastries),The pastry was stale and dry.,2024-05-13 14:49:00
+268,Atmosphere,The music was too loud or not to my taste.,2024-05-14 07:56:00
+269,Taste (Food),The cake was dry and flavorless.,2024-05-14 14:07:00
+270,Other,The coffee shop was not accessible to people with disabilities.,2024-05-14 21:38:00
+271,Service,The service was slow and inefficient.,2024-05-14 09:46:00
+272,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-14 14:13:00
+273,Atmosphere,The coffee shop was too noisy and loud.,2024-05-14 02:02:00
+274,Taste (Food),The food was not fresh.,2024-05-14 07:21:00
+275,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-14 21:47:00
+276,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-14 03:25:00
+277,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-14 05:55:00
+278,Other,The Wi-Fi was not working or slow.,2024-05-14 03:29:00
+279,Other,Overall I would not recommend this coffee shop to others.,2024-05-14 22:45:00
+280,Atmosphere,The coffee shop was dirty or untidy.,2024-05-14 05:22:00
+281,Service,The overall experience was unsatisfactory due to poor service.,2024-05-14 01:07:00
+282,Other,The coffee shop did not offer enough variety on the menu.,2024-05-14 07:42:00
+283,Other,The Wi-Fi was not working or slow.,2024-05-14 06:13:00
+284,Other,Overall I would not recommend this coffee shop to others.,2024-05-14 04:51:00
+285,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-14 17:06:00
+286,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-14 17:36:00
+287,Atmosphere,The seating was uncomfortable.,2024-05-14 03:01:00
+288,Taste (Food),The salad dressing was overwhelming.,2024-05-14 10:02:00
+289,Other,The prices were too high for the quality offered.,2024-05-14 09:16:00
+290,Taste (Pastries),The pastry was stale and dry.,2024-05-15 22:46:00
+291,Atmosphere,The seating was uncomfortable.,2024-05-15 01:06:00
+292,Other,The coffee shop was not accessible to people with disabilities.,2024-05-15 11:53:00
+293,Taste (Coffee),The coffee was burnt and bitter.,2024-05-15 15:32:00
+294,Atmosphere,The coffee shop was dirty or untidy.,2024-05-15 06:57:00
+295,Other,There were limited options for non-coffee drinkers.,2024-05-15 13:40:00
+296,Other,The restroom was dirty or out of order.,2024-05-15 05:05:00
+297,Taste (Food),The salad dressing was overwhelming.,2024-05-15 10:19:00
+298,Atmosphere,The temperature was too hot or too cold.,2024-05-15 19:15:00
+299,Atmosphere,The seating was uncomfortable.,2024-05-15 23:38:00
+300,Other,The coffee shop was not accessible to people with disabilities.,2024-05-15 15:34:00
+301,Other,The coffee shop did not offer enough variety on the menu.,2024-05-15 08:13:00
+302,Service,The barista made the drink incorrectly.,2024-05-15 02:51:00
+303,Taste (Pastries),The pastry was stale and dry.,2024-05-15 06:44:00
+304,Service,The service was slow and inefficient.,2024-05-15 06:37:00
+305,Atmosphere,The temperature was too hot or too cold.,2024-05-15 14:27:00
+306,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-15 15:30:00
+307,Taste (Food),The cake was dry and flavorless.,2024-05-15 13:43:00
+308,Service,The barista made the drink incorrectly.,2024-05-15 14:27:00
+309,Taste (Coffee),The coffee was burnt and bitter.,2024-05-16 01:26:00
+310,Atmosphere,The coffee shop was too noisy and loud.,2024-05-16 05:26:00
+311,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-16 08:12:00
+312,Taste (Coffee),The coffee was burnt and bitter.,2024-05-16 11:29:00
+313,Other,Overall I would not recommend this coffee shop to others.,2024-05-16 17:58:00
+314,Atmosphere,The lighting was too dim or too bright.,2024-05-16 20:12:00
+315,Service,The staff seemed uninterested and disengaged.,2024-05-17 00:33:00
+316,Taste (Food),The food was not fresh.,2024-05-16 15:07:00
+317,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-16 03:31:00
+318,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-16 22:24:00
+319,Atmosphere,The coffee shop was too noisy and loud.,2024-05-16 18:02:00
+320,Atmosphere,There were no available power outlets for charging devices.,2024-05-16 16:13:00
+321,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-16 02:30:00
+322,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-16 16:50:00
+323,Atmosphere,The music was too loud or not to my taste.,2024-05-16 03:41:00
+324,Other,There were limited options for non-coffee drinkers.,2024-05-16 14:32:00
+325,Taste (Food),The food was not fresh.,2024-05-17 00:32:00
+326,Service,The staff did not address concerns or complaints effectively.,2024-05-16 06:36:00
+327,Service,The staff were rude and unhelpful.,2024-05-16 20:33:00
+328,Service,The barista made the drink incorrectly.,2024-05-16 21:35:00
+329,Service,The staff seemed uninterested and disengaged.,2024-05-16 08:20:00
+330,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-17 23:18:00
+331,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-17 23:49:00
+332,Service,The barista made the drink incorrectly.,2024-05-17 17:05:00
+333,Taste (Coffee),The coffee was weak and watery.,2024-05-17 04:54:00
+334,Service,The staff did not address concerns or complaints effectively.,2024-05-17 19:01:00
+335,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-17 16:59:00
+336,Other,The Wi-Fi was not working or slow.,2024-05-17 07:28:00
+337,Other,There were limited options for non-coffee drinkers.,2024-05-17 13:54:00
+338,Atmosphere,The decor was outdated or unappealing.,2024-05-17 10:54:00
+339,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-17 16:51:00
+340,Taste (Coffee),The coffee was burnt and bitter.,2024-05-17 18:23:00
+341,Taste (Food),The food was bland and unappetizing.,2024-05-17 14:11:00
+342,Atmosphere,There were no available power outlets for charging devices.,2024-05-17 12:09:00
+343,Service,There was a long wait time for the order.,2024-05-17 12:53:00
+344,Atmosphere,The temperature was too hot or too cold.,2024-05-17 13:29:00
+345,Other,There were limited options for non-coffee drinkers.,2024-05-17 08:38:00
+346,Other,The coffee shop was not accessible to people with disabilities.,2024-05-17 02:55:00
+347,Other,Overall I would not recommend this coffee shop to others.,2024-05-17 17:22:00
+348,Taste (Food),The salad dressing was overwhelming.,2024-05-17 17:34:00
+349,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-17 07:44:00
+350,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-18 17:40:00
+351,Taste (Pastries),The pastry was stale and dry.,2024-05-18 22:07:00
+352,Taste (Coffee),The coffee was weak and watery.,2024-05-18 11:29:00
+353,Other,The prices were too high for the quality offered.,2024-05-18 05:46:00
+354,Service,The staff did not address concerns or complaints effectively.,2024-05-19 00:53:00
+355,Taste (Food),The sandwich was soggy.,2024-05-18 21:59:00
+356,Taste (Pastries),The pastry was stale and dry.,2024-05-18 05:05:00
+357,Other,Overall I would not recommend this coffee shop to others.,2024-05-18 04:00:00
+358,Taste (Food),The sandwich was soggy.,2024-05-18 09:51:00
+359,Taste (Food),The ingredients did not taste fresh.,2024-05-18 04:35:00
+360,Other,Overall I would not recommend this coffee shop to others.,2024-05-18 01:34:00
+361,Other,The coffee shop was not accessible to people with disabilities.,2024-05-18 06:54:00
+362,Other,Overall I would not recommend this coffee shop to others.,2024-05-18 01:53:00
+363,Other,The coffee shop was not accessible to people with disabilities.,2024-05-18 02:42:00
+364,Taste (Food),The sandwich was soggy.,2024-05-18 07:56:00
+365,Atmosphere,There were no available power outlets for charging devices.,2024-05-18 14:29:00
+366,Other,The restroom was dirty or out of order.,2024-05-18 11:46:00
+367,Other,Overall I would not recommend this coffee shop to others.,2024-05-18 15:00:00
+368,Service,The staff were rude and unhelpful.,2024-05-18 22:20:00
+369,Atmosphere,The temperature was too hot or too cold.,2024-05-18 09:18:00
+370,Atmosphere,The coffee shop was dirty or untidy.,2024-05-19 09:38:00
+371,Taste (Food),The food was not fresh.,2024-05-19 20:35:00
+372,Taste (Food),The sandwich was soggy.,2024-05-19 16:06:00
+373,Service,The order was incorrect.,2024-05-19 08:25:00
+374,Atmosphere,The coffee shop was dirty or untidy.,2024-05-19 21:51:00
+375,Taste (Coffee),The coffee was burnt and bitter.,2024-05-19 06:49:00
+376,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-19 14:09:00
+377,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-19 05:09:00
+378,Service,The service was slow and inefficient.,2024-05-19 01:35:00
+379,Atmosphere,The coffee shop was too noisy and loud.,2024-05-19 11:20:00
+380,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-19 02:22:00
+381,Atmosphere,The coffee shop was too noisy and loud.,2024-05-19 15:42:00
+382,Atmosphere,The seating was uncomfortable.,2024-05-19 12:22:00
+383,Other,The prices were too high for the quality offered.,2024-05-19 13:10:00
+384,Other,The coffee shop did not offer enough variety on the menu.,2024-05-20 00:38:00
+385,Atmosphere,The coffee shop was too noisy and loud.,2024-05-19 18:30:00
+386,Atmosphere,The coffee shop was too noisy and loud.,2024-05-19 03:09:00
+387,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-19 22:31:00
+388,Service,The overall experience was unsatisfactory due to poor service.,2024-05-20 00:47:00
+389,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-19 12:25:00
+390,Service,The barista made the drink incorrectly.,2024-05-20 11:53:00
+391,Taste (Food),The salad dressing was overwhelming.,2024-05-20 14:06:00
+392,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-20 01:21:00
+393,Atmosphere,The coffee shop was dirty or untidy.,2024-05-20 12:10:00
+394,Service,The service was slow and inefficient.,2024-05-20 06:56:00
+395,Other,The restroom was dirty or out of order.,2024-05-20 01:38:00
+396,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-20 09:11:00
+397,Service,The staff seemed uninterested and disengaged.,2024-05-21 00:23:00
+398,Other,Overall I would not recommend this coffee shop to others.,2024-05-20 17:56:00
+399,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-20 12:49:00
+400,Service,The service was slow and inefficient.,2024-05-20 22:02:00
+401,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-20 03:49:00
+402,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-20 12:01:00
+403,Atmosphere,The seating was uncomfortable.,2024-05-20 16:05:00
+404,Service,The staff were rude and unhelpful.,2024-05-20 20:40:00
+405,Other,Overall I would not recommend this coffee shop to others.,2024-05-20 05:31:00
+406,Atmosphere,The seating was uncomfortable.,2024-05-20 23:33:00
+407,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-20 01:59:00
+408,Atmosphere,There were no available power outlets for charging devices.,2024-05-20 14:32:00
+409,Service,The overall experience was unsatisfactory due to poor service.,2024-05-20 11:10:00
+410,Service,The overall experience was unsatisfactory due to poor service.,2024-05-20 12:15:00
+411,Taste (Food),The food was bland and unappetizing.,2024-05-21 07:24:00
+412,Other,Overall I would not recommend this coffee shop to others.,2024-05-21 01:43:00
+413,Service,The staff did not address concerns or complaints effectively.,2024-05-21 13:04:00
+414,Taste (Food),The cake was dry and flavorless.,2024-05-21 20:29:00
+415,Service,The barista made the drink incorrectly.,2024-05-21 18:30:00
+416,Atmosphere,The coffee shop was too noisy and loud.,2024-05-21 21:55:00
+417,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-21 06:12:00
+418,Other,Overall I would not recommend this coffee shop to others.,2024-05-21 03:03:00
+419,Other,The restroom was dirty or out of order.,2024-05-21 17:59:00
+420,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-21 04:33:00
+421,Service,The barista made the drink incorrectly.,2024-05-21 01:09:00
+422,Other,The coffee shop did not offer enough variety on the menu.,2024-05-21 17:06:00
+423,Other,The coffee shop was not accessible to people with disabilities.,2024-05-21 20:04:00
+424,Taste (Food),The sandwich was soggy.,2024-05-21 21:05:00
+425,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-21 20:00:00
+426,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-21 04:56:00
+427,Service,The order was incorrect.,2024-05-21 21:07:00
+428,Taste (Food),The ingredients did not taste fresh.,2024-05-21 17:58:00
+429,Atmosphere,The decor was outdated or unappealing.,2024-05-21 06:12:00
+430,Atmosphere,The music was too loud or not to my taste.,2024-05-22 03:22:00
+431,Service,The overall experience was unsatisfactory due to poor service.,2024-05-23 00:04:00
+432,Service,There was a long wait time for the order.,2024-05-22 03:42:00
+433,Service,The staff did not address concerns or complaints effectively.,2024-05-22 02:51:00
+434,Atmosphere,The lighting was too dim or too bright.,2024-05-22 03:36:00
+435,Other,Overall I would not recommend this coffee shop to others.,2024-05-22 23:45:00
+436,Atmosphere,The music was too loud or not to my taste.,2024-05-22 22:53:00
+437,Service,The barista made the drink incorrectly.,2024-05-22 02:36:00
+438,Taste (Food),The sandwich was soggy.,2024-05-22 13:23:00
+439,Service,The service was slow and inefficient.,2024-05-22 15:15:00
+440,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-22 09:19:00
+441,Service,The barista made the drink incorrectly.,2024-05-22 08:25:00
+442,Service,The order was incorrect.,2024-05-22 05:53:00
+443,Taste (Food),The sandwich was soggy.,2024-05-22 01:09:00
+444,Service,There was a long wait time for the order.,2024-05-22 19:03:00
+445,Other,The coffee shop did not offer enough variety on the menu.,2024-05-22 08:13:00
+446,Taste (Pastries),The pastry was stale and dry.,2024-05-22 10:16:00
+447,Taste (Food),The food was bland and unappetizing.,2024-05-22 12:08:00
+448,Taste (Food),The food was bland and unappetizing.,2024-05-23 00:52:00
+449,Service,The staff did not address concerns or complaints effectively.,2024-05-24 00:45:00
+450,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-23 05:03:00
+451,Atmosphere,The music was too loud or not to my taste.,2024-05-23 05:34:00
+452,Atmosphere,The music was too loud or not to my taste.,2024-05-23 16:24:00
+453,Other,The restroom was dirty or out of order.,2024-05-23 20:36:00
+454,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-24 00:55:00
+455,Taste (Food),The food was bland and unappetizing.,2024-05-23 19:02:00
+456,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-23 06:09:00
+457,Other,The Wi-Fi was not working or slow.,2024-05-24 00:39:00
+458,Taste (Food),The food was bland and unappetizing.,2024-05-23 18:37:00
+459,Other,The coffee shop did not offer enough variety on the menu.,2024-05-23 20:55:00
+460,Atmosphere,The music was too loud or not to my taste.,2024-05-23 07:08:00
+461,Atmosphere,The coffee shop was too noisy and loud.,2024-05-23 06:23:00
+462,Other,Overall I would not recommend this coffee shop to others.,2024-05-23 17:29:00
+463,Taste (Food),The sandwich was soggy.,2024-05-23 10:26:00
+464,Service,The service was slow and inefficient.,2024-05-23 12:10:00
+465,Other,The coffee shop did not offer enough variety on the menu.,2024-05-23 14:38:00
+466,Taste (Coffee),The coffee was burnt and bitter.,2024-05-23 05:10:00
+467,Atmosphere,The temperature was too hot or too cold.,2024-05-23 07:41:00
+468,Other,The coffee shop did not offer enough variety on the menu.,2024-05-24 12:07:00
+469,Atmosphere,The lighting was too dim or too bright.,2024-05-24 14:48:00
+470,Other,The prices were too high for the quality offered.,2024-05-24 07:56:00
+471,Other,The restroom was dirty or out of order.,2024-05-24 21:55:00
+472,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-24 12:47:00
+473,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-24 01:46:00
+474,Service,The staff did not address concerns or complaints effectively.,2024-05-24 06:44:00
+475,Atmosphere,The coffee shop was too noisy and loud.,2024-05-24 23:12:00
+476,Atmosphere,The temperature was too hot or too cold.,2024-05-24 07:36:00
+477,Other,The coffee shop did not offer enough variety on the menu.,2024-05-25 00:33:00
+478,Other,Overall I would not recommend this coffee shop to others.,2024-05-24 12:40:00
+479,Service,The service was slow and inefficient.,2024-05-24 01:13:00
+480,Atmosphere,The coffee shop was dirty or untidy.,2024-05-24 11:04:00
+481,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-24 15:39:00
+482,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-25 00:59:00
+483,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-24 16:52:00
+484,Taste (Food),The ingredients did not taste fresh.,2024-05-24 01:43:00
+485,Service,The staff were rude and unhelpful.,2024-05-24 05:10:00
+486,Other,The restroom was dirty or out of order.,2024-05-24 16:15:00
+487,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-24 14:11:00
+488,Taste (Food),The food was not fresh.,2024-05-24 03:52:00
+489,Other,The restroom was dirty or out of order.,2024-05-25 06:36:00
+490,Taste (Food),The ingredients did not taste fresh.,2024-05-25 20:47:00
+491,Atmosphere,There were no available power outlets for charging devices.,2024-05-25 03:12:00
+492,Service,The barista made the drink incorrectly.,2024-05-25 16:23:00
+493,Service,The barista made the drink incorrectly.,2024-05-25 08:49:00
+494,Taste (Food),The food was not fresh.,2024-05-25 21:28:00
+495,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-25 11:29:00
+496,Taste (Food),The ingredients did not taste fresh.,2024-05-25 22:51:00
+497,Atmosphere,The temperature was too hot or too cold.,2024-05-25 10:36:00
+498,Atmosphere,The music was too loud or not to my taste.,2024-05-25 11:25:00
+499,Other,The Wi-Fi was not working or slow.,2024-05-25 02:03:00
+500,Other,The coffee shop was not accessible to people with disabilities.,2024-05-25 09:47:00
+501,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-25 15:30:00
+502,Other,The restroom was dirty or out of order.,2024-05-25 22:52:00
+503,Other,The restroom was dirty or out of order.,2024-05-25 10:00:00
+504,Atmosphere,There were no available power outlets for charging devices.,2024-05-25 20:57:00
+505,Service,There was a long wait time for the order.,2024-05-25 02:54:00
+506,Taste (Food),The ingredients did not taste fresh.,2024-05-25 03:47:00
+507,Other,The prices were too high for the quality offered.,2024-05-25 19:30:00
+508,Other,The Wi-Fi was not working or slow.,2024-05-25 19:02:00
+509,Service,The order was incorrect.,2024-05-26 12:43:00
+510,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-26 13:05:00
+511,Other,The Wi-Fi was not working or slow.,2024-05-26 13:33:00
+512,Taste (Coffee),The coffee was burnt and bitter.,2024-05-26 08:25:00
+513,Other,The Wi-Fi was not working or slow.,2024-05-26 15:35:00
+514,Taste (Food),The food was not fresh.,2024-05-26 13:00:00
+515,Service,The staff did not address concerns or complaints effectively.,2024-05-26 17:09:00
+516,Taste (Food),The sandwich was soggy.,2024-05-26 20:53:00
+517,Taste (Food),The food was bland and unappetizing.,2024-05-26 05:42:00
+518,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-26 01:58:00
+519,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-26 04:58:00
+520,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-26 05:00:00
+521,Service,The order was incorrect.,2024-05-26 01:22:00
+522,Atmosphere,The music was too loud or not to my taste.,2024-05-26 22:26:00
+523,Service,The staff seemed uninterested and disengaged.,2024-05-26 19:58:00
+524,Atmosphere,The seating was uncomfortable.,2024-05-26 14:44:00
+525,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-26 07:19:00
+526,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-26 07:12:00
+527,Other,There were limited options for non-coffee drinkers.,2024-05-26 23:22:00
+528,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-26 13:30:00
+529,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-05-26 13:37:00
+530,Service,The overall experience was unsatisfactory due to poor service.,2024-05-27 15:24:00
+531,Atmosphere,The lighting was too dim or too bright.,2024-05-27 11:07:00
+532,Atmosphere,The seating was uncomfortable.,2024-05-27 23:09:00
+533,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-27 04:04:00
+534,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-27 01:35:00
+535,Service,The staff seemed uninterested and disengaged.,2024-05-27 14:10:00
+536,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-27 15:49:00
+537,Atmosphere,The temperature was too hot or too cold.,2024-05-27 17:55:00
+538,Other,The prices were too high for the quality offered.,2024-05-27 15:27:00
+539,Taste (Food),The ingredients did not taste fresh.,2024-05-27 17:38:00
+540,Other,Overall I would not recommend this coffee shop to others.,2024-05-27 15:00:00
+541,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-27 07:17:00
+542,Other,The restroom was dirty or out of order.,2024-05-27 23:54:00
+543,Atmosphere,The coffee shop was dirty or untidy.,2024-05-27 02:53:00
+544,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-27 14:18:00
+545,Taste (Food),The sandwich was soggy.,2024-05-27 05:57:00
+546,Taste (Food),The food was not fresh.,2024-05-27 15:48:00
+547,Other,The coffee shop did not offer enough variety on the menu.,2024-05-28 00:34:00
+548,Other,The prices were too high for the quality offered.,2024-05-27 07:56:00
+549,Atmosphere,The coffee shop was too noisy and loud.,2024-05-27 15:34:00
+550,Other,The coffee shop did not offer any loyalty or rewards program.,2024-05-27 08:17:00
+551,Atmosphere,The decor was outdated or unappealing.,2024-05-27 07:34:00
+552,Service,The barista made the drink incorrectly.,2024-05-28 16:15:00
+553,Atmosphere,The decor was outdated or unappealing.,2024-05-28 02:19:00
+554,Atmosphere,The coffee shop was dirty or untidy.,2024-05-28 01:07:00
+555,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-28 23:01:00
+556,Service,The staff seemed uninterested and disengaged.,2024-05-28 17:31:00
+557,Atmosphere,The coffee shop was dirty or untidy.,2024-05-28 05:38:00
+558,Taste (Food),The food was bland and unappetizing.,2024-05-28 16:17:00
+559,Atmosphere,The coffee shop was too crowded and cramped.,2024-05-28 21:17:00
+560,Other,There were limited options for non-coffee drinkers.,2024-05-28 08:29:00
+561,Other,The coffee shop did not offer enough variety on the menu.,2024-05-28 13:47:00
+562,Other,The coffee shop was not accessible to people with disabilities.,2024-05-28 23:41:00
+563,Other,There were limited options for non-coffee drinkers.,2024-05-28 17:11:00
+564,Other,The Wi-Fi was not working or slow.,2024-05-28 21:29:00
+565,Taste (Food),The food was not fresh.,2024-05-28 14:28:00
+566,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-05-28 17:13:00
+567,Service,The order was incorrect.,2024-05-28 21:20:00
+568,Service,The service was slow and inefficient.,2024-05-29 00:46:00
+569,Other,The prices were too high for the quality offered.,2024-05-28 16:15:00
+570,Service,The barista made the drink incorrectly.,2024-05-28 21:53:00
+571,Service,The barista made the drink incorrectly.,2024-05-28 16:45:00
+572,Service,The overall experience was unsatisfactory due to poor service.,2024-05-28 04:20:00
+573,Other,Overall I would not recommend this coffee shop to others.,2024-05-29 07:03:00
+574,Taste (Food),The food was not fresh.,2024-05-29 15:56:00
+575,Atmosphere,The lighting was too dim or too bright.,2024-05-29 04:25:00
+576,Atmosphere,The lighting was too dim or too bright.,2024-05-29 20:43:00
+577,Taste (Food),The food was bland and unappetizing.,2024-05-29 08:40:00
+578,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-29 10:04:00
+579,Other,The prices were too high for the quality offered.,2024-05-29 11:30:00
+580,Other,The coffee shop did not offer enough variety on the menu.,2024-05-29 12:08:00
+581,Other,Overall I would not recommend this coffee shop to others.,2024-05-29 20:51:00
+582,Service,The staff did not address concerns or complaints effectively.,2024-05-29 06:10:00
+583,Other,The restroom was dirty or out of order.,2024-05-29 14:29:00
+584,Atmosphere,There were no available power outlets for charging devices.,2024-05-29 08:47:00
+585,Taste (Coffee),The coffee was weak and watery.,2024-05-29 01:48:00
+586,Other,The Wi-Fi was not working or slow.,2024-05-29 09:47:00
+587,Atmosphere,There were no available power outlets for charging devices.,2024-05-29 09:14:00
+588,Taste (Food),The sandwich was soggy.,2024-05-29 14:18:00
+589,Taste (Food),The food was not fresh.,2024-05-29 07:43:00
+590,Taste (Coffee),The espresso was over-extracted and harsh.,2024-05-29 12:40:00
+591,Service,The staff did not address concerns or complaints effectively.,2024-05-29 19:51:00
+592,Other,The coffee shop did not offer enough variety on the menu.,2024-05-30 04:30:00
+593,Other,Overall I would not recommend this coffee shop to others.,2024-05-30 04:11:00
+594,Atmosphere,The lighting was too dim or too bright.,2024-05-30 20:12:00
+595,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-05-30 09:55:00
+596,Service,The service was slow and inefficient.,2024-05-30 04:43:00
+597,Other,Overall I would not recommend this coffee shop to others.,2024-05-30 13:06:00
+598,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-05-30 20:19:00
+599,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-30 09:51:00
+600,Service,The barista made the drink incorrectly.,2024-05-30 06:08:00
+601,Other,The coffee shop did not offer enough variety on the menu.,2024-05-30 05:37:00
+602,Other,The coffee shop did not offer enough variety on the menu.,2024-05-30 04:58:00
+603,Service,The overall experience was unsatisfactory due to poor service.,2024-05-30 22:54:00
+604,Service,The order was incorrect.,2024-05-30 02:26:00
+605,Taste (Food),The salad dressing was overwhelming.,2024-05-30 14:44:00
+606,Service,The overall experience was unsatisfactory due to poor service.,2024-05-30 07:02:00
+607,Atmosphere,The decor was outdated or unappealing.,2024-05-30 23:58:00
+608,Taste (Coffee),The coffee was weak and watery.,2024-05-30 01:14:00
+609,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-30 15:01:00
+610,Taste (Pastries),The pastry was stale and dry.,2024-05-30 15:25:00
+611,Taste (Food),The food was not fresh.,2024-05-30 21:29:00
+612,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-30 04:11:00
+613,Atmosphere,The music was too loud or not to my taste.,2024-05-30 01:30:00
+614,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-31 10:17:00
+615,Service,The barista made the drink incorrectly.,2024-05-31 14:55:00
+616,Service,The barista made the drink incorrectly.,2024-05-31 16:52:00
+617,Service,The barista made the drink incorrectly.,2024-05-31 14:04:00
+618,Other,The Wi-Fi was not working or slow.,2024-05-31 11:55:00
+619,Taste (Food),The food was not fresh.,2024-05-31 15:31:00
+620,Service,The service was slow and inefficient.,2024-05-31 23:15:00
+621,Service,The barista made the drink incorrectly.,2024-05-31 14:28:00
+622,Atmosphere,The temperature was too hot or too cold.,2024-05-31 04:55:00
+623,Taste (Coffee),The coffee was weak and watery.,2024-05-31 14:55:00
+624,Atmosphere,The music was too loud or not to my taste.,2024-05-31 06:48:00
+625,Service,The barista was not knowledgeable about the coffee or menu.,2024-05-31 12:41:00
+626,Taste (Coffee),The coffee was burnt and bitter.,2024-05-31 05:16:00
+627,Atmosphere,The lighting was too dim or too bright.,2024-05-31 12:00:00
+628,Atmosphere,The coffee shop was too noisy and loud.,2024-05-31 02:08:00
+629,Other,The prices were too high for the quality offered.,2024-05-31 19:04:00
+630,Other,The restroom was dirty or out of order.,2024-05-31 19:37:00
+631,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-06-01 00:50:00
+632,Other,Overall I would not recommend this coffee shop to others.,2024-05-31 21:34:00
+633,Service,The staff did not address concerns or complaints effectively.,2024-06-01 20:05:00
+634,Taste (Food),The food was bland and unappetizing.,2024-06-01 10:27:00
+635,Other,Overall I would not recommend this coffee shop to others.,2024-06-01 20:36:00
+636,Taste (Food),The salad dressing was overwhelming.,2024-06-01 12:37:00
+637,Taste (Food),The food was bland and unappetizing.,2024-06-01 17:28:00
+638,Other,The restroom was dirty or out of order.,2024-06-01 09:10:00
+639,Taste (Food),The ingredients did not taste fresh.,2024-06-01 18:54:00
+640,Service,The staff seemed uninterested and disengaged.,2024-06-01 01:39:00
+641,Other,There were limited options for non-coffee drinkers.,2024-06-01 08:09:00
+642,Service,The overall experience was unsatisfactory due to poor service.,2024-06-01 10:59:00
+643,Taste (Coffee),The coffee was weak and watery.,2024-06-01 03:27:00
+644,Service,The order was incorrect.,2024-06-01 12:17:00
+645,Other,The coffee shop was not accessible to people with disabilities.,2024-06-01 02:33:00
+646,Atmosphere,The music was too loud or not to my taste.,2024-06-01 07:05:00
+647,Other,The Wi-Fi was not working or slow.,2024-06-01 18:36:00
+648,Atmosphere,The coffee shop was too crowded and cramped.,2024-06-01 05:37:00
+649,Atmosphere,The temperature was too hot or too cold.,2024-06-01 16:47:00
+650,Service,The barista was not knowledgeable about the coffee or menu.,2024-06-01 01:53:00
+651,Taste (Pastries),The pastry was stale and dry.,2024-06-01 14:46:00
+652,Other,The coffee shop did not offer enough variety on the menu.,2024-06-01 03:45:00
+653,Other,Overall I would not recommend this coffee shop to others.,2024-06-01 06:49:00
+654,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-06-02 21:35:00
+655,Other,Overall I would not recommend this coffee shop to others.,2024-06-02 22:14:00
+656,Other,The coffee shop did not offer enough variety on the menu.,2024-06-02 07:51:00
+657,Other,The coffee shop did not offer any loyalty or rewards program.,2024-06-02 04:27:00
+658,Atmosphere,The lighting was too dim or too bright.,2024-06-03 00:40:00
+659,Service,The staff did not address concerns or complaints effectively.,2024-06-02 22:30:00
+660,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-06-02 17:19:00
+661,Atmosphere,The coffee shop was too crowded and cramped.,2024-06-02 14:19:00
+662,Service,The staff did not address concerns or complaints effectively.,2024-06-02 12:48:00
+663,Atmosphere,The decor was outdated or unappealing.,2024-06-02 06:43:00
+664,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-06-02 02:59:00
+665,Service,There was a lack of attention to detail in the preparation of drinks and food.,2024-06-02 19:01:00
+666,Atmosphere,The music was too loud or not to my taste.,2024-06-02 14:47:00
+667,Taste (Food),The sandwich was soggy.,2024-06-03 00:07:00
+668,Taste (Pastries),The pastry was stale and dry.,2024-06-02 22:57:00
+669,Atmosphere,The coffee shop was too noisy and loud.,2024-06-02 18:19:00
+670,Taste (Food),The sandwich was soggy.,2024-06-03 00:40:00
+671,Taste (Food),The food was not fresh.,2024-06-02 04:58:00
+672,Other,The coffee shop was not accessible to people with disabilities.,2024-06-02 16:18:00
+673,Atmosphere,The decor was outdated or unappealing.,2024-06-02 06:37:00
+674,Service,The order was incorrect.,2024-06-02 15:01:00
+675,Atmosphere,The coffee shop was too crowded and cramped.,2024-06-02 04:42:00
+676,Taste (Food),The salad dressing was overwhelming.,2024-06-03 02:25:00
+677,Atmosphere,The coffee shop was too crowded and cramped.,2024-06-03 11:24:00
+678,Atmosphere,There were no available power outlets for charging devices.,2024-06-03 13:08:00
+679,Taste (Coffee),The coffee was burnt and bitter.,2024-06-03 23:22:00
+680,Taste (Food),The ingredients did not taste fresh.,2024-06-03 23:16:00
+681,Other,Overall I would not recommend this coffee shop to others.,2024-06-03 18:27:00
+682,Atmosphere,The seating was uncomfortable.,2024-06-03 12:26:00
+683,Atmosphere,The coffee shop was too crowded and cramped.,2024-06-03 11:57:00
+684,Atmosphere,The seating was uncomfortable.,2024-06-03 12:34:00
+685,Atmosphere,There were no available power outlets for charging devices.,2024-06-04 00:50:00
+686,Other,Overall I would not recommend this coffee shop to others.,2024-06-03 20:12:00
+687,Service,The overall experience was unsatisfactory due to poor service.,2024-06-03 21:16:00
+688,Service,The order was incorrect.,2024-06-03 13:25:00
+689,Taste (Coffee),The coffee was weak and watery.,2024-06-03 20:25:00
+690,Other,The coffee shop was not accessible to people with disabilities.,2024-06-03 13:42:00
+691,Taste (Coffee),The coffee was burnt and bitter.,2024-06-03 02:13:00
+692,Other,The coffee shop did not offer enough variety on the menu.,2024-06-03 18:59:00
+693,Other,The Wi-Fi was not working or slow.,2024-06-04 00:40:00
+694,Taste (Pastries),The pastry was stale and dry.,2024-06-03 22:39:00
+695,Other,Overall I would not recommend this coffee shop to others.,2024-06-04 01:15:00
+696,Other,Overall I would not recommend this coffee shop to others.,2024-06-04 12:51:00
+697,Taste (Food),The salad dressing was overwhelming.,2024-06-04 03:01:00
+698,Atmosphere,The temperature was too hot or too cold.,2024-06-04 11:53:00
+699,Other,Overall I would not recommend this coffee shop to others.,2024-06-04 21:39:00
+700,Other,The coffee shop was not accessible to people with disabilities.,2024-06-04 08:26:00
+701,Taste (Coffee),The coffee was weak and watery.,2024-06-04 10:34:00
+702,Taste (Food),The food was not fresh.,2024-06-04 11:30:00
+703,Taste (Pastries),The pastry was stale and dry.,2024-06-04 08:52:00
+704,Service,The overall experience was unsatisfactory due to poor service.,2024-06-04 04:31:00
+705,Other,The Wi-Fi was not working or slow.,2024-06-04 09:01:00
+706,Taste (Food),The sandwich was soggy.,2024-06-04 21:39:00
+707,Taste (Food),The salad dressing was overwhelming.,2024-06-04 19:41:00
+708,Taste (Food),The cake was dry and flavorless.,2024-06-04 01:44:00
+709,Other,The prices were too high for the quality offered.,2024-06-04 23:37:00
+710,Taste (Food),The sandwich was soggy.,2024-06-04 09:46:00
+711,Atmosphere,The coffee shop was too crowded and cramped.,2024-06-04 23:54:00
+712,Other,The coffee shop did not cater to dietary restrictions (e.g.: gluten-free or vegan).,2024-06-04 14:01:00
+713,Taste (Food),The food was not fresh.,2024-06-04 09:58:00
+714,Other,The coffee shop did not offer any loyalty or rewards program.,2024-06-04 04:22:00
+715,Atmosphere,The coffee shop was dirty or untidy.,2024-06-05 11:52:00
+716,Taste (Food),The salad dressing was overwhelming.,2024-06-05 18:09:00
+717,Other,The coffee shop did not have a welcoming or inviting atmosphere.,2024-06-05 07:38:00
+718,Taste (Food),The cake was dry and flavorless.,2024-06-05 18:07:00
+719,Service,The staff did not address concerns or complaints effectively.,2024-06-05 01:35:00
+720,Service,The order was incorrect.,2024-06-05 17:01:00
+721,Taste (Pastries),The pastry was stale and dry.,2024-06-06 00:53:00
+722,Service,The staff were rude and unhelpful.,2024-06-05 08:51:00
+723,Atmosphere,The music was too loud or not to my taste.,2024-06-05 06:00:00
+724,Service,The overall experience was unsatisfactory due to poor service.,2024-06-05 15:59:00
+725,Taste (Coffee),The espresso was over-extracted and harsh.,2024-06-05 17:59:00
+726,Service,The service was slow and inefficient.,2024-06-05 06:49:00
+727,Atmosphere,The coffee shop smelled unpleasant (e.g.: burnt coffee or cleaning products).,2024-06-05 14:51:00
+728,Taste (Food),The cake was dry and flavorless.,2024-06-05 06:19:00
+729,Other,Overall I would not recommend this coffee shop to others.,2024-06-05 10:06:00
+730,Taste (Food),The food was not fresh.,2024-06-05 08:50:00
+731,Taste (Coffee),The coffee was burnt and bitter.,2024-06-05 09:10:00
+732,Taste (Food),The food was not fresh.,2024-06-05 16:10:00
+733,Other,The prices were too high for the quality offered.,2024-06-05 19:32:00
+730,Taste (Coffee),Seasonal coffee blend did not live up to expectations.,2024-05-15 16:36:00
+731,Taste (Coffee),Milk in the latte was burnt giving it an unpleasant flavor.,2024-05-15 16:18:00
+732,Taste (Coffee),Coffee did not meet expectations for the price.,2024-05-16 07:24:00
+733,Taste (Coffee),Espresso was under-extracted tasting weak and sour.,2024-05-15 12:59:00
+734,Taste (Coffee),Flavoring syrup in the coffee was artificial tasting or overpowering.,2024-05-15 20:33:00
+735,Taste (Coffee),Coffee had an unpleasant oily or greasy mouthfeel.,2024-05-15 18:22:00
+736,Taste (Coffee),Iced coffee was too sweet or not sweet enough.,2024-05-16 05:36:00
+737,Taste (Coffee),Espresso was under-extracted tasting weak and sour.,2024-05-15 10:54:00
+738,Taste (Coffee),Coffee tasted burnt due to a dirty coffee machine.,2024-05-16 01:26:00
+739,Taste (Coffee),Milk in the cappuccino was over-steamed resulting in a dry foam.,2024-05-15 15:13:00
+740,Taste (Coffee),Coffee tasted burnt and bitter.,2024-05-15 21:45:00
+741,Taste (Coffee),Milk in the latte was burnt giving it an unpleasant flavor.,2024-05-15 22:09:00
+742,Taste (Coffee),Milk in the latte was burnt giving it an unpleasant flavor.,2024-05-16 03:52:00
+743,Taste (Coffee),Coffee was too sweet.,2024-05-16 02:45:00
+744,Taste (Coffee),Nitro cold brew coffee lacked the creamy texture and cascading effect.,2024-05-15 17:22:00
+745,Taste (Coffee),Coffee was brewed at the wrong temperature.,2024-05-16 02:49:00
+746,Taste (Coffee),Alternative milk (almond soy etc.) was curdled in the coffee.,2024-05-15 11:34:00
+747,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-15 17:08:00
+748,Taste (Coffee),Coffee tasted burnt and bitter.,2024-05-15 12:24:00
+749,Taste (Coffee),Coffee had an unpleasant oily or greasy mouthfeel.,2024-05-15 19:50:00
+750,Taste (Coffee),Seasonal coffee blend did not live up to expectations.,2024-05-15 16:21:00
+751,Taste (Coffee),Coffee had an unpleasant oily or greasy mouthfeel.,2024-05-15 20:11:00
+752,Taste (Coffee),Flavoring syrup in the coffee was artificial tasting or overpowering.,2024-05-15 23:52:00
+753,Taste (Coffee),Coffee had a strange off-putting aftertaste.,2024-05-15 18:13:00
+754,Taste (Coffee),Iced coffee was watered down and lacked flavor.,2024-05-15 22:33:00
+755,Taste (Coffee),Alternative milk (almond soy etc.) was curdled in the coffee.,2024-05-16 03:57:00
+756,Taste (Coffee),Iced coffee was too sweet or not sweet enough.,2024-05-15 18:21:00
+757,Taste (Coffee),Flavoring syrup in the coffee was artificial tasting or overpowering.,2024-05-15 11:26:00
+758,Taste (Coffee),Coffee was simply not enjoyable to drink.,2024-05-16 04:41:00
+759,Taste (Coffee),Flavoring syrup in the coffee was artificial tasting or overpowering.,2024-05-15 21:12:00
+760,Taste (Coffee),Coffee had a strange off-putting aftertaste.,2024-05-15 21:55:00
+761,Taste (Coffee),Milk in the cappuccino was over-steamed resulting in a dry foam.,2024-05-16 08:32:00
+762,Taste (Coffee),Iced coffee was too sweet or not sweet enough.,2024-05-16 01:49:00
+763,Taste (Coffee),Coffee was not brewed to the correct strength.,2024-05-15 13:23:00
+764,Taste (Coffee),Nitro cold brew coffee lacked the creamy texture and cascading effect.,2024-05-15 15:47:00
+765,Taste (Coffee),Milk in the latte was burnt giving it an unpleasant flavor.,2024-05-16 01:22:00
+766,Taste (Coffee),Iced coffee was too sweet or not sweet enough.,2024-05-16 07:53:00
+767,Taste (Coffee),Single origin coffee was not distinct or interesting.,2024-05-16 02:30:00
+768,Taste (Coffee),Decaf coffee tasted burnt or had a chemical aftertaste.,2024-05-15 21:32:00
+769,Taste (Coffee),Iced coffee was watered down and lacked flavor.,2024-05-16 01:03:00
+770,Taste (Coffee),Espresso was under-extracted tasting weak and sour.,2024-05-17 04:09:00
+771,Taste (Coffee),Milk in the cappuccino was over-steamed resulting in a dry foam.,2024-05-17 02:18:00
+772,Taste (Coffee),Coffee beans were over-roasted resulting in a burnt flavor.,2024-05-16 10:26:00
+773,Taste (Coffee),Coffee lacked the characteristic flavor notes of its origin.,2024-05-17 08:46:00
+774,Taste (Coffee),Milk in the cappuccino was over-steamed resulting in a dry foam.,2024-05-16 19:24:00
+775,Taste (Coffee),Coffee was overly acidic and sour.,2024-05-16 15:24:00
+776,Taste (Coffee),Coffee was brewed at the wrong temperature.,2024-05-16 14:04:00
+777,Taste (Coffee),Decaf coffee tasted burnt or had a chemical aftertaste.,2024-05-16 15:15:00
+778,Taste (Coffee),Coffee was too sweet.,2024-05-17 07:16:00
+779,Taste (Coffee),Coffee was weak and watery lacking flavor.,2024-05-17 01:36:00
+780,Taste (Coffee),Milk in the latte was burnt giving it an unpleasant flavor.,2024-05-16 18:28:00
+781,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-16 10:47:00
+782,Taste (Coffee),Milk in the cappuccino was over-steamed resulting in a dry foam.,2024-05-16 20:24:00
+783,Taste (Coffee),Coffee was not properly filtered resulting in a cloudy appearance.,2024-05-17 02:31:00
+784,Taste (Coffee),Cold brew coffee was weak and watery.,2024-05-17 09:41:00
+785,Taste (Coffee),Coffee had a soapy taste due to residue in the cup.,2024-05-16 19:22:00
+786,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-16 15:24:00
+787,Taste (Coffee),Alternative milk (almond soy etc.) was curdled in the coffee.,2024-05-16 14:06:00
+788,Taste (Coffee),Iced coffee was too sweet or not sweet enough.,2024-05-17 00:21:00
+789,Taste (Coffee),Coffee tasted burnt due to a dirty coffee machine.,2024-05-17 08:58:00
+790,Taste (Coffee),Coffee was stale and lacked freshness.,2024-05-17 04:05:00
+791,Taste (Coffee),Espresso was under-extracted tasting weak and sour.,2024-05-17 05:48:00
+792,Taste (Coffee),Iced coffee was watered down and lacked flavor.,2024-05-17 00:35:00
+793,Taste (Coffee),Coffee was simply not enjoyable to drink.,2024-05-17 08:24:00
+794,Taste (Coffee),Nitro cold brew coffee lacked the creamy texture and cascading effect.,2024-05-17 08:44:00
+795,Taste (Coffee),Coffee beans were over-roasted resulting in a burnt flavor.,2024-05-16 23:46:00
+796,Taste (Coffee),Coffee was not brewed to the correct strength.,2024-05-17 03:45:00
+797,Taste (Coffee),Coffee had an unpleasant chemical or metallic taste.,2024-05-16 22:16:00
+798,Taste (Coffee),Decaf coffee tasted burnt or had a chemical aftertaste.,2024-05-17 03:05:00
+799,Taste (Coffee),Coffee had a strange off-putting aftertaste.,2024-05-16 11:52:00
+800,Taste (Coffee),Coffee lacked the characteristic flavor notes of its origin.,2024-05-17 02:02:00
+801,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-16 19:36:00
+802,Taste (Coffee),Espresso was under-extracted tasting weak and sour.,2024-05-16 20:16:00
+803,Taste (Coffee),Seasonal coffee blend did not live up to expectations.,2024-05-16 21:17:00
+804,Taste (Coffee),Coffee was weak and watery lacking flavor.,2024-05-17 03:45:00
+805,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-16 10:48:00
+806,Taste (Coffee),Coffee was brewed at the wrong temperature.,2024-05-17 01:25:00
+807,Taste (Coffee),Coffee was too sweet.,2024-05-17 03:07:00
+808,Taste (Coffee),Coffee was gritty or had sediment in it.,2024-05-16 15:15:00
+809,Taste (Coffee),Coffee was brewed with old or stale coffee grounds.,2024-05-16 15:14:00
+810,Taste (Coffee),Coffee had a soapy taste due to residue in the cup.,2024-05-17 00:36:00
+811,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-17 08:39:00
+812,Taste (Coffee),Coffee did not meet expectations for the price.,2024-05-16 11:15:00
+813,Taste (Coffee),Coffee was simply not enjoyable to drink.,2024-05-17 01:10:00
+814,Taste (Coffee),Coffee had an unpleasant oily or greasy mouthfeel.,2024-05-18 08:51:00
+815,Taste (Coffee),Coffee had an unpleasant oily or greasy mouthfeel.,2024-05-17 21:17:00
+816,Taste (Coffee),Espresso was over-extracted tasting harsh and bitter.,2024-05-18 06:20:00
+817,Taste (Coffee),Coffee had a soapy taste due to residue in the cup.,2024-05-17 10:23:00
+818,Taste (Coffee),Coffee was too sweet.,2024-05-18 05:05:00
+819,Taste (Coffee),Coffee was too sweet.,2024-05-17 11:21:00
+820,Taste (Coffee),Coffee was brewed at the wrong temperature.,2024-05-18 01:31:00
+821,Taste (Coffee),Coffee had a soapy taste due to residue in the cup.,2024-05-17 15:58:00
+822,Taste (Coffee),Coffee was not sweetened enough.,2024-05-17 11:59:00
+823,Taste (Coffee),Single origin coffee was not distinct or interesting.,2024-05-18 04:02:00
+824,Taste (Coffee),Coffee was not properly filtered resulting in a cloudy appearance.,2024-05-18 09:45:00
+825,Taste (Coffee),Coffee was brewed at the wrong temperature.,2024-05-17 21:24:00
+826,Taste (Coffee),Coffee was not sweetened enough.,2024-05-17 12:09:00
+827,Taste (Coffee),Nitro cold brew coffee lacked the creamy texture and cascading effect.,2024-05-17 17:34:00
+828,Taste (Coffee),Coffee was brewed with old or stale coffee grounds.,2024-05-18 00:57:00
+829,Taste (Coffee),Coffee was not brewed to the correct strength.,2024-05-18 03:39:00
+830,Taste (Coffee),Iced coffee was too sweet or not sweet enough.,2024-05-17 20:47:00
+831,Taste (Coffee),Milk in the cappuccino was over-steamed resulting in a dry foam.,2024-05-17 12:57:00
+832,Taste (Coffee),Overall the coffee was disappointing and not worth the price.,2024-05-17 13:24:00
+833,Taste (Coffee),Coffee was not brewed to the correct strength.,2024-05-18 09:58:00
+834,Taste (Coffee),Coffee was brewed with old or stale coffee grounds.,2024-05-17 12:44:00
+835,Taste (Coffee),Coffee was weak and watery lacking flavor.,2024-05-17 20:42:00
+836,Taste (Coffee),Coffee lacked the characteristic flavor notes of its origin.,2024-05-17 20:49:00
+837,Taste (Coffee),Coffee was simply not enjoyable to drink.,2024-05-17 14:04:00
+838,Taste (Coffee),Coffee was overly acidic and sour.,2024-05-17 23:01:00
+839,Taste (Coffee),Flavored coffee tasted artificial or did not resemble the intended flavor.,2024-05-18 02:23:00
+840,Taste (Coffee),Espresso was under-extracted tasting weak and sour.,2024-05-17 18:00:00
+841,Taste (Coffee),Nitro cold brew coffee lacked the creamy texture and cascading effect.,2024-05-17 15:48:00
+842,Taste (Coffee),Cold brew coffee was weak and watery.,2024-05-17 14:47:00
+843,Taste (Coffee),Coffee lacked the characteristic flavor notes of its origin.,2024-05-18 06:24:00
+844,Taste (Coffee),Flavored coffee tasted artificial or did not resemble the intended flavor.,2024-05-18 02:02:00
+845,Taste (Coffee),Coffee was not brewed to the correct strength.,2024-05-17 23:01:00
+846,Taste (Coffee),Coffee was brewed with old or stale coffee grounds.,2024-05-17 20:45:00
+847,Taste (Coffee),Coffee lacked the characteristic flavor notes of its origin.,2024-05-17 15:12:00
+848,Taste (Coffee),Coffee was not brewed to the correct strength.,2024-05-18 09:38:00
+849,Taste (Coffee),Coffee had a strange off-putting aftertaste.,2024-05-17 22:12:00
+850,Taste (Coffee),Espresso was over-extracted tasting harsh and bitter.,2024-05-17 10:47:00
+851,Taste (Coffee),Nitro cold brew coffee lacked the creamy texture and cascading effect.,2024-05-17 20:26:00
