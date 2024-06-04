@@ -85,8 +85,8 @@ resource "google_storage_bucket_object" "visual_inspection_folder" {
   bucket        = "${google_storage_bucket.data_beans_bucket.name}"
 }
 ## Create sub folders - roaster_sensor
-resource "google_storage_bucket_object" "roaster_sensor_folder" {
-  name          = "roaster_sensor/"
+resource "google_storage_bucket_object" "roaster_folder" {
+  name          = "roaster/"
   content       = "Not really a directory, but it's empty."
   bucket        = "${google_storage_bucket.data_beans_bucket.name}"
 }
@@ -94,6 +94,21 @@ resource "google_storage_bucket_object" "roaster_sensor_folder" {
 ##Create sub folders - weather
 resource "google_storage_bucket_object" "weather_folder" {
   name          = "weather/"
+  content       = "Not really a directory, but it's empty."
+  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+}
+
+
+##Create sub folders - claims
+resource "google_storage_bucket_object" "claims_folder" {
+  name          = "claims/"
+  content       = "Not really a directory, but it's empty."
+  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+}
+
+##Create sub folders - orders
+resource "google_storage_bucket_object" "orders_folder" {
+  name          = "orders/"
   content       = "Not really a directory, but it's empty."
   bucket        = "${google_storage_bucket.data_beans_bucket.name}"
 }
@@ -106,6 +121,9 @@ resource "google_project_iam_member" "bucket" {
   role    = "roles/storage.admin"
   project = data.google_project.project.project_id
   member  = "serviceAccount:${google_bigquery_connection.connection.cloud_resource[0].service_account_id}"
+  depends_on = [ 
+     google_bigquery_connection.connection
+     ]
 }
 
 ## Set permissions on gcs
@@ -130,27 +148,43 @@ resource "google_project_iam_binding" "project" {
 ###download from github
 resource "null_resource" "get_from_github" {
   provisioner "local-exec" {
-    command = "wget -O - https://github.com/"
+    command =  "git clone https://github.com/c-damien/gcp-public-demos"
   }
+
 }
 
-### uncompress
-resource "null_resource" "extract" {
-  provisioner "local-exec" {
-    command = "tar xzf my_file.tgz"
-  }
-}
-
-###upload
+###upload to gcs
 resource "null_resource" "upload" {
   provisioner "local-exec" {
-  "gsutil cp -r my_file/roaster_sensor resources gs://data_beans_${data.google_project.project.number}/roaster_sensor"
-  "gsutil cp -r my_file/visual_inspection gs://data_beans_${data.google_project.project.number}/visual_inspection"
-  "gsutil cp -r my_file/weather resources gs://data_beans_${data.google_project.project.number}/weather"
-  "gsutil cp -r my_file/claims resources gs://data_beans_${data.google_project.project.number}/claims"
-  "gsutil cp -r my_file/orders resources gs://data_beans_${data.google_project.project.number}/orders"
+    #working_dir = "${path.module}"
+    command = <<-EOT
+      gsutil cp -r gcp-public-demos/data-beans/assets/roaster_sensor/* gs://data_beans_${data.google_project.project.number}/roaster
+      gsutil cp -r gcp-public-demos/data-beans/assets/visual_inspection/* gs://data_beans_${data.google_project.project.number}/visual_inspection
+      gsutil cp -r gcp-public-demos/data-beans/assets/weather/* gs://data_beans_${data.google_project.project.number}/weather
+      gsutil cp -r gcp-public-demos/data-beans/assets/claims/* gs://data_beans_${data.google_project.project.number}/claims
+      gsutil cp -r gcp-public-demos/data-beans/assets/orders/* gs://data_beans_${data.google_project.project.number}/orders
+      EOT
   }
+  depends_on = [
+    time_sleep.default, 
+    google_storage_bucket_iam_member.data_beans_perms,
+    google_project_iam_member.bucket,
+    null_resource.get_from_github,
+    google_storage_bucket_object.visual_inspection_folder,
+    google_storage_bucket_object.roaster_folder,
+    google_storage_bucket_object.claims_folder,
+    google_storage_bucket_object.orders_folder,
+    google_storage_bucket_object.weather_folder
+  ]
 }
+
+###Cleanup
+#resource "null_resource" "cleanup" {
+#  provisioner "local-exec" {
+#   command = "rm -r gcp-public-demos/data-beans/assets/roaster_sensor"
+#    }
+#  depends_on = [null_resource.upload]
+#}
 
 ## Create dataset data_beams
 resource "google_bigquery_dataset" "data_beans" {
@@ -170,19 +204,31 @@ resource "google_bigquery_table" "claims" {
    labels = {
      env = "default"
    }
-   external_data_configuration {
-     autodetect = true
-     source_uris =["gs://data_beans_${data.google_project.project.number}/orders/databeans_claims.csv"]
-     source_format = "CSV"
-   }
-    csv_options{
-      quote = ""
-      skip_leading_rows = 1
-   }
+   #external_data_configuration {
+   #  autodetect = true
+   #  source_uris =["gs://data_beans_${data.google_project.project.number}/claims/databeans_claims.csv"]
+   #  source_format = "CSV"
+   
+   # csv_options{
+   #   quote = ""
+   #   skip_leading_rows = 1
+   #   field_delimiter       = ","
+   #   allow_quoted_newlines = "false"
+   #   allow_jagged_rows     = "false"
+   # }
+   #}
    depends_on = [null_resource.upload]
  }
 
-## Create Native table - orders
+##load claim data into native table
+resource "null_resource" "load_claim_data" {
+  provisioner "local-exec" {
+    command =  "bq --location=${var.region} load --autodetect --skip_leading_rows=1 --source_format=CSV ${google_bigquery_dataset.data_beans.dataset_id}.claims gs://data_beans_${data.google_project.project.number}/claims/databeans_claims.csv"
+  }
+  depends_on = [google_bigquery_table.claims]
+}
+
+## Create external table - orders
 resource "google_bigquery_table" "orders" {
    dataset_id          = google_bigquery_dataset.data_beans.dataset_id
    table_id            = "orders"
@@ -194,12 +240,16 @@ resource "google_bigquery_table" "orders" {
      autodetect = true
      source_uris =["gs://data_beans_${data.google_project.project.number}/orders/databeans_orders.csv"]
      source_format = "CSV"
-   }
+   
    csv_options{
       quote = ""
       skip_leading_rows = 1
-   }
-   depends_on = [null_resource.upload]
+      field_delimiter       = ","
+      allow_quoted_newlines = "false"
+      allow_jagged_rows     = "false"
+    }
+    }
+   depends_on = [google_project_iam_member.bucket, null_resource.upload]
  }
 
 
@@ -208,17 +258,12 @@ resource "google_bigquery_table" "orders" {
 resource "google_bigquery_table" "roaster" {
   dataset_id = google_bigquery_dataset.data_beans.dataset_id
   table_id   = "roaster"
-  #schema = jsonencode([
-  #  { "name" : "country", "type" : "STRING" },
-  #  { "name" : "product", "type" : "STRING" },
-  #  { "name" : "price", "type" : "INT64" }
-  #])
+
   external_data_configuration {
     autodetect    = true
-    source_format = "JSON"
+    source_format = "NEWLINE_DELIMITED_JSON"
     connection_id = google_bigquery_connection.connection.name
-    source_uris   = ["gs://${google_storage_bucket.data_beans_bucket.name}/roaster_sensor/*.json"]
-    # This enables automatic metadata refresh.
+    source_uris   = ["gs://${google_storage_bucket.data_beans_bucket.name}/roaster/*.json"]
     metadata_cache_mode = "AUTOMATIC"
   }
 
@@ -229,22 +274,20 @@ resource "google_bigquery_table" "roaster" {
 
   depends_on = [
   time_sleep.default, 
-  google_project_iam_member.bucket
+  google_project_iam_member.bucket,
+  null_resource.upload
   ]
 }
 
 ## Create biglake object table - visual inspection
 resource "google_bigquery_table" "visual_inspection" {
   deletion_protection = false
-  table_id            = "my-table-id"
+  table_id            = "visual_inspection"
   dataset_id          = google_bigquery_dataset.data_beans.dataset_id
   external_data_configuration {
     connection_id = google_bigquery_connection.connection.name
     autodetect    = true
-    # `object_metadata is` required for object tables. For more information, see
-    # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/bigquery_table#object_metadata
     object_metadata = "SIMPLE"
-    # This defines the source for the prior object table.
     source_uris = [
       "gs://${google_storage_bucket.data_beans_bucket.name}/visual_inspection/*.png",
     ]
@@ -255,6 +298,7 @@ resource "google_bigquery_table" "visual_inspection" {
   # This ensures that the connection can access the bucket
   # before Terraform creates a table.
   depends_on = [
-    google_project_iam_member.bucket
+    google_project_iam_member.bucket,
+    null_resource.upload
   ]
 }
