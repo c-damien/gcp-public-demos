@@ -63,7 +63,8 @@ resource "google_project_service" "google-cloud-apis" {
   for_each = toset([
     "aiplatform.googleapis.com",
     "servicenetworking.googleapis.com",
-    "compute.googleapis.com"
+    "compute.googleapis.com",
+    "embeddedassistant.googleapis.com"
   ])
   disable_dependent_services = true
   disable_on_destroy         = true
