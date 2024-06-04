@@ -59,7 +59,7 @@ resource "time_sleep" "default" {
 
 ###activate vertex API
 resource "google_project_service" "google-cloud-apis" {
-  project = data.google_project.project 
+  project = data.google_project.project.project_id 
   for_each = toset([
     "aiplatform.googleapis.com",
     "servicenetworking.googleapis.com",
