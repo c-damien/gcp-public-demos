@@ -57,6 +57,20 @@ resource "time_sleep" "default" {
   depends_on = [google_project_iam_member.bucket]
 }
 
+###activate vertex API
+resource "google_project_service" "google-cloud-apis" {
+  project = data.google_project.project 
+  for_each = toset([
+    "aiplatform.googleapis.com",
+    "servicenetworking.googleapis.com",
+    "compute.googleapis.com",
+    "vertex_ais.googleapis.com"
+  ])
+  disable_dependent_services = true
+  disable_on_destroy         = true
+  service                    = each.key
+}
+
 ## Create bq connection
 ## This creates a cloud resource connection.
 ## Note: The cloud resource nested object has only one output only field - serviceAccountId.
@@ -264,6 +278,32 @@ resource "google_bigquery_table" "roaster" {
     source_format = "NEWLINE_DELIMITED_JSON"
     connection_id = google_bigquery_connection.connection.name
     source_uris   = ["gs://${google_storage_bucket.data_beans_bucket.name}/roaster/*.json"]
+    metadata_cache_mode = "AUTOMATIC"
+  }
+
+  # This sets the maximum staleness of the metadata cache to 10 hours.
+  max_staleness = "0-0 0 10:0:0"
+
+  deletion_protection = false
+
+  depends_on = [
+  time_sleep.default, 
+  google_project_iam_member.bucket,
+  null_resource.upload
+  ]
+}
+
+
+## Create bigLake table - weather
+resource "google_bigquery_table" "weather" {
+  dataset_id = google_bigquery_dataset.data_beans.dataset_id
+  table_id   = "weather"
+
+  external_data_configuration {
+    autodetect    = true
+    source_format = "NEWLINE_DELIMITED_JSON"
+    connection_id = google_bigquery_connection.connection.name
+    source_uris   = ["gs://${google_storage_bucket.data_beans_bucket.name}/weather/*.json"]
     metadata_cache_mode = "AUTOMATIC"
   }
 
