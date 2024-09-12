@@ -17,7 +17,7 @@
 
 ####################################################################################
 # Main script used to provision the different asset used in the following demo:
-#               Data beans - from beans to screams 
+#               Blue Pizza -  The dough was not rising to the occasion 
 #
 # Author: Damien Contreras cdamien@google.com
 ####################################################################################
@@ -75,17 +75,17 @@ resource "google_project_service" "google-cloud-apis" {
 ## This creates a cloud resource connection.
 ## Note: The cloud resource nested object has only one output only field - serviceAccountId.
 resource "google_bigquery_connection" "connection" {
-    connection_id = "data_beans_connection"
+    connection_id = "blue_pizza_connection"
     location = "${var.region}"
-    friendly_name = "data beans connection"
+    friendly_name = "Blue Pizza connection"
    description   = "Connect to Vertex AI & GCS "
     cloud_resource {}
 }
 
 ## Create gcs bucket
 #https://cloud.google.com/storage/docs/terraform-create-bucket-upload-object
-resource "google_storage_bucket" "data_beans_bucket" {
- name          = "data_beans_${data.google_project.project.number}" 
+resource "google_storage_bucket" "blue_pizza_bucket" {
+ name          = "blue_pizza_${data.google_project.project.number}" 
  location      = "${var.region}"
  storage_class = "STANDARD"
  force_destroy               = true
@@ -96,35 +96,34 @@ resource "google_storage_bucket" "data_beans_bucket" {
 resource "google_storage_bucket_object" "visual_inspection_folder" {
   name          = "visual_inspection/"
   content       = "Not really a directory, but it's empty."
-  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+  bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
 }
-## Create sub folders - roaster_sensor
-resource "google_storage_bucket_object" "roaster_folder" {
-  name          = "roaster/"
+## Create sub folders - oven_sensor
+resource "google_storage_bucket_object" "oven_folder" {
+  name          = "oven/"
   content       = "Not really a directory, but it's empty."
-  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+  bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
 }
 
 ##Create sub folders - weather
 resource "google_storage_bucket_object" "weather_folder" {
   name          = "weather/"
   content       = "Not really a directory, but it's empty."
-  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+  bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
 }
-
 
 ##Create sub folders - claims
 resource "google_storage_bucket_object" "claims_folder" {
   name          = "claims/"
   content       = "Not really a directory, but it's empty."
-  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+  bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
 }
 
 ##Create sub folders - orders
 resource "google_storage_bucket_object" "orders_folder" {
   name          = "orders/"
   content       = "Not really a directory, but it's empty."
-  bucket        = "${google_storage_bucket.data_beans_bucket.name}"
+  bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
 }
 
 #Permissions
@@ -141,14 +140,14 @@ resource "google_project_iam_member" "bucket" {
 }
 
 ## Set permissions on gcs
-resource "google_storage_bucket_iam_member" "data_beans_perms" {
-  bucket = "${google_storage_bucket.data_beans_bucket.name}"
+resource "google_storage_bucket_iam_member" "blue_pizza_perms" {
+  bucket = "${google_storage_bucket.blue_pizza_bucket.name}"
   role   = "roles/storage.admin"
   member = "serviceAccount:${google_bigquery_connection.connection.cloud_resource[0].service_account_id}"
-  depends_on = [google_storage_bucket.data_beans_bucket]
+  depends_on = [google_storage_bucket.blue_pizza_bucket]
 }
 
-## Ser permission on Vertex.AI
+## Set permission on Vertex.AI
 resource "google_project_iam_binding" "project" {
   project = "${data.google_project.project.id}"
   role    = "roles/aiplatform.user"
@@ -172,20 +171,20 @@ resource "null_resource" "upload" {
   provisioner "local-exec" {
     #working_dir = "${path.module}"
     command = <<-EOT
-      gsutil cp -r gcp-public-demos/data-beans/assets/roaster_sensor/* gs://data_beans_${data.google_project.project.number}/roaster
-      gsutil cp -r gcp-public-demos/data-beans/assets/visual_inspection/* gs://data_beans_${data.google_project.project.number}/visual_inspection
-      gsutil cp -r gcp-public-demos/data-beans/assets/weather/* gs://data_beans_${data.google_project.project.number}/weather
-      gsutil cp -r gcp-public-demos/data-beans/assets/claims/* gs://data_beans_${data.google_project.project.number}/claims
-      gsutil cp -r gcp-public-demos/data-beans/assets/orders/* gs://data_beans_${data.google_project.project.number}/orders
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/oven_sensor/* gs://blue-pizza_${data.google_project.project.number}/oven
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/visual_inspection/* gs://blue-pizza_${data.google_project.project.number}/visual_inspection
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/weather/* gs://blue-pizza_${data.google_project.project.number}/weather
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/claims/* gs://blue-pizza_${data.google_project.project.number}/claims
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/orders/* gs://blue-pizza_${data.google_project.project.number}/orders
       EOT
   }
   depends_on = [
     time_sleep.default, 
-    google_storage_bucket_iam_member.data_beans_perms,
+    google_storage_bucket_iam_member.blue_pizza_perms,
     google_project_iam_member.bucket,
     null_resource.get_from_github,
     google_storage_bucket_object.visual_inspection_folder,
-    google_storage_bucket_object.roaster_folder,
+    google_storage_bucket_object.oven_folder,
     google_storage_bucket_object.claims_folder,
     google_storage_bucket_object.orders_folder,
     google_storage_bucket_object.weather_folder
@@ -195,14 +194,14 @@ resource "null_resource" "upload" {
 ###Cleanup
 #resource "null_resource" "cleanup" {
 #  provisioner "local-exec" {
-#   command = "rm -r gcp-public-demos/data-beans/assets/roaster_sensor"
+#   command = "rm -r gcp-public-demos/data-beans/assets/oven_sensor"
 #    }
 #  depends_on = [null_resource.upload]
 #}
 
 ## Create dataset data_beams
-resource "google_bigquery_dataset" "data_beans" {
-  dataset_id                      = "data_beans"
+resource "google_bigquery_dataset" "blue_pizza" {
+  dataset_id                      = "blue_pizza"
   description                     = "Data Beans Demo"
   default_partition_expiration_ms = 2592000000  # 30 days
   default_table_expiration_ms     = 31536000000 # 365 days
@@ -212,7 +211,7 @@ resource "google_bigquery_dataset" "data_beans" {
 
 ## Create Native table - claims
 resource "google_bigquery_table" "claims" {
-   dataset_id          = google_bigquery_dataset.data_beans.dataset_id
+   dataset_id          = google_bigquery_dataset.blue_pizza.dataset_id
    table_id            = "claims"
    deletion_protection = false
    labels = {
@@ -220,7 +219,7 @@ resource "google_bigquery_table" "claims" {
    }
    #external_data_configuration {
    #  autodetect = true
-   #  source_uris =["gs://data_beans_${data.google_project.project.number}/claims/databeans_claims.csv"]
+   #  source_uris =["gs://blue_pizza_${data.google_project.project.number}/claims/databeans_claims.csv"]
    #  source_format = "CSV"
    
    # csv_options{
@@ -237,14 +236,14 @@ resource "google_bigquery_table" "claims" {
 ##load claim data into native table
 resource "null_resource" "load_claim_data" {
   provisioner "local-exec" {
-    command =  "bq --location=${var.region} load --autodetect --skip_leading_rows=1 --source_format=CSV ${google_bigquery_dataset.data_beans.dataset_id}.claims gs://data_beans_${data.google_project.project.number}/claims/databeans_claims.csv"
+    command =  "bq --location=${var.region} load --autodetect --skip_leading_rows=1 --source_format=CSV ${google_bigquery_dataset.blue_pizza.dataset_id}.claims gs://blue_pizza_${data.google_project.project.number}/claims/databeans_claims.csv"
   }
   depends_on = [google_bigquery_table.claims]
 }
 
 ## Create external table - orders
 resource "google_bigquery_table" "orders" {
-   dataset_id          = google_bigquery_dataset.data_beans.dataset_id
+   dataset_id          = google_bigquery_dataset.blue_pizza.dataset_id
    table_id            = "orders"
    deletion_protection = false
    labels = {
@@ -252,7 +251,7 @@ resource "google_bigquery_table" "orders" {
    }
    external_data_configuration {
      autodetect = true
-     source_uris =["gs://data_beans_${data.google_project.project.number}/orders/databeans_orders.csv"]
+     source_uris =["gs://blue_pizza_${data.google_project.project.number}/orders/databeans_orders.csv"]
      source_format = "CSV"
    
    csv_options{
@@ -268,16 +267,16 @@ resource "google_bigquery_table" "orders" {
 
 
 
-## Create bigLake table - roaster
-resource "google_bigquery_table" "roaster" {
-  dataset_id = google_bigquery_dataset.data_beans.dataset_id
-  table_id   = "roaster"
+## Create bigLake table - oven
+resource "google_bigquery_table" "oven" {
+  dataset_id = google_bigquery_dataset.blue_pizza.dataset_id
+  table_id   = "oven"
 
   external_data_configuration {
     autodetect    = true
     source_format = "NEWLINE_DELIMITED_JSON"
     connection_id = google_bigquery_connection.connection.name
-    source_uris   = ["gs://${google_storage_bucket.data_beans_bucket.name}/roaster/*.json"]
+    source_uris   = ["gs://${google_storage_bucket.blue_pizza_bucket.name}/oven/*.json"]
     metadata_cache_mode = "AUTOMATIC"
   }
 
@@ -296,14 +295,14 @@ resource "google_bigquery_table" "roaster" {
 
 ## Create bigLake table - weather
 resource "google_bigquery_table" "weather" {
-  dataset_id = google_bigquery_dataset.data_beans.dataset_id
+  dataset_id = google_bigquery_dataset.blue_pizza.dataset_id
   table_id   = "weather"
 
   external_data_configuration {
     autodetect    = true
     source_format = "NEWLINE_DELIMITED_JSON"
     connection_id = google_bigquery_connection.connection.name
-    source_uris   = ["gs://${google_storage_bucket.data_beans_bucket.name}/weather/*.json"]
+    source_uris   = ["gs://${google_storage_bucket.blue_pizza_bucket.name}/weather/*.json"]
     metadata_cache_mode = "AUTOMATIC"
   }
 
@@ -323,13 +322,13 @@ resource "google_bigquery_table" "weather" {
 resource "google_bigquery_table" "visual_inspection" {
   deletion_protection = false
   table_id            = "visual_inspection"
-  dataset_id          = google_bigquery_dataset.data_beans.dataset_id
+  dataset_id          = google_bigquery_dataset.blue_pizza.dataset_id
   external_data_configuration {
     connection_id = google_bigquery_connection.connection.name
     autodetect    = true
     object_metadata = "SIMPLE"
     source_uris = [
-      "gs://${google_storage_bucket.data_beans_bucket.name}/visual_inspection/*.png",
+      "gs://${google_storage_bucket.blue_pizza_bucket.name}/visual_inspection/*.png",
     ]
 
     metadata_cache_mode = "MANUAL"
