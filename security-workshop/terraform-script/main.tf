@@ -46,6 +46,7 @@ variable "region" {
 resource "google_project_service" "google-cloud-apis" {
   project = data.google_project.project.project_id 
   for_each = toset([
+    "datacatalog.googleapis.com"
     "dataplex.googleapis.com",
     "bigqueryconnection.googleapis.com",
     "aiplatform.googleapis.com",
@@ -272,11 +273,6 @@ resource "google_data_catalog_tag_template" "workshop_tag_template" {
 
   force_delete = "false"
 }
-
-
-
-
-
 
 
 
