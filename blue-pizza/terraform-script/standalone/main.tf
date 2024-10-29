@@ -165,10 +165,10 @@ resource "null_resource" "upload" {
   provisioner "local-exec" {
     #working_dir = "${path.module}"
     command = <<-EOT
-      gsutil cp -r gcp-public-demos/blue-pizza/assets/oven/* gs://blue-pizza_${data.google_project.project.number}/oven
-      gsutil cp -r gcp-public-demos/blue-pizza/assets/visual_inspection/* gs://blue-pizza_${data.google_project.project.number}/visual_inspection
-      gsutil cp -r gcp-public-demos/blue-pizza/assets/weather/* gs://blue-pizza_${data.google_project.project.number}/weather
-      gsutil cp -r gcp-public-demos/blue-pizza/assets/claims/* gs://blue-pizza_${data.google_project.project.number}/claims
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/oven/* gs://blue_pizza_${data.google_project.project.number}/oven
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/visual_inspection/* gs://blue_pizza_${data.google_project.project.number}/visual_inspection
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/weather/* gs://blue_pizza_${data.google_project.project.number}/weather
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/claims/* gs://blue_pizza_${data.google_project.project.number}/claims
       EOT
   }
   depends_on = [
