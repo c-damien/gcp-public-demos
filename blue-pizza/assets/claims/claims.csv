@@ -1,0 +1,476 @@
+order_id,server,claim_type,claim_detail,pizza_type,order_date,claim_date
+400,Andi,Taste,tomato sauce was bitter,Calzone,2024-05-15 21:04:00 UTC,2024-05-15 21:59:00 UTC
+409,Andi,Taste,tomato sauce was bitter,Calzone,2024-05-15 22:17:00 UTC,2024-05-15 22:39:00 UTC
+414,Andi,Taste,tomato sauce was bitter,Calzone,2024-05-16 03:25:00 UTC,2024-05-16 04:08:00 UTC
+439,Clarissa,Taste,tomato sauce was bitter,Calzone,2024-05-17 06:25:00 UTC,2024-05-17 06:52:00 UTC
+80,Joshua,Service,The order was incorrect.,Calzone,2024-05-05 00:52:00 UTC,2024-05-05 01:47:00 UTC
+187,Damien,Service,The order was incorrect.,Calzone,2024-05-10 21:35:00 UTC,2024-05-10 21:56:00 UTC
+222,Andi,Service,The order was incorrect.,Calzone,2024-05-11 03:28:00 UTC,2024-05-11 03:55:00 UTC
+14,Damien,Billing,I was overcharged for my order.,Calzone,2024-05-01 01:07:00 UTC,2024-05-01 01:50:00 UTC
+44,Andi,Billing,I was overcharged for my order.,Calzone,2024-05-02 19:42:00 UTC,2024-05-02 20:40:00 UTC
+56,Andi,Billing,I was overcharged for my order.,Calzone,2024-05-03 23:29:00 UTC,2024-05-04 00:14:00 UTC
+251,Joshua,Billing,I was overcharged for my order.,Calzone,2024-05-13 17:31:00 UTC,2024-05-13 18:12:00 UTC
+301,Damien,Billing,I was overcharged for my order.,Calzone,2024-05-15 09:23:00 UTC,2024-05-15 10:00:00 UTC
+76,Damien,Other,The Wi-Fi was not working or slow.,Calzone,2024-05-04 15:09:00 UTC,2024-05-04 16:02:00 UTC
+164,Andi,Other,The Wi-Fi was not working or slow.,Calzone,2024-05-10 00:07:00 UTC,2024-05-10 00:43:00 UTC
+247,Andi,Other,The Wi-Fi was not working or slow.,Calzone,2024-05-12 06:13:00 UTC,2024-05-12 06:37:00 UTC
+333,Clarissa,Service,The staff were rude and unhelpful.,Calzone,2024-05-17 22:14:00 UTC,2024-05-17 23:14:00 UTC
+75,Andi,Delivery,The pizza arrived late and was cold.,Calzone,2024-05-04 06:45:00 UTC,2024-05-04 07:31:00 UTC
+102,Joshua,Delivery,The pizza arrived late and was cold.,Calzone,2024-05-05 07:22:00 UTC,2024-05-05 07:48:00 UTC
+188,Andi,Delivery,The pizza arrived late and was cold.,Calzone,2024-05-10 10:59:00 UTC,2024-05-10 11:59:00 UTC
+215,Clarissa,Delivery,The pizza arrived late and was cold.,Calzone,2024-05-11 13:30:00 UTC,2024-05-11 14:17:00 UTC
+304,Joshua,Delivery,The pizza arrived late and was cold.,Calzone,2024-05-15 13:14:00 UTC,2024-05-15 13:37:00 UTC
+385,Clarissa,Delivery,The pizza arrived late and was cold.,Calzone,2024-05-19 05:34:00 UTC,2024-05-19 06:11:00 UTC
+25,Andi,Service,The service was slow and inefficient.,Calzone,2024-05-02 18:43:00 UTC,2024-05-02 19:37:00 UTC
+127,Clarissa,Service,The service was slow and inefficient.,Calzone,2024-05-07 09:10:00 UTC,2024-05-07 09:42:00 UTC
+280,Damien,Service,The service was slow and inefficient.,Calzone,2024-05-14 20:07:00 UTC,2024-05-14 20:41:00 UTC
+33,Joshua,Service,The barista made the drink incorrectly.,Calzone,2024-05-03 00:13:00 UTC,2024-05-03 01:09:00 UTC
+43,Joshua,Service,The barista made the drink incorrectly.,Calzone,2024-05-02 06:53:00 UTC,2024-05-02 07:48:00 UTC
+104,Joshua,Service,The barista made the drink incorrectly.,Calzone,2024-05-06 01:04:00 UTC,2024-05-06 01:35:00 UTC
+110,Clarissa,Service,The barista made the drink incorrectly.,Calzone,2024-05-06 14:04:00 UTC,2024-05-06 14:30:00 UTC
+189,Joshua,Service,The barista made the drink incorrectly.,Calzone,2024-05-10 23:33:00 UTC,2024-05-11 00:06:00 UTC
+230,Andi,Service,The barista made the drink incorrectly.,Calzone,2024-05-12 07:40:00 UTC,2024-05-12 08:32:00 UTC
+257,Clarissa,Service,The barista made the drink incorrectly.,Calzone,2024-05-13 23:11:00 UTC,2024-05-13 23:52:00 UTC
+140,Joshua,Other,The restroom was dirty or out of order.,Calzone,2024-05-07 11:11:00 UTC,2024-05-07 12:10:00 UTC
+155,Andi,Other,The restroom was dirty or out of order.,Calzone,2024-05-08 22:47:00 UTC,2024-05-08 23:22:00 UTC
+174,Joshua,Other,The restroom was dirty or out of order.,Calzone,2024-05-09 18:16:00 UTC,2024-05-09 19:00:00 UTC
+34,Andi,Pricing,The pizza was overpriced for the quality.,Calzone,2024-05-02 19:34:00 UTC,2024-05-02 20:33:00 UTC
+184,Joshua,Pricing,The pizza was overpriced for the quality.,Calzone,2024-05-10 19:08:00 UTC,2024-05-10 20:00:00 UTC
+208,Clarissa,Pricing,The pizza was overpriced for the quality.,Calzone,2024-05-11 15:36:00 UTC,2024-05-11 16:18:00 UTC
+106,Joshua,Atmosphere,The restaurant was too noisy and crowded.,Calzone,2024-05-06 17:35:00 UTC,2024-05-06 18:28:00 UTC
+429,Joshua,Taste,The tomato sauce was not as good as usual,Calzone,2024-05-17 00:36:00 UTC,2024-05-17 01:36:00 UTC
+437,Andi,Taste,The tomato sauce was not as good as usual,Calzone,2024-05-17 01:49:00 UTC,2024-05-17 02:40:00 UTC
+462,Clarissa,Taste,The tomato sauce was not as good as usual,Calzone,2024-05-17 19:06:00 UTC,2024-05-17 19:43:00 UTC
+79,Joshua,Service,There was a long wait time for the order.,Calzone,2024-05-04 08:55:00 UTC,2024-05-04 09:48:00 UTC
+177,Clarissa,Service,There was a long wait time for the order.,Calzone,2024-05-09 05:03:00 UTC,2024-05-09 05:36:00 UTC
+115,Clarissa,Service,The staff seemed uninterested and disengaged.,Calzone,2024-05-06 19:13:00 UTC,2024-05-06 20:07:00 UTC
+124,Clarissa,Service,The staff seemed uninterested and disengaged.,Calzone,2024-05-08 00:14:00 UTC,2024-05-08 00:37:00 UTC
+173,Damien,Service,The staff seemed uninterested and disengaged.,Calzone,2024-05-09 01:54:00 UTC,2024-05-09 02:15:00 UTC
+129,Andi,Taste,The pizza was cold and the flavors were muted.,Calzone,2024-05-07 10:41:00 UTC,2024-05-07 11:12:00 UTC
+291,Joshua,Taste,The pizza was cold and the flavors were muted.,Calzone,2024-05-15 08:20:00 UTC,2024-05-15 08:47:00 UTC
+338,Andi,Taste,The pizza was cold and the flavors were muted.,Calzone,2024-05-17 10:02:00 UTC,2024-05-17 11:01:00 UTC
+12,Damien,Order Accuracy,The pizza was missing toppings that I ordered.,Calzone,2024-05-01 16:37:00 UTC,2024-05-01 17:15:00 UTC
+97,Clarissa,Order Accuracy,The pizza was missing toppings that I ordered.,Calzone,2024-05-05 08:57:00 UTC,2024-05-05 09:55:00 UTC
+133,Damien,Order Accuracy,The pizza was missing toppings that I ordered.,Calzone,2024-05-07 21:49:00 UTC,2024-05-07 22:13:00 UTC
+167,Clarissa,Order Accuracy,The pizza was missing toppings that I ordered.,Calzone,2024-05-09 13:42:00 UTC,2024-05-09 14:05:00 UTC
+243,Clarissa,Order Accuracy,The pizza was missing toppings that I ordered.,Calzone,2024-05-12 11:09:00 UTC,2024-05-12 11:33:00 UTC
+418,Joshua,Taste,the overall texture of the pizza sauce was bad,Calzone,2024-05-17 01:24:00 UTC,2024-05-17 02:22:00 UTC
+456,Joshua,Taste,the overall texture of the pizza sauce was bad,Calzone,2024-05-18 04:38:00 UTC,2024-05-18 05:16:00 UTC
+457,Clarissa,Taste,the overall texture of the pizza sauce was bad,Calzone,2024-05-17 18:14:00 UTC,2024-05-17 18:44:00 UTC
+41,Joshua,Delivery,The delivery driver was rude and unprofessional.,Calzone,2024-05-02 21:46:00 UTC,2024-05-02 22:16:00 UTC
+47,Andi,Delivery,The delivery driver was rude and unprofessional.,Calzone,2024-05-03 07:15:00 UTC,2024-05-03 08:01:00 UTC
+156,Damien,Delivery,The delivery driver was rude and unprofessional.,Calzone,2024-05-08 11:58:00 UTC,2024-05-08 12:45:00 UTC
+350,Damien,Delivery,The delivery driver was rude and unprofessional.,Calzone,2024-05-18 10:15:00 UTC,2024-05-18 11:13:00 UTC
+394,Andi,Taste,The sauce tasted burnt like the bottom of a pan.,Calzone,2024-05-15 14:25:00 UTC,2024-05-15 15:14:00 UTC
+395,Joshua,Taste,The sauce tasted burnt like the bottom of a pan.,Calzone,2024-05-16 07:26:00 UTC,2024-05-16 07:46:00 UTC
+431,Andi,Taste,The sauce tasted burnt like the bottom of a pan.,Calzone,2024-05-17 06:16:00 UTC,2024-05-17 06:43:00 UTC
+438,Andi,Taste,The sauce tasted burnt like the bottom of a pan.,Calzone,2024-05-16 17:54:00 UTC,2024-05-16 18:38:00 UTC
+15,Andi,Other,The prices were too high for the quality offered.,Calzone,2024-05-01 23:56:00 UTC,2024-05-02 00:40:00 UTC
+126,Damien,Other,The prices were too high for the quality offered.,Calzone,2024-05-07 17:11:00 UTC,2024-05-07 17:33:00 UTC
+411,Joshua,Taste,The pizza was overly sour and lacked in sweetness.,Calzone,2024-05-15 11:56:00 UTC,2024-05-15 12:22:00 UTC
+453,Joshua,Taste,The pizza was overly sour and lacked in sweetness.,Calzone,2024-05-17 16:32:00 UTC,2024-05-17 17:14:00 UTC
+471,Andi,Taste,The pizza was overly sour and lacked in sweetness.,Calzone,2024-05-17 20:20:00 UTC,2024-05-17 21:13:00 UTC
+121,Damien,Customer Service,The staff were unhelpful and seemed disinterested.,Calzone,2024-05-06 01:13:00 UTC,2024-05-06 01:57:00 UTC
+136,Andi,Customer Service,The staff were unhelpful and seemed disinterested.,Calzone,2024-05-07 13:57:00 UTC,2024-05-07 14:21:00 UTC
+169,Clarissa,Customer Service,The staff were unhelpful and seemed disinterested.,Calzone,2024-05-09 05:26:00 UTC,2024-05-09 05:59:00 UTC
+310,Damien,Customer Service,The staff were unhelpful and seemed disinterested.,Calzone,2024-05-16 13:58:00 UTC,2024-05-16 14:32:00 UTC
+331,Clarissa,Customer Service,The staff were unhelpful and seemed disinterested.,Calzone,2024-05-17 02:45:00 UTC,2024-05-17 03:22:00 UTC
+363,Joshua,Customer Service,The staff were unhelpful and seemed disinterested.,Calzone,2024-05-18 17:27:00 UTC,2024-05-18 18:02:00 UTC
+8,Damien,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-01 13:26:00 UTC,2024-05-01 13:59:00 UTC
+141,Damien,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-07 15:20:00 UTC,2024-05-07 15:45:00 UTC
+151,Clarissa,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-08 13:57:00 UTC,2024-05-08 14:34:00 UTC
+190,Joshua,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-10 02:58:00 UTC,2024-05-10 03:49:00 UTC
+308,Clarissa,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-16 21:28:00 UTC,2024-05-16 22:06:00 UTC
+358,Andi,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-18 17:40:00 UTC,2024-05-18 18:17:00 UTC
+375,Joshua,Taste,The cheese was rubbery and had an artificial taste.,Calzone,2024-05-19 09:09:00 UTC,2024-05-19 09:46:00 UTC
+31,Damien,Taste,The crust was undercooked and doughy in the center.,Calzone,2024-05-02 21:46:00 UTC,2024-05-02 22:38:00 UTC
+70,Damien,Taste,The crust was undercooked and doughy in the center.,Calzone,2024-05-04 04:58:00 UTC,2024-05-04 05:22:00 UTC
+81,Joshua,Taste,The crust was undercooked and doughy in the center.,Calzone,2024-05-04 21:20:00 UTC,2024-05-04 21:49:00 UTC
+111,Andi,Taste,The crust was undercooked and doughy in the center.,Calzone,2024-05-06 11:10:00 UTC,2024-05-06 11:46:00 UTC
+248,Andi,Taste,The crust was undercooked and doughy in the center.,Calzone,2024-05-13 06:53:00 UTC,2024-05-13 07:19:00 UTC
+21,Damien,Menu,The menu was confusing and difficult to understand.,Calzone,2024-05-01 08:35:00 UTC,2024-05-01 09:11:00 UTC
+24,Joshua,Menu,The menu was confusing and difficult to understand.,Calzone,2024-05-02 10:21:00 UTC,2024-05-02 11:03:00 UTC
+239,Joshua,Menu,The menu was confusing and difficult to understand.,Calzone,2024-05-12 07:07:00 UTC,2024-05-12 07:29:00 UTC
+116,Andi,Other,There were limited options for non-coffee drinkers.,Calzone,2024-05-06 23:00:00 UTC,2024-05-06 23:50:00 UTC
+161,Damien,Other,There were limited options for non-coffee drinkers.,Calzone,2024-05-08 18:21:00 UTC,2024-05-08 18:46:00 UTC
+245,Damien,Other,There were limited options for non-coffee drinkers.,Calzone,2024-05-12 21:53:00 UTC,2024-05-12 22:25:00 UTC
+415,Andi,Taste,Is there a new chef ? It didn't taste as good as before,Calzone,2024-05-17 01:19:00 UTC,2024-05-17 02:17:00 UTC
+459,Joshua,Taste,Is there a new chef ? It didn't taste as good as before,Calzone,2024-05-17 17:46:00 UTC,2024-05-17 18:27:00 UTC
+384,Andi,Taste,The sauce tasted old and fermented like it had gone bad.,Calzone,2024-05-15 18:34:00 UTC,2024-05-15 19:11:00 UTC
+402,Andi,Taste,The sauce tasted old and fermented like it had gone bad.,Calzone,2024-05-15 11:39:00 UTC,2024-05-15 12:34:00 UTC
+424,Joshua,Taste,The sauce tasted old and fermented like it had gone bad.,Calzone,2024-05-16 17:11:00 UTC,2024-05-16 18:08:00 UTC
+441,Andi,Taste,The sauce tasted old and fermented like it had gone bad.,Calzone,2024-05-16 16:28:00 UTC,2024-05-16 17:11:00 UTC
+454,Damien,Taste,The sauce tasted old and fermented like it had gone bad.,Calzone,2024-05-17 23:15:00 UTC,2024-05-17 23:40:00 UTC
+465,Andi,Taste,The sauce tasted old and fermented like it had gone bad.,Calzone,2024-05-17 15:13:00 UTC,2024-05-17 15:51:00 UTC
+28,Andi,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-02 08:52:00 UTC,2024-05-02 09:40:00 UTC
+138,Clarissa,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-07 06:12:00 UTC,2024-05-07 07:04:00 UTC
+142,Damien,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-08 20:47:00 UTC,2024-05-08 21:39:00 UTC
+162,Joshua,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-09 12:56:00 UTC,2024-05-09 13:39:00 UTC
+252,Clarissa,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-13 03:35:00 UTC,2024-05-13 04:13:00 UTC
+264,Clarissa,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-13 16:49:00 UTC,2024-05-13 17:43:00 UTC
+334,Andi,Other,Overall I would not recommend this pizza place to others.,Calzone,2024-05-17 14:24:00 UTC,2024-05-17 15:06:00 UTC
+10,Clarissa,Other,The pizza place did not offer enough variety on the menu.,Calzone,2024-05-01 18:11:00 UTC,2024-05-01 18:48:00 UTC
+13,Joshua,Other,The pizza place did not offer enough variety on the menu.,Calzone,2024-05-01 20:08:00 UTC,2024-05-01 20:34:00 UTC
+237,Andi,Other,The pizza place did not offer enough variety on the menu.,Calzone,2024-05-12 09:35:00 UTC,2024-05-12 09:55:00 UTC
+282,Clarissa,Other,The pizza place did not offer enough variety on the menu.,Calzone,2024-05-14 11:48:00 UTC,2024-05-14 12:34:00 UTC
+120,Clarissa,Service,The barista was not knowledgeable about the coffee or menu.,Calzone,2024-05-07 00:42:00 UTC,2024-05-07 01:26:00 UTC
+270,Joshua,Service,The barista was not knowledgeable about the coffee or menu.,Calzone,2024-05-14 09:39:00 UTC,2024-05-14 10:05:00 UTC
+285,Clarissa,Service,The barista was not knowledgeable about the coffee or menu.,Calzone,2024-05-14 07:29:00 UTC,2024-05-14 07:51:00 UTC
+328,Joshua,Service,The barista was not knowledgeable about the coffee or menu.,Calzone,2024-05-17 15:50:00 UTC,2024-05-17 16:45:00 UTC
+370,Joshua,Service,The barista was not knowledgeable about the coffee or menu.,Calzone,2024-05-19 06:07:00 UTC,2024-05-19 06:31:00 UTC
+416,Joshua,Taste,The sauce was watery and bland lacking any depth of flavor.,Calzone,2024-05-17 05:18:00 UTC,2024-05-17 05:54:00 UTC
+446,Damien,Taste,The sauce was watery and bland lacking any depth of flavor.,Calzone,2024-05-18 09:05:00 UTC,2024-05-18 09:30:00 UTC
+474,Joshua,Taste,The sauce was watery and bland lacking any depth of flavor.,Calzone,2024-05-18 05:45:00 UTC,2024-05-18 06:39:00 UTC
+220,Clarissa,Taste,The toppings were sparse and didn't cover the entire pizza.,Calzone,2024-05-11 05:42:00 UTC,2024-05-11 06:12:00 UTC
+82,Joshua,Service,The overall experience was unsatisfactory due to poor service.,Calzone,2024-05-04 17:00:00 UTC,2024-05-04 17:28:00 UTC
+185,Damien,Service,The overall experience was unsatisfactory due to poor service.,Calzone,2024-05-10 21:01:00 UTC,2024-05-10 22:01:00 UTC
+198,Clarissa,Service,The overall experience was unsatisfactory due to poor service.,Calzone,2024-05-10 11:40:00 UTC,2024-05-10 12:37:00 UTC
+313,Andi,Service,The overall experience was unsatisfactory due to poor service.,Calzone,2024-05-16 04:50:00 UTC,2024-05-16 05:48:00 UTC
+5,Clarissa,Taste,The pizza was too greasy and left an oily residue on my hands.,Calzone,2024-05-01 21:33:00 UTC,2024-05-01 22:21:00 UTC
+22,Joshua,Taste,The pizza was too greasy and left an oily residue on my hands.,Calzone,2024-05-01 21:16:00 UTC,2024-05-01 21:43:00 UTC
+51,Clarissa,Taste,The pizza was too greasy and left an oily residue on my hands.,Calzone,2024-05-03 01:06:00 UTC,2024-05-03 02:02:00 UTC
+472,Joshua,Taste,The sauce was too acide and overwhelmed the other ingredients.,Calzone,2024-05-18 09:05:00 UTC,2024-05-18 09:27:00 UTC
+27,Andi,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-02 16:43:00 UTC,2024-05-02 17:37:00 UTC
+46,Damien,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-04 00:35:00 UTC,2024-05-04 01:19:00 UTC
+87,Damien,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-05 21:20:00 UTC,2024-05-05 22:12:00 UTC
+122,Joshua,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-07 08:18:00 UTC,2024-05-07 08:45:00 UTC
+221,Clarissa,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-11 23:27:00 UTC,2024-05-12 00:23:00 UTC
+323,Clarissa,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-16 12:13:00 UTC,2024-05-16 13:02:00 UTC
+380,Damien,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Calzone,2024-05-19 04:27:00 UTC,2024-05-19 04:54:00 UTC
+204,Clarissa,Other,The pizza place was not accessible to people with disabilities.,Calzone,2024-05-10 01:57:00 UTC,2024-05-10 02:29:00 UTC
+207,Clarissa,Other,The pizza place was not accessible to people with disabilities.,Calzone,2024-05-11 14:23:00 UTC,2024-05-11 14:58:00 UTC
+293,Clarissa,Other,The pizza place was not accessible to people with disabilities.,Calzone,2024-05-15 18:12:00 UTC,2024-05-15 18:47:00 UTC
+40,Damien,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-02 13:44:00 UTC,2024-05-02 14:25:00 UTC
+113,Joshua,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-06 02:58:00 UTC,2024-05-06 03:45:00 UTC
+143,Joshua,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-08 03:46:00 UTC,2024-05-08 04:19:00 UTC
+212,Joshua,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-11 22:11:00 UTC,2024-05-11 22:39:00 UTC
+289,Joshua,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-15 12:49:00 UTC,2024-05-15 13:13:00 UTC
+297,Joshua,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-15 06:27:00 UTC,2024-05-15 07:00:00 UTC
+326,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-16 04:43:00 UTC,2024-05-16 05:42:00 UTC
+348,Damien,Other,The pizza place did not have a welcoming or inviting atmosphere.,Calzone,2024-05-18 14:55:00 UTC,2024-05-18 15:51:00 UTC
+157,Clarissa,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Calzone,2024-05-08 09:01:00 UTC,2024-05-08 09:44:00 UTC
+206,Damien,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Calzone,2024-05-11 21:58:00 UTC,2024-05-11 22:50:00 UTC
+260,Andi,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Calzone,2024-05-13 10:35:00 UTC,2024-05-13 11:17:00 UTC
+298,Clarissa,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Calzone,2024-05-15 19:48:00 UTC,2024-05-15 20:23:00 UTC
+58,Joshua,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Calzone,2024-05-03 13:56:00 UTC,2024-05-03 14:23:00 UTC
+65,Clarissa,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Calzone,2024-05-04 19:39:00 UTC,2024-05-04 20:00:00 UTC
+137,Clarissa,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Calzone,2024-05-07 12:53:00 UTC,2024-05-07 13:23:00 UTC
+145,Andi,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Calzone,2024-05-08 15:11:00 UTC,2024-05-08 15:37:00 UTC
+159,Damien,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Calzone,2024-05-08 21:34:00 UTC,2024-05-08 22:10:00 UTC
+302,Joshua,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Calzone,2024-05-15 21:49:00 UTC,2024-05-15 22:29:00 UTC
+467,Joshua,Taste,The sauce was too garlicky and overwhelmed all the other flavors.,Calzone,2024-05-17 14:09:00 UTC,2024-05-17 14:29:00 UTC
+54,Andi,Allergy,The pizza contained an allergen that I specified I was allergic to.,Calzone,2024-05-03 10:15:00 UTC,2024-05-03 11:12:00 UTC
+88,Clarissa,Allergy,The pizza contained an allergen that I specified I was allergic to.,Calzone,2024-05-05 23:17:00 UTC,2024-05-06 00:04:00 UTC
+170,Clarissa,Allergy,The pizza contained an allergen that I specified I was allergic to.,Calzone,2024-05-09 18:40:00 UTC,2024-05-09 19:07:00 UTC
+228,Joshua,Allergy,The pizza contained an allergen that I specified I was allergic to.,Calzone,2024-05-12 10:51:00 UTC,2024-05-12 11:21:00 UTC
+254,Clarissa,Allergy,The pizza contained an allergen that I specified I was allergic to.,Calzone,2024-05-13 01:32:00 UTC,2024-05-13 01:56:00 UTC
+364,Damien,Allergy,The pizza contained an allergen that I specified I was allergic to.,Calzone,2024-05-18 21:20:00 UTC,2024-05-18 22:18:00 UTC
+150,Clarissa,Taste,The spices were overpowering and masked the taste of the other ingredients.,Calzone,2024-05-08 11:59:00 UTC,2024-05-08 12:44:00 UTC
+279,Andi,Taste,The spices were overpowering and masked the taste of the other ingredients.,Calzone,2024-05-14 21:57:00 UTC,2024-05-14 22:42:00 UTC
+223,Joshua,Service,There was a lack of attention to detail in the preparation of drinks and food.,Calzone,2024-05-11 02:12:00 UTC,2024-05-11 03:02:00 UTC
+344,Andi,Service,There was a lack of attention to detail in the preparation of drinks and food.,Calzone,2024-05-17 21:34:00 UTC,2024-05-17 21:54:00 UTC
+125,Damien,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Calzone,2024-05-07 15:55:00 UTC,2024-05-07 16:20:00 UTC
+396,Joshua,Taste,tomato sauce was bitter,Hawaiian,2024-05-15 23:46:00 UTC,2024-05-16 00:31:00 UTC
+420,Clarissa,Taste,tomato sauce was bitter,Hawaiian,2024-05-16 19:07:00 UTC,2024-05-16 19:33:00 UTC
+422,Joshua,Taste,tomato sauce was bitter,Hawaiian,2024-05-17 06:32:00 UTC,2024-05-17 07:00:00 UTC
+455,Joshua,Taste,tomato sauce was bitter,Hawaiian,2024-05-18 09:52:00 UTC,2024-05-18 10:18:00 UTC
+37,Joshua,Service,The order was incorrect.,Hawaiian,2024-05-02 16:16:00 UTC,2024-05-02 16:40:00 UTC
+211,Damien,Service,The order was incorrect.,Hawaiian,2024-05-11 06:21:00 UTC,2024-05-11 06:57:00 UTC
+205,Clarissa,Billing,I was overcharged for my order.,Hawaiian,2024-05-11 13:49:00 UTC,2024-05-11 14:23:00 UTC
+112,Andi,Other,The Wi-Fi was not working or slow.,Hawaiian,2024-05-06 07:43:00 UTC,2024-05-06 08:30:00 UTC
+197,Andi,Service,The staff were rude and unhelpful.,Hawaiian,2024-05-10 18:29:00 UTC,2024-05-10 19:04:00 UTC
+366,Joshua,Service,The staff were rude and unhelpful.,Hawaiian,2024-05-18 14:25:00 UTC,2024-05-18 14:47:00 UTC
+368,Clarissa,Service,The staff were rude and unhelpful.,Hawaiian,2024-05-19 12:55:00 UTC,2024-05-19 13:20:00 UTC
+38,Joshua,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-02 15:10:00 UTC,2024-05-02 15:45:00 UTC
+49,Joshua,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-03 02:13:00 UTC,2024-05-03 02:51:00 UTC
+217,Clarissa,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-11 04:19:00 UTC,2024-05-11 05:18:00 UTC
+238,Joshua,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-12 03:11:00 UTC,2024-05-12 03:32:00 UTC
+292,Andi,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-15 01:28:00 UTC,2024-05-15 02:11:00 UTC
+303,Joshua,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-15 11:17:00 UTC,2024-05-15 11:45:00 UTC
+312,Joshua,Delivery,The pizza arrived late and was cold.,Hawaiian,2024-05-17 00:52:00 UTC,2024-05-17 01:12:00 UTC
+192,Damien,Service,The barista made the drink incorrectly.,Hawaiian,2024-05-10 15:56:00 UTC,2024-05-10 16:46:00 UTC
+69,Joshua,Other,The restroom was dirty or out of order.,Hawaiian,2024-05-04 06:46:00 UTC,2024-05-04 07:45:00 UTC
+135,Damien,Other,The restroom was dirty or out of order.,Hawaiian,2024-05-07 21:43:00 UTC,2024-05-07 22:38:00 UTC
+320,Damien,Other,The restroom was dirty or out of order.,Hawaiian,2024-05-16 13:26:00 UTC,2024-05-16 14:02:00 UTC
+321,Joshua,Other,The restroom was dirty or out of order.,Hawaiian,2024-05-16 07:41:00 UTC,2024-05-16 08:15:00 UTC
+346,Andi,Other,The restroom was dirty or out of order.,Hawaiian,2024-05-17 21:02:00 UTC,2024-05-17 21:23:00 UTC
+379,Clarissa,Other,The restroom was dirty or out of order.,Hawaiian,2024-05-19 15:09:00 UTC,2024-05-19 15:50:00 UTC
+73,Joshua,Pricing,The pizza was overpriced for the quality.,Hawaiian,2024-05-04 15:09:00 UTC,2024-05-04 15:30:00 UTC
+163,Joshua,Pricing,The pizza was overpriced for the quality.,Hawaiian,2024-05-09 22:05:00 UTC,2024-05-09 22:50:00 UTC
+262,Damien,Pricing,The pizza was overpriced for the quality.,Hawaiian,2024-05-13 04:11:00 UTC,2024-05-13 05:06:00 UTC
+322,Joshua,Pricing,The pizza was overpriced for the quality.,Hawaiian,2024-05-16 06:03:00 UTC,2024-05-16 06:37:00 UTC
+339,Joshua,Pricing,The pizza was overpriced for the quality.,Hawaiian,2024-05-17 07:24:00 UTC,2024-05-17 08:09:00 UTC
+336,Andi,Atmosphere,The restaurant was too noisy and crowded.,Hawaiian,2024-05-17 06:44:00 UTC,2024-05-17 07:30:00 UTC
+405,Joshua,Taste,The tomato sauce was not as good as usual,Hawaiian,2024-05-16 01:43:00 UTC,2024-05-16 02:39:00 UTC
+432,Joshua,Taste,The tomato sauce was not as good as usual,Hawaiian,2024-05-16 23:49:00 UTC,2024-05-17 00:41:00 UTC
+475,Andi,Taste,The tomato sauce was not as good as usual,Hawaiian,2024-05-17 23:35:00 UTC,2024-05-18 00:34:00 UTC
+166,Joshua,Service,There was a long wait time for the order.,Hawaiian,2024-05-09 23:57:00 UTC,2024-05-10 00:28:00 UTC
+259,Clarissa,Service,There was a long wait time for the order.,Hawaiian,2024-05-13 05:30:00 UTC,2024-05-13 05:56:00 UTC
+428,Damien,Taste,The sauce had a strange metallic taste to it.,Hawaiian,2024-05-16 20:15:00 UTC,2024-05-16 20:46:00 UTC
+433,Joshua,Taste,The sauce had a strange metallic taste to it.,Hawaiian,2024-05-16 12:30:00 UTC,2024-05-16 13:10:00 UTC
+461,Joshua,Taste,The sauce had a strange metallic taste to it.,Hawaiian,2024-05-17 21:04:00 UTC,2024-05-17 21:59:00 UTC
+66,Joshua,Service,The staff seemed uninterested and disengaged.,Hawaiian,2024-05-04 07:58:00 UTC,2024-05-04 08:28:00 UTC
+179,Damien,Service,The staff seemed uninterested and disengaged.,Hawaiian,2024-05-09 06:12:00 UTC,2024-05-09 06:42:00 UTC
+183,Clarissa,Service,The staff seemed uninterested and disengaged.,Hawaiian,2024-05-09 08:28:00 UTC,2024-05-09 09:07:00 UTC
+85,Clarissa,Taste,The pizza was cold and the flavors were muted.,Hawaiian,2024-05-05 09:27:00 UTC,2024-05-05 10:14:00 UTC
+90,Joshua,Taste,The pizza was cold and the flavors were muted.,Hawaiian,2024-05-05 05:24:00 UTC,2024-05-05 05:54:00 UTC
+71,Clarissa,Order Accuracy,The pizza was missing toppings that I ordered.,Hawaiian,2024-05-04 13:24:00 UTC,2024-05-04 14:22:00 UTC
+148,Clarissa,Order Accuracy,The pizza was missing toppings that I ordered.,Hawaiian,2024-05-08 18:35:00 UTC,2024-05-08 19:16:00 UTC
+201,Andi,Order Accuracy,The pizza was missing toppings that I ordered.,Hawaiian,2024-05-10 23:36:00 UTC,2024-05-11 00:11:00 UTC
+236,Damien,Order Accuracy,The pizza was missing toppings that I ordered.,Hawaiian,2024-05-12 19:10:00 UTC,2024-05-12 19:48:00 UTC
+389,Damien,Taste,the overall texture of the pizza sauce was bad,Hawaiian,2024-05-15 12:00:00 UTC,2024-05-15 12:37:00 UTC
+452,Andi,Taste,the overall texture of the pizza sauce was bad,Hawaiian,2024-05-18 07:25:00 UTC,2024-05-18 07:54:00 UTC
+6,Joshua,Delivery,The delivery driver was rude and unprofessional.,Hawaiian,2024-05-01 10:35:00 UTC,2024-05-01 11:12:00 UTC
+378,Damien,Delivery,The delivery driver was rude and unprofessional.,Hawaiian,2024-05-19 15:49:00 UTC,2024-05-19 16:43:00 UTC
+383,Joshua,Taste,The sauce tasted burnt like the bottom of a pan.,Hawaiian,2024-05-15 11:19:00 UTC,2024-05-15 12:10:00 UTC
+407,Clarissa,Taste,The sauce tasted burnt like the bottom of a pan.,Hawaiian,2024-05-15 12:11:00 UTC,2024-05-15 12:46:00 UTC
+412,Damien,Taste,The sauce tasted burnt like the bottom of a pan.,Hawaiian,2024-05-16 03:39:00 UTC,2024-05-16 04:18:00 UTC
+427,Damien,Taste,The sauce tasted burnt like the bottom of a pan.,Hawaiian,2024-05-16 14:00:00 UTC,2024-05-16 14:28:00 UTC
+225,Andi,Other,The prices were too high for the quality offered.,Hawaiian,2024-05-11 06:24:00 UTC,2024-05-11 06:57:00 UTC
+266,Joshua,Other,The prices were too high for the quality offered.,Hawaiian,2024-05-13 16:08:00 UTC,2024-05-13 16:57:00 UTC
+300,Andi,Other,The prices were too high for the quality offered.,Hawaiian,2024-05-15 04:20:00 UTC,2024-05-15 05:02:00 UTC
+345,Joshua,Other,The prices were too high for the quality offered.,Hawaiian,2024-05-17 01:55:00 UTC,2024-05-17 02:21:00 UTC
+354,Andi,Other,The prices were too high for the quality offered.,Hawaiian,2024-05-18 12:58:00 UTC,2024-05-18 13:35:00 UTC
+426,Andi,Taste,The pizza was overly sour and lacked in sweetness.,Hawaiian,2024-05-16 18:33:00 UTC,2024-05-16 19:06:00 UTC
+451,Damien,Taste,The pizza was overly sour and lacked in sweetness.,Hawaiian,2024-05-18 08:55:00 UTC,2024-05-18 09:33:00 UTC
+473,Clarissa,Taste,The pizza was overly sour and lacked in sweetness.,Hawaiian,2024-05-18 02:24:00 UTC,2024-05-18 03:19:00 UTC
+53,Damien,Customer Service,The staff were unhelpful and seemed disinterested.,Hawaiian,2024-05-03 20:40:00 UTC,2024-05-03 21:12:00 UTC
+168,Clarissa,Customer Service,The staff were unhelpful and seemed disinterested.,Hawaiian,2024-05-09 22:02:00 UTC,2024-05-09 22:30:00 UTC
+267,Clarissa,Customer Service,The staff were unhelpful and seemed disinterested.,Hawaiian,2024-05-13 07:26:00 UTC,2024-05-13 08:04:00 UTC
+271,Damien,Customer Service,The staff were unhelpful and seemed disinterested.,Hawaiian,2024-05-14 20:37:00 UTC,2024-05-14 21:13:00 UTC
+360,Joshua,Customer Service,The staff were unhelpful and seemed disinterested.,Hawaiian,2024-05-18 09:29:00 UTC,2024-05-18 09:54:00 UTC
+199,Joshua,Taste,The cheese was rubbery and had an artificial taste.,Hawaiian,2024-05-10 13:53:00 UTC,2024-05-10 14:19:00 UTC
+342,Andi,Taste,The cheese was rubbery and had an artificial taste.,Hawaiian,2024-05-17 15:57:00 UTC,2024-05-17 16:22:00 UTC
+30,Joshua,Taste,The crust was undercooked and doughy in the center.,Hawaiian,2024-05-02 17:04:00 UTC,2024-05-02 17:38:00 UTC
+123,Andi,Taste,The crust was undercooked and doughy in the center.,Hawaiian,2024-05-07 15:08:00 UTC,2024-05-07 15:42:00 UTC
+218,Damien,Taste,The crust was undercooked and doughy in the center.,Hawaiian,2024-05-11 15:57:00 UTC,2024-05-11 16:23:00 UTC
+268,Clarissa,Menu,The menu was confusing and difficult to understand.,Hawaiian,2024-05-14 12:11:00 UTC,2024-05-14 12:56:00 UTC
+299,Damien,Menu,The menu was confusing and difficult to understand.,Hawaiian,2024-05-15 17:31:00 UTC,2024-05-15 18:25:00 UTC
+55,Damien,Other,There were limited options for non-coffee drinkers.,Hawaiian,2024-05-03 09:41:00 UTC,2024-05-03 10:17:00 UTC
+63,Andi,Other,There were limited options for non-coffee drinkers.,Hawaiian,2024-05-03 19:36:00 UTC,2024-05-03 20:29:00 UTC
+242,Clarissa,Other,There were limited options for non-coffee drinkers.,Hawaiian,2024-05-12 12:43:00 UTC,2024-05-12 13:14:00 UTC
+353,Clarissa,Other,There were limited options for non-coffee drinkers.,Hawaiian,2024-05-18 09:29:00 UTC,2024-05-18 09:56:00 UTC
+359,Joshua,Other,There were limited options for non-coffee drinkers.,Hawaiian,2024-05-18 23:27:00 UTC,2024-05-19 00:10:00 UTC
+450,Andi,Taste,Is there a new chef ? It didn't taste as good as before,Hawaiian,2024-05-17 14:40:00 UTC,2024-05-17 15:03:00 UTC
+386,Damien,Taste,The sauce tasted old and fermented like it had gone bad.,Hawaiian,2024-05-15 20:08:00 UTC,2024-05-15 20:30:00 UTC
+387,Clarissa,Taste,The sauce tasted old and fermented like it had gone bad.,Hawaiian,2024-05-15 10:43:00 UTC,2024-05-15 11:39:00 UTC
+408,Clarissa,Taste,The sauce tasted old and fermented like it had gone bad.,Hawaiian,2024-05-16 01:09:00 UTC,2024-05-16 01:51:00 UTC
+417,Damien,Taste,The sauce tasted old and fermented like it had gone bad.,Hawaiian,2024-05-17 04:58:00 UTC,2024-05-17 05:46:00 UTC
+445,Clarissa,Taste,The sauce tasted old and fermented like it had gone bad.,Hawaiian,2024-05-16 17:10:00 UTC,2024-05-16 18:05:00 UTC
+20,Damien,Other,Overall I would not recommend this pizza place to others.,Hawaiian,2024-05-01 03:28:00 UTC,2024-05-01 04:23:00 UTC
+210,Damien,Other,Overall I would not recommend this pizza place to others.,Hawaiian,2024-05-11 04:13:00 UTC,2024-05-11 04:53:00 UTC
+311,Damien,Other,Overall I would not recommend this pizza place to others.,Hawaiian,2024-05-16 07:39:00 UTC,2024-05-16 08:02:00 UTC
+83,Andi,Other,The pizza place did not offer enough variety on the menu.,Hawaiian,2024-05-04 13:52:00 UTC,2024-05-04 14:47:00 UTC
+98,Clarissa,Other,The pizza place did not offer enough variety on the menu.,Hawaiian,2024-05-05 16:29:00 UTC,2024-05-05 17:21:00 UTC
+160,Andi,Other,The pizza place did not offer enough variety on the menu.,Hawaiian,2024-05-08 04:58:00 UTC,2024-05-08 05:53:00 UTC
+258,Joshua,Other,The pizza place did not offer enough variety on the menu.,Hawaiian,2024-05-13 04:09:00 UTC,2024-05-13 05:06:00 UTC
+286,Joshua,Other,The pizza place did not offer enough variety on the menu.,Hawaiian,2024-05-14 02:01:00 UTC,2024-05-14 02:31:00 UTC
+91,Damien,Service,The barista was not knowledgeable about the coffee or menu.,Hawaiian,2024-05-05 07:33:00 UTC,2024-05-05 08:03:00 UTC
+130,Andi,Service,The barista was not knowledgeable about the coffee or menu.,Hawaiian,2024-05-07 09:55:00 UTC,2024-05-07 10:49:00 UTC
+382,Joshua,Taste,The sauce was watery and bland lacking any depth of flavor.,Hawaiian,2024-05-16 01:46:00 UTC,2024-05-16 02:43:00 UTC
+393,Andi,Taste,The sauce was watery and bland lacking any depth of flavor.,Hawaiian,2024-05-16 03:18:00 UTC,2024-05-16 04:07:00 UTC
+401,Damien,Taste,The sauce was watery and bland lacking any depth of flavor.,Hawaiian,2024-05-15 14:18:00 UTC,2024-05-15 14:42:00 UTC
+464,Damien,Taste,The sauce was watery and bland lacking any depth of flavor.,Hawaiian,2024-05-17 14:54:00 UTC,2024-05-17 15:26:00 UTC
+178,Clarissa,Taste,The toppings were sparse and didn't cover the entire pizza.,Hawaiian,2024-05-09 23:54:00 UTC,2024-05-10 00:51:00 UTC
+256,Joshua,Taste,The toppings were sparse and didn't cover the entire pizza.,Hawaiian,2024-05-13 06:32:00 UTC,2024-05-13 07:05:00 UTC
+19,Damien,Other,The pizza place did not offer any loyalty or rewards program.,Hawaiian,2024-05-01 07:04:00 UTC,2024-05-01 07:37:00 UTC
+23,Clarissa,Other,The pizza place did not offer any loyalty or rewards program.,Hawaiian,2024-05-02 06:59:00 UTC,2024-05-02 07:56:00 UTC
+250,Joshua,Other,The pizza place did not offer any loyalty or rewards program.,Hawaiian,2024-05-13 19:50:00 UTC,2024-05-13 20:23:00 UTC
+272,Joshua,Other,The pizza place did not offer any loyalty or rewards program.,Hawaiian,2024-05-14 07:03:00 UTC,2024-05-14 07:56:00 UTC
+288,Andi,Other,The pizza place did not offer any loyalty or rewards program.,Hawaiian,2024-05-14 21:20:00 UTC,2024-05-14 21:42:00 UTC
+384,Damien,Other,The pizza place did not offer any loyalty or rewards program.,Hawaiian,2024-05-19 09:06:00 UTC,2024-05-19 09:40:00 UTC
+114,Damien,Service,The staff did not address concerns or complaints effectively.,Hawaiian,2024-05-06 02:05:00 UTC,2024-05-06 03:00:00 UTC
+175,Andi,Service,The staff did not address concerns or complaints effectively.,Hawaiian,2024-05-09 03:25:00 UTC,2024-05-09 04:15:00 UTC
+227,Clarissa,Service,The staff did not address concerns or complaints effectively.,Hawaiian,2024-05-12 06:38:00 UTC,2024-05-12 07:17:00 UTC
+294,Clarissa,Service,The staff did not address concerns or complaints effectively.,Hawaiian,2024-05-15 15:22:00 UTC,2024-05-15 16:02:00 UTC
+365,Andi,Service,The staff did not address concerns or complaints effectively.,Hawaiian,2024-05-18 21:32:00 UTC,2024-05-18 22:27:00 UTC
+200,Damien,Service,The overall experience was unsatisfactory due to poor service.,Hawaiian,2024-05-10 10:58:00 UTC,2024-05-10 11:28:00 UTC
+16,Andi,Taste,The pizza was too greasy and left an oily residue on my hands.,Hawaiian,2024-05-01 10:30:00 UTC,2024-05-01 10:58:00 UTC
+234,Damien,Taste,The pizza was too greasy and left an oily residue on my hands.,Hawaiian,2024-05-12 10:05:00 UTC,2024-05-12 10:41:00 UTC
+373,Joshua,Taste,The pizza was too greasy and left an oily residue on my hands.,Hawaiian,2024-05-19 04:05:00 UTC,2024-05-19 04:46:00 UTC
+410,Andi,Taste,The sauce was too acide and overwhelmed the other ingredients.,Hawaiian,2024-05-15 21:13:00 UTC,2024-05-15 22:02:00 UTC
+442,Andi,Taste,The sauce was too acide and overwhelmed the other ingredients.,Hawaiian,2024-05-17 04:56:00 UTC,2024-05-17 05:16:00 UTC
+466,Damien,Taste,The sauce was too acide and overwhelmed the other ingredients.,Hawaiian,2024-05-17 15:39:00 UTC,2024-05-17 16:11:00 UTC
+468,Clarissa,Taste,The sauce was too acide and overwhelmed the other ingredients.,Hawaiian,2024-05-17 18:58:00 UTC,2024-05-17 19:47:00 UTC
+470,Clarissa,Taste,The sauce was too acide and overwhelmed the other ingredients.,Hawaiian,2024-05-18 01:20:00 UTC,2024-05-18 02:16:00 UTC
+176,Damien,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Hawaiian,2024-05-09 02:49:00 UTC,2024-05-09 03:20:00 UTC
+209,Clarissa,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Hawaiian,2024-05-11 01:08:00 UTC,2024-05-11 01:40:00 UTC
+64,Clarissa,Other,The pizza place was not accessible to people with disabilities.,Hawaiian,2024-05-04 17:18:00 UTC,2024-05-04 17:57:00 UTC
+314,Andi,Other,The pizza place was not accessible to people with disabilities.,Hawaiian,2024-05-16 23:25:00 UTC,2024-05-17 00:16:00 UTC
+39,Damien,Other,The pizza place did not have a welcoming or inviting atmosphere.,Hawaiian,2024-05-02 10:03:00 UTC,2024-05-02 10:42:00 UTC
+144,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Hawaiian,2024-05-08 23:54:00 UTC,2024-05-09 00:22:00 UTC
+146,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Hawaiian,2024-05-08 05:34:00 UTC,2024-05-08 06:30:00 UTC
+233,Damien,Other,The pizza place did not have a welcoming or inviting atmosphere.,Hawaiian,2024-05-12 06:29:00 UTC,2024-05-12 07:21:00 UTC
+263,Clarissa,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Hawaiian,2024-05-13 20:57:00 UTC,2024-05-13 21:48:00 UTC
+275,Damien,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Hawaiian,2024-05-14 13:45:00 UTC,2024-05-14 14:22:00 UTC
+329,Joshua,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Hawaiian,2024-05-17 01:06:00 UTC,2024-05-17 02:05:00 UTC
+52,Clarissa,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Hawaiian,2024-05-03 03:15:00 UTC,2024-05-03 04:06:00 UTC
+180,Damien,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Hawaiian,2024-05-09 09:33:00 UTC,2024-05-09 10:21:00 UTC
+357,Damien,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Hawaiian,2024-05-18 20:25:00 UTC,2024-05-18 20:52:00 UTC
+391,Andi,Taste,The sauce was too garlicky and overwhelmed all the other flavors.,Hawaiian,2024-05-16 05:22:00 UTC,2024-05-16 06:20:00 UTC
+398,Damien,Taste,The sauce was too garlicky and overwhelmed all the other flavors.,Hawaiian,2024-05-16 00:52:00 UTC,2024-05-16 01:25:00 UTC
+403,Joshua,Taste,The sauce was too garlicky and overwhelmed all the other flavors.,Hawaiian,2024-05-15 19:57:00 UTC,2024-05-15 20:23:00 UTC
+436,Joshua,Taste,The sauce was too garlicky and overwhelmed all the other flavors.,Hawaiian,2024-05-17 07:09:00 UTC,2024-05-17 08:07:00 UTC
+84,Damien,Allergy,The pizza contained an allergen that I specified I was allergic to.,Hawaiian,2024-05-04 16:44:00 UTC,2024-05-04 17:34:00 UTC
+196,Damien,Allergy,The pizza contained an allergen that I specified I was allergic to.,Hawaiian,2024-05-11 00:50:00 UTC,2024-05-11 01:25:00 UTC
+349,Joshua,Allergy,The pizza contained an allergen that I specified I was allergic to.,Hawaiian,2024-05-18 07:58:00 UTC,2024-05-18 08:53:00 UTC
+96,Joshua,Taste,The spices were overpowering and masked the taste of the other ingredients.,Hawaiian,2024-05-05 02:39:00 UTC,2024-05-05 03:11:00 UTC
+132,Damien,Taste,The spices were overpowering and masked the taste of the other ingredients.,Hawaiian,2024-05-08 00:28:00 UTC,2024-05-08 01:12:00 UTC
+309,Clarissa,Taste,The spices were overpowering and masked the taste of the other ingredients.,Hawaiian,2024-05-16 15:58:00 UTC,2024-05-16 16:38:00 UTC
+347,Damien,Taste,The spices were overpowering and masked the taste of the other ingredients.,Hawaiian,2024-05-18 02:06:00 UTC,2024-05-18 02:46:00 UTC
+182,Joshua,Service,There was a lack of attention to detail in the preparation of drinks and food.,Hawaiian,2024-05-10 00:56:00 UTC,2024-05-10 01:33:00 UTC
+60,Damien,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Hawaiian,2024-05-03 21:28:00 UTC,2024-05-03 22:15:00 UTC
+95,Clarissa,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Hawaiian,2024-05-05 22:32:00 UTC,2024-05-05 23:29:00 UTC
+134,Andi,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Hawaiian,2024-05-08 00:19:00 UTC,2024-05-08 01:03:00 UTC
+319,Joshua,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Hawaiian,2024-05-16 15:31:00 UTC,2024-05-16 16:25:00 UTC
+390,Damien,Taste,tomato sauce was bitter,Margherita,2024-05-15 14:05:00 UTC,2024-05-15 14:28:00 UTC
+440,Damien,Taste,tomato sauce was bitter,Margherita,2024-05-16 14:45:00 UTC,2024-05-16 15:32:00 UTC
+444,Damien,Taste,tomato sauce was bitter,Margherita,2024-05-16 17:54:00 UTC,2024-05-16 18:45:00 UTC
+93,Clarissa,Service,The order was incorrect.,Margherita,2024-05-05 20:34:00 UTC,2024-05-05 21:25:00 UTC
+171,Andi,Service,The order was incorrect.,Margherita,2024-05-10 00:31:00 UTC,2024-05-10 00:57:00 UTC
+281,Joshua,Service,The order was incorrect.,Margherita,2024-05-14 23:34:00 UTC,2024-05-15 00:20:00 UTC
+343,Andi,Service,The order was incorrect.,Margherita,2024-05-17 12:59:00 UTC,2024-05-17 13:22:00 UTC
+367,Joshua,Service,The order was incorrect.,Margherita,2024-05-19 14:39:00 UTC,2024-05-19 15:02:00 UTC
+369,Damien,Service,The order was incorrect.,Margherita,2024-05-19 03:20:00 UTC,2024-05-19 03:44:00 UTC
+186,Damien,Billing,I was overcharged for my order.,Margherita,2024-05-10 10:14:00 UTC,2024-05-10 11:03:00 UTC
+214,Joshua,Billing,I was overcharged for my order.,Margherita,2024-05-11 22:46:00 UTC,2024-05-11 23:17:00 UTC
+261,Joshua,Billing,I was overcharged for my order.,Margherita,2024-05-13 19:48:00 UTC,2024-05-13 20:20:00 UTC
+274,Damien,Billing,I was overcharged for my order.,Margherita,2024-05-14 18:25:00 UTC,2024-05-14 18:52:00 UTC
+305,Andi,Billing,I was overcharged for my order.,Margherita,2024-05-15 13:10:00 UTC,2024-05-15 13:55:00 UTC
+327,Clarissa,Billing,I was overcharged for my order.,Margherita,2024-05-17 23:23:00 UTC,2024-05-18 00:10:00 UTC
+101,Clarissa,Other,The Wi-Fi was not working or slow.,Margherita,2024-05-05 01:16:00 UTC,2024-05-05 01:42:00 UTC
+231,Damien,Other,The Wi-Fi was not working or slow.,Margherita,2024-05-12 03:49:00 UTC,2024-05-12 04:20:00 UTC
+382,Clarissa,Other,The Wi-Fi was not working or slow.,Margherita,2024-05-19 12:53:00 UTC,2024-05-19 13:15:00 UTC
+32,Joshua,Service,The staff were rude and unhelpful.,Margherita,2024-05-02 03:35:00 UTC,2024-05-02 03:58:00 UTC
+194,Damien,Service,The staff were rude and unhelpful.,Margherita,2024-05-10 18:45:00 UTC,2024-05-10 19:07:00 UTC
+57,Joshua,Delivery,The pizza arrived late and was cold.,Margherita,2024-05-03 23:17:00 UTC,2024-05-04 00:05:00 UTC
+59,Clarissa,Delivery,The pizza arrived late and was cold.,Margherita,2024-05-03 12:48:00 UTC,2024-05-03 13:30:00 UTC
+68,Andi,Delivery,The pizza arrived late and was cold.,Margherita,2024-05-04 08:50:00 UTC,2024-05-04 09:17:00 UTC
+232,Clarissa,Delivery,The pizza arrived late and was cold.,Margherita,2024-05-12 13:30:00 UTC,2024-05-12 14:08:00 UTC
+235,Joshua,Delivery,The pizza arrived late and was cold.,Margherita,2024-05-12 13:55:00 UTC,2024-05-12 14:23:00 UTC
+287,Clarissa,Delivery,The pizza arrived late and was cold.,Margherita,2024-05-14 20:52:00 UTC,2024-05-14 21:23:00 UTC
+103,Andi,Service,The service was slow and inefficient.,Margherita,2024-05-06 11:59:00 UTC,2024-05-06 12:47:00 UTC
+265,Joshua,Service,The service was slow and inefficient.,Margherita,2024-05-13 12:31:00 UTC,2024-05-13 13:18:00 UTC
+117,Damien,Service,The barista made the drink incorrectly.,Margherita,2024-05-06 17:30:00 UTC,2024-05-06 18:16:00 UTC
+276,Damien,Service,The barista made the drink incorrectly.,Margherita,2024-05-14 05:26:00 UTC,2024-05-14 06:01:00 UTC
+149,Clarissa,Other,The restroom was dirty or out of order.,Margherita,2024-05-08 17:43:00 UTC,2024-05-08 18:41:00 UTC
+383,Clarissa,Other,The restroom was dirty or out of order.,Margherita,2024-05-19 12:47:00 UTC,2024-05-19 13:35:00 UTC
+202,Damien,Pricing,The pizza was overpriced for the quality.,Margherita,2024-05-10 10:09:00 UTC,2024-05-10 10:54:00 UTC
+273,Joshua,Pricing,The pizza was overpriced for the quality.,Margherita,2024-05-14 09:03:00 UTC,2024-05-14 09:54:00 UTC
+283,Andi,Pricing,The pizza was overpriced for the quality.,Margherita,2024-05-14 21:57:00 UTC,2024-05-14 22:30:00 UTC
+362,Andi,Pricing,The pizza was overpriced for the quality.,Margherita,2024-05-18 15:05:00 UTC,2024-05-18 15:58:00 UTC
+118,Andi,Atmosphere,The restaurant was too noisy and crowded.,Margherita,2024-05-06 09:27:00 UTC,2024-05-06 10:06:00 UTC
+404,Andi,Taste,The tomato sauce was not as good as usual,Margherita,2024-05-15 12:32:00 UTC,2024-05-15 13:24:00 UTC
+448,Joshua,Taste,The tomato sauce was not as good as usual,Margherita,2024-05-17 22:32:00 UTC,2024-05-17 22:57:00 UTC
+449,Damien,Taste,The tomato sauce was not as good as usual,Margherita,2024-05-17 18:36:00 UTC,2024-05-17 19:30:00 UTC
+35,Damien,Service,There was a long wait time for the order.,Margherita,2024-05-02 16:48:00 UTC,2024-05-02 17:47:00 UTC
+61,Clarissa,Service,There was a long wait time for the order.,Margherita,2024-05-03 22:57:00 UTC,2024-05-03 23:28:00 UTC
+332,Damien,Service,There was a long wait time for the order.,Margherita,2024-05-17 23:00:00 UTC,2024-05-17 23:49:00 UTC
+397,Joshua,Taste,The sauce had a strange metallic taste to it.,Margherita,2024-05-15 23:31:00 UTC,2024-05-16 00:28:00 UTC
+29,Andi,Service,The staff seemed uninterested and disengaged.,Margherita,2024-05-02 11:16:00 UTC,2024-05-02 11:58:00 UTC
+330,Damien,Service,The staff seemed uninterested and disengaged.,Margherita,2024-05-17 12:06:00 UTC,2024-05-17 12:29:00 UTC
+7,Damien,Order Accuracy,The pizza was missing toppings that I ordered.,Margherita,2024-05-01 04:33:00 UTC,2024-05-01 05:13:00 UTC
+335,Andi,Order Accuracy,The pizza was missing toppings that I ordered.,Margherita,2024-05-17 14:10:00 UTC,2024-05-17 14:49:00 UTC
+413,Andi,Taste,the overall texture of the pizza sauce was bad,Margherita,2024-05-16 05:52:00 UTC,2024-05-16 06:12:00 UTC
+94,Andi,Delivery,The delivery driver was rude and unprofessional.,Margherita,2024-05-05 17:52:00 UTC,2024-05-05 18:29:00 UTC
+193,Damien,Delivery,The delivery driver was rude and unprofessional.,Margherita,2024-05-10 06:09:00 UTC,2024-05-10 06:47:00 UTC
+224,Joshua,Delivery,The delivery driver was rude and unprofessional.,Margherita,2024-05-11 10:42:00 UTC,2024-05-11 11:37:00 UTC
+318,Joshua,Delivery,The delivery driver was rude and unprofessional.,Margherita,2024-05-16 12:40:00 UTC,2024-05-16 13:09:00 UTC
+356,Andi,Delivery,The delivery driver was rude and unprofessional.,Margherita,2024-05-18 23:21:00 UTC,2024-05-19 00:20:00 UTC
+385,Clarissa,Taste,The sauce tasted burnt like the bottom of a pan.,Margherita,2024-05-16 05:45:00 UTC,2024-05-16 06:31:00 UTC
+392,Andi,Taste,The sauce tasted burnt like the bottom of a pan.,Margherita,2024-05-15 17:24:00 UTC,2024-05-15 17:58:00 UTC
+399,Clarissa,Taste,The sauce tasted burnt like the bottom of a pan.,Margherita,2024-05-15 17:34:00 UTC,2024-05-15 18:07:00 UTC
+45,Damien,Other,The prices were too high for the quality offered.,Margherita,2024-05-03 23:23:00 UTC,2024-05-03 23:52:00 UTC
+48,Clarissa,Other,The prices were too high for the quality offered.,Margherita,2024-05-03 17:42:00 UTC,2024-05-03 18:07:00 UTC
+195,Joshua,Other,The prices were too high for the quality offered.,Margherita,2024-05-10 09:15:00 UTC,2024-05-10 09:46:00 UTC
+290,Clarissa,Other,The prices were too high for the quality offered.,Margherita,2024-05-15 23:13:00 UTC,2024-05-16 00:05:00 UTC
+388,Andi,Taste,The pizza was overly sour and lacked in sweetness.,Margherita,2024-05-15 22:58:00 UTC,2024-05-15 23:39:00 UTC
+421,Andi,Taste,The pizza was overly sour and lacked in sweetness.,Margherita,2024-05-16 16:06:00 UTC,2024-05-16 16:57:00 UTC
+430,Damien,Taste,The pizza was overly sour and lacked in sweetness.,Margherita,2024-05-16 12:35:00 UTC,2024-05-16 13:14:00 UTC
+458,Clarissa,Taste,The pizza was overly sour and lacked in sweetness.,Margherita,2024-05-18 05:38:00 UTC,2024-05-18 06:01:00 UTC
+469,Clarissa,Taste,The pizza was overly sour and lacked in sweetness.,Margherita,2024-05-17 20:21:00 UTC,2024-05-17 21:08:00 UTC
+86,Damien,Customer Service,The staff were unhelpful and seemed disinterested.,Margherita,2024-05-05 14:58:00 UTC,2024-05-05 15:51:00 UTC
+153,Andi,Customer Service,The staff were unhelpful and seemed disinterested.,Margherita,2024-05-08 04:30:00 UTC,2024-05-08 04:54:00 UTC
+381,Clarissa,Customer Service,The staff were unhelpful and seemed disinterested.,Margherita,2024-05-19 13:21:00 UTC,2024-05-19 13:42:00 UTC
+78,Joshua,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-04 08:31:00 UTC,2024-05-04 09:17:00 UTC
+108,Clarissa,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-06 15:33:00 UTC,2024-05-06 16:24:00 UTC
+139,Joshua,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-08 00:14:00 UTC,2024-05-08 00:45:00 UTC
+158,Clarissa,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-08 01:19:00 UTC,2024-05-08 01:59:00 UTC
+213,Joshua,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-11 04:56:00 UTC,2024-05-11 05:38:00 UTC
+341,Clarissa,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-17 11:35:00 UTC,2024-05-17 12:30:00 UTC
+374,Damien,Taste,The cheese was rubbery and had an artificial taste.,Margherita,2024-05-19 13:14:00 UTC,2024-05-19 14:09:00 UTC
+18,Andi,Taste,The crust was undercooked and doughy in the center.,Margherita,2024-05-01 05:19:00 UTC,2024-05-01 06:04:00 UTC
+131,Damien,Taste,The crust was undercooked and doughy in the center.,Margherita,2024-05-07 10:17:00 UTC,2024-05-07 11:17:00 UTC
+147,Andi,Taste,The crust was undercooked and doughy in the center.,Margherita,2024-05-08 06:16:00 UTC,2024-05-08 07:04:00 UTC
+241,Clarissa,Taste,The crust was undercooked and doughy in the center.,Margherita,2024-05-12 01:14:00 UTC,2024-05-12 01:46:00 UTC
+325,Andi,Taste,The crust was undercooked and doughy in the center.,Margherita,2024-05-16 06:56:00 UTC,2024-05-16 07:20:00 UTC
+191,Damien,Menu,The menu was confusing and difficult to understand.,Margherita,2024-05-10 18:14:00 UTC,2024-05-10 19:04:00 UTC
+315,Joshua,Menu,The menu was confusing and difficult to understand.,Margherita,2024-05-16 13:12:00 UTC,2024-05-16 13:59:00 UTC
+89,Clarissa,Other,There were limited options for non-coffee drinkers.,Margherita,2024-05-05 13:11:00 UTC,2024-05-05 13:42:00 UTC
+324,Joshua,Other,There were limited options for non-coffee drinkers.,Margherita,2024-05-16 06:44:00 UTC,2024-05-16 07:43:00 UTC
+406,Andi,Taste,Is there a new chef ? It didn't taste as good as before,Margherita,2024-05-15 22:01:00 UTC,2024-05-15 22:43:00 UTC
+419,Andi,Taste,The sauce tasted old and fermented like it had gone bad.,Margherita,2024-05-17 06:10:00 UTC,2024-05-17 06:53:00 UTC
+434,Joshua,Taste,The sauce tasted old and fermented like it had gone bad.,Margherita,2024-05-17 06:51:00 UTC,2024-05-17 07:47:00 UTC
+443,Joshua,Taste,The sauce tasted old and fermented like it had gone bad.,Margherita,2024-05-16 17:15:00 UTC,2024-05-16 17:35:00 UTC
+460,Damien,Taste,The sauce tasted old and fermented like it had gone bad.,Margherita,2024-05-18 01:56:00 UTC,2024-05-18 02:43:00 UTC
+463,Andi,Taste,The sauce tasted old and fermented like it had gone bad.,Margherita,2024-05-18 02:31:00 UTC,2024-05-18 03:00:00 UTC
+165,Joshua,Other,Overall I would not recommend this pizza place to others.,Margherita,2024-05-09 05:19:00 UTC,2024-05-09 05:50:00 UTC
+244,Andi,Other,Overall I would not recommend this pizza place to others.,Margherita,2024-05-12 02:41:00 UTC,2024-05-12 03:33:00 UTC
+307,Damien,Other,Overall I would not recommend this pizza place to others.,Margherita,2024-05-15 06:53:00 UTC,2024-05-15 07:27:00 UTC
+352,Damien,Other,Overall I would not recommend this pizza place to others.,Margherita,2024-05-18 08:06:00 UTC,2024-05-18 08:42:00 UTC
+361,Clarissa,Other,Overall I would not recommend this pizza place to others.,Margherita,2024-05-18 15:43:00 UTC,2024-05-18 16:13:00 UTC
+109,Damien,Other,The pizza place did not offer enough variety on the menu.,Margherita,2024-05-06 21:27:00 UTC,2024-05-06 22:00:00 UTC
+152,Clarissa,Other,The pizza place did not offer enough variety on the menu.,Margherita,2024-05-08 06:57:00 UTC,2024-05-08 07:37:00 UTC
+67,Joshua,Service,The barista was not knowledgeable about the coffee or menu.,Margherita,2024-05-04 23:53:00 UTC,2024-05-05 00:22:00 UTC
+105,Damien,Service,The barista was not knowledgeable about the coffee or menu.,Margherita,2024-05-06 13:29:00 UTC,2024-05-06 14:02:00 UTC
+154,Clarissa,Service,The barista was not knowledgeable about the coffee or menu.,Margherita,2024-05-08 21:34:00 UTC,2024-05-08 22:01:00 UTC
+317,Joshua,Service,The barista was not knowledgeable about the coffee or menu.,Margherita,2024-05-16 03:31:00 UTC,2024-05-16 04:12:00 UTC
+42,Damien,Taste,The toppings were sparse and didn't cover the entire pizza.,Margherita,2024-05-02 11:36:00 UTC,2024-05-02 12:00:00 UTC
+216,Clarissa,Taste,The toppings were sparse and didn't cover the entire pizza.,Margherita,2024-05-11 22:12:00 UTC,2024-05-11 22:47:00 UTC
+226,Damien,Taste,The toppings were sparse and didn't cover the entire pizza.,Margherita,2024-05-12 19:22:00 UTC,2024-05-12 20:06:00 UTC
+253,Joshua,Taste,The toppings were sparse and didn't cover the entire pizza.,Margherita,2024-05-13 10:10:00 UTC,2024-05-13 10:42:00 UTC
+316,Andi,Taste,The toppings were sparse and didn't cover the entire pizza.,Margherita,2024-05-16 15:23:00 UTC,2024-05-16 15:53:00 UTC
+17,Clarissa,Other,The pizza place did not offer any loyalty or rewards program.,Margherita,2024-05-01 18:03:00 UTC,2024-05-01 18:59:00 UTC
+99,Damien,Other,The pizza place did not offer any loyalty or rewards program.,Margherita,2024-05-05 17:26:00 UTC,2024-05-05 18:06:00 UTC
+203,Damien,Other,The pizza place did not offer any loyalty or rewards program.,Margherita,2024-05-10 16:58:00 UTC,2024-05-10 17:56:00 UTC
+296,Damien,Other,The pizza place did not offer any loyalty or rewards program.,Margherita,2024-05-15 08:44:00 UTC,2024-05-15 09:05:00 UTC
+172,Damien,Service,The staff did not address concerns or complaints effectively.,Margherita,2024-05-09 10:33:00 UTC,2024-05-09 10:53:00 UTC
+377,Damien,Service,The overall experience was unsatisfactory due to poor service.,Margherita,2024-05-19 09:43:00 UTC,2024-05-19 10:11:00 UTC
+26,Andi,Taste,The pizza was too greasy and left an oily residue on my hands.,Margherita,2024-05-02 11:56:00 UTC,2024-05-02 12:35:00 UTC
+74,Andi,Taste,The pizza was too greasy and left an oily residue on my hands.,Margherita,2024-05-04 05:28:00 UTC,2024-05-04 06:03:00 UTC
+277,Andi,Taste,The pizza was too greasy and left an oily residue on my hands.,Margherita,2024-05-14 16:18:00 UTC,2024-05-14 17:10:00 UTC
+278,Damien,Taste,The pizza was too greasy and left an oily residue on my hands.,Margherita,2024-05-14 15:21:00 UTC,2024-05-14 15:47:00 UTC
+371,Clarissa,Taste,The pizza was too greasy and left an oily residue on my hands.,Margherita,2024-05-19 04:25:00 UTC,2024-05-19 04:50:00 UTC
+423,Joshua,Taste,The sauce was too acide and overwhelmed the other ingredients.,Margherita,2024-05-16 13:59:00 UTC,2024-05-16 14:32:00 UTC
+435,Clarissa,Taste,The sauce was too acide and overwhelmed the other ingredients.,Margherita,2024-05-17 04:00:00 UTC,2024-05-17 04:24:00 UTC
+447,Andi,Taste,The sauce was too acide and overwhelmed the other ingredients.,Margherita,2024-05-18 05:14:00 UTC,2024-05-18 06:11:00 UTC
+72,Joshua,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Margherita,2024-05-04 03:35:00 UTC,2024-05-04 04:12:00 UTC
+355,Andi,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Margherita,2024-05-18 05:37:00 UTC,2024-05-18 06:20:00 UTC
+372,Damien,Order Accuracy,I asked for extra cheese but there was barely any on the pizza.,Margherita,2024-05-19 06:26:00 UTC,2024-05-19 07:23:00 UTC
+50,Clarissa,Other,The pizza place was not accessible to people with disabilities.,Margherita,2024-05-03 03:29:00 UTC,2024-05-03 04:22:00 UTC
+181,Andi,Other,The pizza place was not accessible to people with disabilities.,Margherita,2024-05-09 03:11:00 UTC,2024-05-09 04:04:00 UTC
+11,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Margherita,2024-05-01 10:01:00 UTC,2024-05-01 11:00:00 UTC
+92,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Margherita,2024-05-05 21:28:00 UTC,2024-05-05 21:48:00 UTC
+246,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Margherita,2024-05-12 23:51:00 UTC,2024-05-13 00:33:00 UTC
+284,Clarissa,Other,The pizza place did not have a welcoming or inviting atmosphere.,Margherita,2024-05-14 09:14:00 UTC,2024-05-14 09:54:00 UTC
+340,Damien,Other,The pizza place did not have a welcoming or inviting atmosphere.,Margherita,2024-05-17 20:12:00 UTC,2024-05-17 20:41:00 UTC
+36,Andi,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Margherita,2024-05-02 06:12:00 UTC,2024-05-02 06:46:00 UTC
+100,Damien,Taste,The pizza was bland and lacked flavor. It tasted like cardboard.,Margherita,2024-05-05 12:41:00 UTC,2024-05-05 13:16:00 UTC
+107,Clarissa,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Margherita,2024-05-06 11:54:00 UTC,2024-05-06 12:18:00 UTC
+128,Damien,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Margherita,2024-05-07 17:48:00 UTC,2024-05-07 18:38:00 UTC
+255,Joshua,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Margherita,2024-05-13 07:33:00 UTC,2024-05-13 08:22:00 UTC
+337,Joshua,Taste,The vegetables were undercooked and had a raw unpleasant flavor.,Margherita,2024-05-17 15:54:00 UTC,2024-05-17 16:41:00 UTC
+425,Damien,Taste,The sauce was too garlicky and overwhelmed all the other flavors.,Margherita,2024-05-17 05:29:00 UTC,2024-05-17 05:52:00 UTC
+295,Andi,Allergy,The pizza contained an allergen that I specified I was allergic to.,Margherita,2024-05-15 14:42:00 UTC,2024-05-15 15:03:00 UTC
+351,Joshua,Allergy,The pizza contained an allergen that I specified I was allergic to.,Margherita,2024-05-18 10:15:00 UTC,2024-05-18 11:12:00 UTC
+376,Joshua,Allergy,The pizza contained an allergen that I specified I was allergic to.,Margherita,2024-05-19 18:07:00 UTC,2024-05-19 18:53:00 UTC
+9,Joshua,Taste,The spices were overpowering and masked the taste of the other ingredients.,Margherita,2024-05-01 21:03:00 UTC,2024-05-01 21:29:00 UTC
+62,Andi,Taste,The spices were overpowering and masked the taste of the other ingredients.,Margherita,2024-05-03 09:48:00 UTC,2024-05-03 10:29:00 UTC
+249,Andi,Taste,The spices were overpowering and masked the taste of the other ingredients.,Margherita,2024-05-13 12:12:00 UTC,2024-05-13 12:54:00 UTC
+269,Andi,Taste,The spices were overpowering and masked the taste of the other ingredients.,Margherita,2024-05-14 02:43:00 UTC,2024-05-14 03:14:00 UTC
+77,Joshua,Service,There was a lack of attention to detail in the preparation of drinks and food.,Margherita,2024-05-04 04:56:00 UTC,2024-05-04 05:24:00 UTC
+229,Clarissa,Service,There was a lack of attention to detail in the preparation of drinks and food.,Margherita,2024-05-12 07:26:00 UTC,2024-05-12 07:57:00 UTC
+240,Andi,Service,There was a lack of attention to detail in the preparation of drinks and food.,Margherita,2024-05-12 18:35:00 UTC,2024-05-12 19:01:00 UTC
+119,Damien,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Margherita,2024-05-06 14:02:00 UTC,2024-05-06 14:59:00 UTC
+219,Andi,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Margherita,2024-05-11 02:18:00 UTC,2024-05-11 02:56:00 UTC
+306,Clarissa,Other,The pizza place did not cater to dietary restrictions (e.g. gluten-free vegan).,Margherita,2024-05-15 08:02:00 UTC,2024-05-15 08:32:00 UTC

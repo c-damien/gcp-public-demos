@@ -119,12 +119,6 @@ resource "google_storage_bucket_object" "claims_folder" {
   bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
 }
 
-##Create sub folders - orders
-resource "google_storage_bucket_object" "orders_folder" {
-  name          = "orders/"
-  content       = "Not really a directory, but it's empty."
-  bucket        = "${google_storage_bucket.blue_pizza_bucket.name}"
-}
 
 #Permissions
 
@@ -171,11 +165,10 @@ resource "null_resource" "upload" {
   provisioner "local-exec" {
     #working_dir = "${path.module}"
     command = <<-EOT
-      gsutil cp -r gcp-public-demos/blue-pizza/assets/oven_sensor/* gs://blue-pizza_${data.google_project.project.number}/oven
+      gsutil cp -r gcp-public-demos/blue-pizza/assets/oven/* gs://blue-pizza_${data.google_project.project.number}/oven
       gsutil cp -r gcp-public-demos/blue-pizza/assets/visual_inspection/* gs://blue-pizza_${data.google_project.project.number}/visual_inspection
       gsutil cp -r gcp-public-demos/blue-pizza/assets/weather/* gs://blue-pizza_${data.google_project.project.number}/weather
       gsutil cp -r gcp-public-demos/blue-pizza/assets/claims/* gs://blue-pizza_${data.google_project.project.number}/claims
-      gsutil cp -r gcp-public-demos/blue-pizza/assets/orders/* gs://blue-pizza_${data.google_project.project.number}/orders
       EOT
   }
   depends_on = [
@@ -186,23 +179,14 @@ resource "null_resource" "upload" {
     google_storage_bucket_object.visual_inspection_folder,
     google_storage_bucket_object.oven_folder,
     google_storage_bucket_object.claims_folder,
-    google_storage_bucket_object.orders_folder,
     google_storage_bucket_object.weather_folder
   ]
 }
 
-###Cleanup
-#resource "null_resource" "cleanup" {
-#  provisioner "local-exec" {
-#   command = "rm -r gcp-public-demos/data-beans/assets/oven_sensor"
-#    }
-#  depends_on = [null_resource.upload]
-#}
-
 ## Create dataset data_beams
 resource "google_bigquery_dataset" "blue_pizza" {
   dataset_id                      = "blue_pizza"
-  description                     = "Data Beans Demo"
+  description                     = "Blue pizza Demo"
   default_partition_expiration_ms = 2592000000  # 30 days
   default_table_expiration_ms     = 31536000000 # 365 days
   location                        = "${var.region}"
@@ -217,53 +201,16 @@ resource "google_bigquery_table" "claims" {
    labels = {
      env = "default"
    }
-   #external_data_configuration {
-   #  autodetect = true
-   #  source_uris =["gs://blue_pizza_${data.google_project.project.number}/claims/databeans_claims.csv"]
-   #  source_format = "CSV"
-   
-   # csv_options{
-   #   quote = ""
-   #   skip_leading_rows = 1
-   #   field_delimiter       = ","
-   #   allow_quoted_newlines = "false"
-   #   allow_jagged_rows     = "false"
-   # }
-   #}
    depends_on = [null_resource.upload]
  }
 
 ##load claim data into native table
 resource "null_resource" "load_claim_data" {
   provisioner "local-exec" {
-    command =  "bq --location=${var.region} load --autodetect --skip_leading_rows=1 --source_format=CSV ${google_bigquery_dataset.blue_pizza.dataset_id}.claims gs://blue_pizza_${data.google_project.project.number}/claims/databeans_claims.csv"
+    command =  "bq --location=${var.region} load --autodetect --skip_leading_rows=1 --source_format=CSV ${google_bigquery_dataset.blue_pizza.dataset_id}.claims gs://blue_pizza_${data.google_project.project.number}/claims/claims.csv"
   }
   depends_on = [google_bigquery_table.claims]
 }
-
-## Create external table - orders
-resource "google_bigquery_table" "orders" {
-   dataset_id          = google_bigquery_dataset.blue_pizza.dataset_id
-   table_id            = "orders"
-   deletion_protection = false
-   labels = {
-     env = "default"
-   }
-   external_data_configuration {
-     autodetect = true
-     source_uris =["gs://blue_pizza_${data.google_project.project.number}/orders/databeans_orders.csv"]
-     source_format = "CSV"
-   
-   csv_options{
-      quote = ""
-      skip_leading_rows = 1
-      field_delimiter       = ","
-      allow_quoted_newlines = "false"
-      allow_jagged_rows     = "false"
-    }
-    }
-   depends_on = [google_project_iam_member.bucket, null_resource.upload]
- }
 
 
 
